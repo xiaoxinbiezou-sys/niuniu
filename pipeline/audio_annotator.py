@@ -64,6 +64,83 @@ SEGMENT_SYSTEM = (
 )
 
 
+SCENE_SYSTEM = (
+    "你是儿童绘本的【场景统筹】。下面是一部故事音频的分镜旁白（按播放顺序编号）。\n"
+    "请为每一镜判断**故事发生的具体地点**，并写出现场环境。\n\n"
+    "对每一镜输出：\n"
+    "  {\"id\":1,\"location\":\"小区花坛边\",\"environment\":\"傍晚的小区花坛，矮灌木和泥土，旁边有楼房\"}\n\n"
+    "要求：\n"
+    "  1. 【location 是地点名】4~8 个字，具体到能画出来"
+    "（「小区花坛边」而不是「外面」；「厨房灶台前」而不是「家里」）。\n"
+    "  2. 【同一地点必须用完全相同的写法】"
+    "如果第 2 镜和第 5 镜都在同一个地方，两镜的 location 要**逐字相同**"
+    "（写成「小区花坛边」就都写「小区花坛边」，不要一个写「花坛」一个写「小区花坛」）。\n"
+    "  3. 【按旁白和原文判断，不要一律当成室内】"
+    "故事可能在小区、公园、马路边、幼儿园、超市、奶奶家……"
+    "旁白说「在小区花坛边发现」就要用小区，不要因为主角是小孩就默认在家里。"
+    "只有旁白确实发生在室内（床、沙发、厨房、浴缸等）才写室内地点。\n"
+    "  3b.【注意地点会变】故事原文里可能出现转折"
+    "（「把它带回家」「第二天」「回到房间」），"
+    "地点变了就要跟着改；后面的镜子如果回到同一个地方，写回原来那个名字。\n"
+    "  4. 【environment 只写环境】房间/场地的布局、家具或植物、地面、窗外，"
+    "**不要写人物、不要写光线时间、不要写情绪**，一句话 20~40 字。\n"
+    "  5. 同一地点在不同镜里的 environment 也要写成一样的一句，便于跨镜一致。\n\n"
+    "只输出 JSON：{\"scenes\":[{\"id\":1,\"location\":\"…\",\"environment\":\"…\"}, …]}\n"
+    "不要任何解释。"
+)
+
+
+def plan_scenes(llm_cfg: dict, narrations: list[str], story_body: str = "") -> tuple[list[dict], str]:
+    """让模型逐镜判断故事发生的地点与环境。
+
+    返回 ``(scenes, error)``，``scenes`` 与 ``narrations`` 等长，每项
+    ``{"location":..., "environment":...}``；出错时返回空列表，调用方回退到关键词规则。
+
+    **必须把故事原文一起给它**：只给"每一镜的旁白"时，模型看不到全局——
+    实测一篇"在楼下花坛边发现麻雀宝宝"的故事，后半段其实已经把它带回家照顾了
+    （原文里有"我给它盖被子""接待站关门"），但只看单镜旁白判断不出这个转折，
+    结果整篇都判成花坛边。
+
+    **为什么不能让程序猜**：原来用一张 6 条的关键词表匹配场景，匹配不到就一律
+    回落到「家里客厅」，而且表里根本没有户外场景——一篇发生在"小区花坛边"的故事
+    整篇配图都被画进了室内。地点是语义判断，正该由读得到全文的模型来做。
+    """
+    if not narrations:
+        return [], "没有可判断的分镜"
+    lines = [f"[{i + 1}] {t.strip()}" for i, t in enumerate(narrations)]
+    user = ""
+    if story_body.strip():
+        user += ("故事原文（用来把握整体场景走向，注意地点可能中途改变）：\n"
+                 + story_body.strip() + "\n\n")
+    user += ("画面对应的分镜旁白（按播放顺序，这就是要判断的场景顺序）：\n"
+             + "\n".join(lines)
+             + f"\n\n请为这 {len(narrations)} 镜逐个判断地点和环境，输出 JSON。"
+               f"（id 从 1 到 {len(narrations)}）")
+    try:
+        data = _extract_json(chat_text(llm_cfg, SCENE_SYSTEM, user))
+    except Exception as exc:
+        return [], f"场景判断调用失败：{exc}"
+
+    raw = data.get("scenes")
+    if not isinstance(raw, list) or not raw:
+        return [], "场景判断结果缺少 scenes"
+    by_id: dict[int, dict] = {}
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        try:
+            index = int(item.get("id"))
+        except (TypeError, ValueError):
+            continue
+        location = str(item.get("location") or "").strip()
+        environment = str(item.get("environment") or "").strip()
+        if 1 <= index <= len(narrations) and location:
+            by_id[index] = {"location": location, "environment": environment}
+    if len(by_id) < len(narrations) * 0.6:
+        return [], f"场景判断只覆盖 {len(by_id)}/{len(narrations)} 镜"
+    return [by_id.get(i + 1, {}) for i in range(len(narrations))], ""
+
+
 def _build_user(sentences: list[str], cast_names: list[str]) -> str:
     lines = [
         "人物表（speaker 只能用这些名字）：",

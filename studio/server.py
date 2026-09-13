@@ -981,11 +981,15 @@ def _build_storyboard(sid: str, max_images: int | None = None) -> dict:
     cast = dict(meta.get("cast") or {})
     cast.update(store.get_settings()["image"].get("cast") or {})  # 设置中心的形象卡优先
     try:
+        scene_llm = llm_cfg("script")
+    except Exception:      # 设置里缺 llm 段时不该挡住规划画面
+        scene_llm = None
+    try:
         script = json.loads(audio_path.read_text(encoding="utf-8"))
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         sb = visual_plan.build_visual_plan(
             script, manifest, facts=s.get("story_facts") or {}, cast=cast,
-            max_images=image_count,
+            max_images=image_count, llm_cfg=scene_llm,
         )
     except Exception as exc:
         raise HTTPException(400, str(exc)) from exc

@@ -5,6 +5,9 @@ import json
 import re
 from pathlib import Path
 
+# 项目根目录：脚本里记录的 story_path 是相对它写的
+ROOT = Path(__file__).resolve().parent.parent
+
 
 class VisualPlanError(ValueError):
     pass
@@ -187,27 +190,36 @@ def _action_clause(text: str, dialogue: tuple[str, ...] = (), limit: int = 60) -
 
 
 def _prompt(scene: str, text: str, present: list[str], facts: dict,
-            dialogue: tuple[str, ...] = ()) -> str:
+            dialogue: tuple[str, ...] = (), scene_base: str = "") -> str:
     fact_rules = "；".join(str(item) for item in facts.get("world_facts") or [])
     scale = (f"世界尺度硬规则：{fact_rules}。"
              if fact_rules else
              "所有人、家具和道具保持现实且统一的尺寸关系：道具相对人物的比例在每一张画面里都相同。")
     action = _action_clause(text, dialogue)
+    # 场景由模型逐镜判断（见 audio_annotator.plan_scenes）。它可能给出户外地点
+    # （"小区花坛边"），所以不能再按"家里"两个字决定道具归属。
+    place = "室内" if any(w in scene for w in ("家", "室", "厅", "厨", "房", "床", "校", "园", "店")) else "原地"
+    # 环境基准卡：同一地点的多镜逐字复用同一段环境描写，跨镜才一致
+    base = f"环境固定为：{scene_base}。" if scene_base else ""
     return (
-        f"儿童家庭故事插画，场景固定为{scene}。"
+        f"儿童家庭故事插画，场景固定为{scene}。{base}"
         f"{_character_clause(present)}。"
         f"只表现这一个瞬间：{action}。"
         f"{_prop_clause(text)}"
         f"{scale}"
-        f"同一人物的长相、发型、服装与前后画面完全一致，道具留在{'房间' if '家里' in scene else '原地'}里，"
+        f"同一人物的长相、发型、服装与前后画面完全一致，道具留在{place}里，"
         f"禁止增加旁白没有提到的人物，画面里不要出现任何文字。"
         f"{_character_clause(present, tail=True)}。"
     )
 
 
 def build_visual_plan(script: dict, manifest: dict, facts: dict | None = None,
-                      cast: dict | None = None, max_images: int = 10) -> dict:
-    """Merge the exact approved audio timeline into at most ``max_images`` beats."""
+                      cast: dict | None = None, max_images: int = 10,
+                      llm_cfg: dict | None = None) -> dict:
+    """Merge the exact approved audio timeline into at most ``max_images`` beats.
+
+    ``llm_cfg`` 给了就用模型逐镜判断地点与环境；不给（或调用失败）退回关键词规则。
+    """
     facts = facts or {}
     max_images = max(1, min(int(max_images), 10))
     digest = (script.get("approval") or {}).get("digest", "")
@@ -256,11 +268,39 @@ def build_visual_plan(script: dict, manifest: dict, facts: dict | None = None,
             names.append(name)
 
     scenes = []
+    narrations = ["".join(row["text"] for row in group) for group in groups]
+    # 场景判断要把**故事原文**一起给模型：只看单镜旁白看不出"中途回了家"这类转折
+    # （原文里写着"把它带回家""第二天"，碎片里没有）。
+    story_body = ""
+    rel = str((script or {}).get("story_path") or "")
+    if rel:
+        try:
+            story_body = (ROOT / rel).read_text(encoding="utf-8")
+        except OSError:
+            story_body = ""
+    scene_plan: list[dict] = []
+    scene_error = ""
+    if llm_cfg:
+        from . import audio_annotator
+        try:
+            scene_plan, scene_error = audio_annotator.plan_scenes(
+                llm_cfg, narrations, story_body)
+        except Exception as exc:          # 场景判断是增强，失败不能中断出片
+            scene_error = str(exc)
+        if scene_error:
+            print(f"  [scene] 场景判断不可用（{scene_error}），回退到关键词规则")
+
     previous_scene = "家里客厅"
     for index, group in enumerate(groups, 1):
-        text = "".join(row["text"] for row in group)
+        text = narrations[index - 1]
         dialogue = tuple(row.get("dialogue") or "" for row in group)
-        scene = _scene_name(text, previous_scene)
+        judged = scene_plan[index - 1] if index - 1 < len(scene_plan) else {}
+        if judged.get("location"):
+            scene = judged["location"]
+            scene_base = judged.get("environment") or ""
+        else:
+            scene = _scene_name(text, previous_scene)
+            scene_base = ""
         previous_scene = scene
         speakers = [row["speaker"] for row in group if row["speaker"] != "旁白"]
         present = [name for name in names if name in text or name in speakers]
@@ -269,7 +309,7 @@ def build_visual_plan(script: dict, manifest: dict, facts: dict | None = None,
         character = speakers[0] if speakers else (present[0] if present else "旁白")
         start = group[0]["start"]
         end = group[-1]["start"] + group[-1]["visual_duration"]
-        scenes.append({
+        row = {
             "id": index,
             "start": round(start, 4),
             "end": round(end, 4),
@@ -283,8 +323,11 @@ def build_visual_plan(script: dict, manifest: dict, facts: dict | None = None,
             "present": present,
             "character": character,
             "costume": "",
-            "image_prompt": _prompt(scene, text, present, facts, dialogue),
-        })
+            "image_prompt": _prompt(scene, text, present, facts, dialogue, scene_base),
+        }
+        if scene_base:
+            row["scene_base"] = scene_base
+        scenes.append(row)
 
     plan = {
         "schema_version": 1,
