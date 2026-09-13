@@ -1,0 +1,225 @@
+{
+  "title": "小猫钓鱼",
+  "style": "watercolor",
+  "story_id": "kitten_fishing",
+  "bgm": {
+    "mood": "warm",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "旁白",
+      "narration": "大清早，猫爸爸带小猫去河边钓鱼，小猫开心得一路蹦蹦跳跳。",
+      "image_prompt": "水彩画风格，一只橘色小猫扛着小鱼竿蹦蹦跳跳，旁边猫爸爸拎着水桶，穿过草地，远处小河闪光，竖构图",
+      "camera": {
+        "move": "pan_right",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "clouds_drift"
+      ],
+      "keywords": [
+        "河边钓鱼",
+        "蹦蹦跳跳"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 2,
+      "speaker": "猫爸爸",
+      "narration": "钓鱼要安安静静，不能乱动哦。",
+      "image_prompt": "水彩画风格，一只橘色小猫乖乖坐在河岸边，手握鱼竿，猫爸爸蹲在旁边做手势提醒，河水清澈，倒映蓝天，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "安安静静"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 3,
+      "speaker": "旁白",
+      "narration": "小猫点点头，把鱼钩甩进水里，眼睛盯着河面。",
+      "image_prompt": "水彩画风格，一只橘色小猫坐在岸边，双手握着鱼竿，鱼钩甩进水面，泛起小小涟漪，柳条轻摆，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "甩鱼钩"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 4,
+      "speaker": "旁白",
+      "narration": "一只花蝴蝶飞过来，小猫忍不住追了过去。",
+      "image_prompt": "水彩画风格，一只橘色小猫丢下鱼竿，蹦跳着追一只花蝴蝶，蝴蝶翩翩飞在野花丛中，竖构图",
+      "camera": {
+        "move": "pan_left",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "花蝴蝶"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 5,
+      "speaker": "旁白",
+      "narration": "一只红蜻蜓落在草尖上，小猫又伸手去抓。",
+      "image_prompt": "水彩画风格，一只橘色小猫踮着脚伸手去抓草尖上的红蜻蜓，红蜻蜓翅膀透明，草丛茂盛，竖构图",
+      "camera": {
+        "move": "pan_down",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "红蜻蜓"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 6,
+      "speaker": "旁白",
+      "narration": "等小猫空手回来，爸爸的桶里已经有好几条鱼了。",
+      "image_prompt": "水彩画风格，一只橘色小猫垂头丧气走回河边，猫爸爸身边的水桶里有几条小鱼，猫爸爸微笑看着小猫，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.05,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "空手",
+        "鱼桶"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 7,
+      "speaker": "小猫",
+      "narration": "爸爸，我怎么一条也钓不到？",
+      "image_prompt": "水彩画风格，一只橘色小猫低着头，鱼竿放在膝盖上，猫爸爸在旁边慈爱地看着他，水桶里有鱼，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "钓不到"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 8,
+      "speaker": "猫爸爸",
+      "narration": "你总想蝴蝶蜻蜓，鱼钩就睡着了。看着浮子，一动就提竿。",
+      "image_prompt": "水彩画风格，猫爸爸指着水面浮子，一只橘色小猫认真听，鱼竿放好，河水波光粼粼，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "看浮子"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 9,
+      "speaker": "旁白",
+      "narration": "小猫瞪大眼睛，一动不动。忽然浮子一沉，他猛地一提，一条银闪闪的小鱼甩着尾巴。",
+      "image_prompt": "水彩画风格，一只橘色小猫双手用力提起鱼竿，一条银闪闪的小鱼在半空中甩着尾巴，水花四溅，小猫眼睛发亮，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.15
+      },
+      "effects": [
+        "bubbles"
+      ],
+      "keywords": [
+        "银闪闪"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0.7,
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "speaker": "小猫",
+      "narration": "我钓到啦！我钓到啦！",
+      "image_prompt": "水彩画风格，一只橘色小猫举着鱼竿欢呼，小鱼在鱼钩上摆尾巴，猫爸爸在旁拍手笑，阳光洒在河面，竖构图",
+      "camera": {
+        "move": "pan_up",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "我钓到啦"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0.2,
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "speaker": "旁白",
+      "narration": "晚上，妈妈把鱼汤煮得香喷喷的。小猫喝了一口，开心极了。",
+      "image_prompt": "水彩画风格，一只橘色小猫坐在餐桌前喝汤，猫妈妈在盛汤，桌上有一锅鱼汤冒着热气，窗外有月亮星星，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "香喷喷"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 12,
+      "speaker": "小猫",
+      "narration": "专心做一件事，才有最大的收获。",
+      "image_prompt": "水彩画风格，一只橘色小猫双手捧着汤碗，微笑着说话，猫妈妈和猫爸爸在旁听着，桌上鱼汤香气四溢，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "专心"
+      ],
+      "sfx": []
+    }
+  ]
+}

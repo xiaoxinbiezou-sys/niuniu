@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>故事创作工作室</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">📖 故事创作工作室</div>
+  <nav class="tabs" id="tabs">
+    <button data-page="create" class="tab active">创作</button>
+    <button data-page="stories" class="tab">故事库</button>
+    <button data-page="batch" class="tab">批量排期</button>
+    <button data-page="review" class="tab">审核</button>
+    <button data-page="pool" class="tab">待发布</button>
+    <button data-page="series" class="tab">系列</button>
+    <button data-page="settings" class="tab">⚙️ 设置</button>
+  </nav>
+  <div class="topbar-right"><span id="jobBadge" class="job-badge"></span></div>
+</header>
+<main id="pages">
+
+  <!-- 创作 -->
+  <section class="page active" id="page-create">
+    <h2>创作一个新故事</h2>
+    <div class="card">
+      <div class="form-grid">
+        <div><label>选择系列</label><select id="crt-series"></select></div>
+        <div><label>输入类型</label>
+          <select id="crt-material-type">
+            <option value="auto">自动判断</option>
+            <option value="idea">点子</option>
+            <option value="incomplete">不完整故事</option>
+            <option value="complete">较完整故事</option>
+          </select>
+        </div>
+        <div><label>故事类型</label>
+          <select id="crt-story-type">
+            <option value="auto">自动判断</option>
+            <option value="family">家庭日常</option>
+            <option value="imagination">想象扩展</option>
+          </select>
+        </div>
+      </div>
+      <label id="crt-material-label">故事素材</label>
+      <textarea id="crt-idea" rows="4" placeholder="输入故事点子或已有故事"></textarea>
+      <div class="row"><button id="crt-gen" class="btn primary">✨ AI 写故事</button>
+      <button id="crt-clear" class="btn" title="清空点子输入框和故事框">🗑️ 清除内容</button>
+      <span class="hint" id="crt-status"></span></div>
+    </div>
+    <div class="card" id="crt-story-card" hidden>
+      <div class="stage-head"><span class="stage-number">1</span><div><h3>故事</h3><p class="hint">修改并确认母稿</p></div></div>
+      <label>故事标题</label><input id="crt-title">
+      <label>故事正文（可直接编辑）</label>
+      <textarea id="crt-text" rows="12"></textarea>
+      <div class="row">
+        <button id="crt-rewrite" class="btn">AI 重写</button>
+        <input id="crt-feedback" placeholder="重写反馈，如：太短了/不够有趣">
+        <button id="crt-modify" class="btn">AI 修改</button>
+        <input id="crt-instruction" placeholder="修改指令，如：把刺猬改成小兔子">
+      </div>
+      <div class="row">
+        <button id="crt-confirm" class="btn primary">✅ 确认故事</button>
+      </div>
+    </div>
+    <div class="card stage-card" id="crt-audio-card" hidden>
+      <div class="stage-head"><span class="stage-number">2</span><div><h3>音频故事</h3><p class="hint" id="crt-audio-state"></p></div></div>
+      <div class="row">
+        <button id="crt-audio-script" class="btn primary">生成音频脚本</button>
+        <button id="crt-audio-approve" class="btn" disabled>确认音频脚本</button>
+        <button id="crt-audio-render" class="btn" disabled>合成完整音频</button>
+      </div>
+      <div id="crt-audio-report" class="audio-report"></div>
+      <div id="crt-audio-script-preview" class="audio-script-list"></div>
+      <div id="crt-audio-player-wrap" class="audio-player-wrap" hidden>
+        <audio id="crt-audio-player" controls preload="metadata"></audio>
+        <button id="crt-audio-confirm" class="btn primary">确认这版音频</button>
+      </div>
+      <div class="row">
+        <label>配图数量</label>
+        <select id="crt-image-count">
+          <option value="4">4 张</option>
+          <option value="6" selected>6 张</option>
+          <option value="8">8 张</option>
+          <option value="10">10 张</option>
+        </select>
+        <button id="crt-storyboard" class="btn primary" disabled>生成配图方案</button>
+        <span class="hint">确认试听后才能进入配图</span>
+      </div>
+    </div>
+    <div class="card" id="crt-sb-card" hidden>
+      <div class="stage-head"><span class="stage-number">3</span><div><h3>配图</h3><p class="hint">共 <span id="sb-count"></span> 张（你在上一步选的张数，上限 10）</p></div></div>
+      <label>视觉节拍方案</label>
+      <div id="sb-preview" class="sb-list"></div>
+      <div class="row">
+        <button id="crt-images" class="btn primary">生成全部配图</button>
+        <span id="crt-image-status" class="hint"></span>
+      </div>
+      <div id="crt-image-grid" class="image-grid"></div>
+    </div>
+    <div class="card" id="crt-video-card" hidden>
+      <div class="stage-head"><span class="stage-number">4</span><div><h3>视频</h3><p class="hint">使用上方已确认的原 MP3、配图和字幕渲染</p></div></div>
+      <label>封面模板</label>
+      <div id="crt-tpls" class="tpl-row"></div>
+      <div id="crt-cover-fields" class="cover-fields"></div>
+      <label>封面预览</label>
+      <div id="crt-cover-preview" class="cover-preview" data-template="classic">
+        <div class="cover-preview-badge"></div>
+        <div class="cover-preview-title"></div>
+        <div class="cover-preview-subtitle"></div>
+        <div class="cover-preview-tagline"></div>
+      </div>
+      <p class="hint">角色声音统一在“设置 → 语音”中维护，制作时自动使用当前方案。</p>
+      <div class="row"><button id="crt-make" class="btn primary big">🎥 开始制作成片</button>
+      <span id="crt-make-status"></span></div>
+    </div>
+  </section>
+
+  <!-- 故事库 -->
+  <section class="page" id="page-stories">
+    <h2>故事库 <button id="stories-refresh" class="btn small">刷新</button></h2>
+    <div id="stories-list" class="cards"></div>
+  </section>
+
+  <!-- 批量排期 -->
+  <section class="page" id="page-batch">
+    <h2>一键批量出片</h2>
+    <div class="card">
+      <p class="hint">每行一个点子，全自动跑完：写故事 → 配音 → 配图 → 出片。中途不用管，跑完到「审核」页看片子。</p>
+      <div class="form-grid two">
+        <div><label>系列</label><select id="bb-series"></select></div>
+        <div><label>故事类型</label>
+          <select id="bb-story-type">
+            <option value="auto">自动判断</option>
+            <option value="family">家庭日常</option>
+            <option value="imagination">想象扩展</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <label>每个故事配图数量</label>
+        <select id="bb-image-count">
+          <option value="4">4 张</option>
+          <option value="6" selected>6 张</option>
+          <option value="8">8 张</option>
+          <option value="10">10 张</option>
+        </select>
+        <span class="hint">每条成片大约 3~5 分钟，建议先跑 3~5 条试水</span>
+      </div>
+      <label>点子（每行一个）</label>
+      <textarea id="bb-ideas" rows="8" placeholder="牛牛不想刷牙&#10;牛牛偷偷吃姐姐的零食&#10;爸爸说自己不怕虫子"></textarea>
+      <div class="row"><button id="bb-start" class="btn primary big">🎬 开始批量出片</button>
+      <span class="hint" id="bb-status"></span></div>
+      <div id="bb-batches"></div>
+    </div>
+
+    <h2>批量写故事（只要文本，不配音不配图）</h2>
+    <div class="card">
+      <div class="form-grid two">
+        <div><label>系列</label><select id="batch-series"></select></div>
+        <div><label>故事类型</label>
+          <select id="batch-story-type">
+            <option value="auto">自动判断</option>
+            <option value="family">家庭日常</option>
+            <option value="imagination">想象扩展</option>
+          </select>
+        </div>
+      </div>
+      <label>批量点子（每行一个）</label>
+      <textarea id="batch-ideas" rows="6" placeholder="牛牛不想刷牙&#10;牛牛偷偷吃姐姐的零食"></textarea>
+      <div class="row"><button id="batch-gen" class="btn primary">🚀 批量写故事</button>
+      <span class="hint">只生成故事文本，之后在「创作」页逐条配音出片</span></div>
+      <div id="batch-progress" class="progress"></div>
+    </div>
+
+    <h2>自动排期</h2>
+    <div class="card">
+      <div class="row">
+        <label>每日发布数</label><input id="batch-daily" type="number" value="1" min="1" style="width:70px">
+        <button id="batch-schedule" class="btn">📅 把待发布池自动排期</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 审核 -->
+  <section class="page" id="page-review">
+    <h2>成片审核 <button id="review-refresh" class="btn small">刷新</button></h2>
+    <div id="review-list" class="cards"></div>
+  </section>
+
+  <!-- 待发布池 -->
+  <section class="page" id="page-pool">
+    <h2>待发布池 <button id="pool-refresh" class="btn small">刷新</button></h2>
+    <div id="pool-list" class="cards"></div>
+  </section>
+
+  <!-- 设置 -->
+  <section class="page" id="page-settings">
+    <h2>⚙️ 设置中心（各类资产与大模型）</h2>
+    <div class="sub-tabs">
+      <button class="sub-tab active" data-sub="model">🤖 模型</button>
+      <button class="sub-tab" data-sub="voice">🎙️ 声音</button>
+      <button class="sub-tab" data-sub="image">🖼️ 图片</button>
+    </div>
+
+    <!-- 模型 -->
+    <div class="sub-page active" id="sub-model">
+      <div class="card">
+        <h3>大模型 Key（写故事 / 配图策划 / 修改用）</h3>
+        <div class="kv"><label>DeepSeek API Key</label><input id="key-deepseek" placeholder="sk-..."></div>
+        <div class="kv"><label>千问（百炼）API Key</label><input id="key-qwen" placeholder="sk-..."></div>
+        <div class="kv"><label>豆包（方舟）API Key</label><input id="key-doubao" placeholder=""></div>
+        <div class="kv"><label>智谱 API Key</label><input id="key-glm" placeholder="sk-..."></div>
+        <div class="kv"><label>Kimi API Key</label><input id="key-kimi" placeholder="sk-..."></div>
+        <div class="row">
+          <label>家庭故事模型</label><select id="sel-family-story-model"></select>
+          <label>想象扩展故事模型</label><select id="sel-imagination-story-model"></select>
+          <label>配图策划模型</label><select id="sel-script-model"></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- 声音 -->
+    <div class="sub-page" id="sub-voice">
+      <div class="card">
+        <h3>语音平台凭证</h3>
+        <div class="kv"><label>千问（CosyVoice）API Key</label><input id="vkey-qwen" placeholder="sk-..."></div>
+        <div class="kv"><label>豆包新版 API Key（推荐，支持语音指令/哭腔）</label><input id="vkey-doubao" placeholder="cd1ae4f9-..."></div>
+        <div class="kv"><label>豆包 AppID（旧版）</label><input id="vkey-doubao-appid" placeholder=""></div>
+        <div class="kv"><label>豆包 Access Token（旧版）</label><input id="vkey-doubao-token" placeholder=""></div>
+      </div>
+      <div class="card">
+        <h3>音色试听</h3>
+        <div class="row">
+          <select id="prev-engine"><option value="qwen">千问 CosyVoice</option><option value="doubao">豆包</option><option value="edge">Edge 免费</option></select>
+          <select id="prev-voice" style="flex:2"></select>
+          <label style="white-space:nowrap"><input type="checkbox" id="prev-cry"> 哭腔</label>
+          <button id="prev-play" class="btn">🔊 试听</button>
+        </div>
+        <div id="prev-audio"></div>
+      </div>
+      <div class="card">
+        <h3>家庭系列声音方案</h3>
+        <div id="voice-preset-list" class="voice-preset-list"></div>
+      </div>
+      <div class="card">
+        <h3 id="role-voices-title">当前方案角色声音</h3>
+        <div id="role-voices"></div>
+      </div>
+    </div>
+
+    <!-- 图片 -->
+    <div class="sub-page" id="sub-image">
+      <div class="card">
+        <h3>文生图平台</h3>
+        <div class="row">
+          <label>平台</label>
+          <select id="img-provider"><option value="doubao">豆包（方舟）· 推荐</option><option value="toapis">ToAPIs (GPT-Image-2)</option><option value="siliconflow">硅基流动（免费额度）</option></select>
+          <label>API Key</label><input id="img-key" style="flex:2" placeholder="sk-...">
+        </div>
+        <div class="row"><label>模型</label><input id="img-model" style="flex:2" placeholder="Kwai-Kolors/Kolors"></div>
+        <div class="row">
+          <label>每个故事的配图数量</label>
+          <select id="img-count-default">
+            <option value="4">4 张</option>
+            <option value="6">6 张（推荐）</option>
+            <option value="8">8 张</option>
+            <option value="10">10 张</option>
+          </select>
+          <span class="hint">含封面节拍；创作页每次还能单独调整</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>角色形象卡（定妆照，锁定后全系列复用）</h3>
+        <div id="cast-editor"></div>
+      </div>
+    </div>
+
+    <div class="row"><button id="settings-save" class="btn primary big">💾 保存全部设置</button></div>
+  </section>
+
+  <!-- 系列 -->
+  <section class="page" id="page-series">
+    <h2>系列管理</h2>
+    <div class="card">
+      <div class="row">
+        <input id="ser-name" placeholder="系列名，如：绘本故事 / 拟人卡通">
+        <select id="ser-style"><option value="watercolor">水彩绘本</option><option value="cartoon">拟人卡通</option></select>
+        <select id="ser-tpl"></select>
+        <select id="ser-bgm"><option value="warm">温馨</option><option value="happy">欢快</option><option value="funny">搞笑</option><option value="calm">平静</option></select>
+        <button id="ser-add" class="btn primary">新增系列</button>
+      </div>
+      <div class="row"><input id="ser-badge" placeholder="封面徽章文字，如：快乐小剧场"><input id="ser-sub" placeholder="封面副标题，如：温暖每一夜"></div>
+      <div class="row"><input id="ser-bible" placeholder="系列圣经路径，如：stories/系列创作圣经.md" style="flex:2"></div>
+    </div>
+    <div id="series-list" class="cards"></div>
+  </section>
+</main>
+
+<div id="toast" class="toast"></div>
+<script src="/app.js"></script>
+</body>
+</html>

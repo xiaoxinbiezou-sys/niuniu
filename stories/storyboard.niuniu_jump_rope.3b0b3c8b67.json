@@ -1,0 +1,320 @@
+{
+  "title": "牛牛被梦里的妖怪咬到腿了",
+  "style": "watercolor",
+  "story_id": "niuniu_jump_rope",
+  "bgm": {
+    "mood": "warm",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "speaker": "旁白",
+      "narration": "牛牛被梦里的妖怪咬到腿了。",
+      "emotion": "narrate",
+      "character": "旁白",
+      "scene": "片头",
+      "present": [],
+      "costume": "",
+      "keywords": [
+        "故事名"
+      ],
+      "sfx": [],
+      "title": true,
+      "id": 1
+    },
+    {
+      "speaker": "旁白",
+      "narration": "放学铃一响，添添举着跳绳比赛第一名的奖状，跑回家。",
+      "emotion": "narrate",
+      "character": "添添",
+      "scene": "小区楼下空地",
+      "present": [
+        "添添"
+      ],
+      "costume": "",
+      "keywords": [
+        "第一名"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 2
+    },
+    {
+      "speaker": "旁白",
+      "narration": "妈妈接过奖状，笑着夸添添真厉害。",
+      "emotion": "narrate",
+      "character": "妈妈",
+      "scene": "家里客厅",
+      "present": [
+        "添添",
+        "妈妈"
+      ],
+      "costume": "",
+      "keywords": [
+        "真厉害"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 3
+    },
+    {
+      "speaker": "旁白",
+      "narration": "牛牛在旁边搭积木，一听妈妈夸姐姐，撅起小嘴，不服气地说：",
+      "emotion": "narrate",
+      "character": "牛牛",
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添"
+      ],
+      "costume": "",
+      "keywords": [
+        "不服气"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 4
+    },
+    {
+      "speaker": "牛牛",
+      "narration": "我更厉害！",
+      "emotion": "proud",
+      "character": "牛牛",
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添"
+      ],
+      "costume": "",
+      "keywords": [
+        "更厉害"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 5
+    },
+    {
+      "speaker": "旁白",
+      "narration": "添添说自己能跳100个，牛牛说他能跳10个。爸爸听了，笑着说：",
+      "emotion": "narrate",
+      "character": "牛牛",
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添",
+        "爸爸"
+      ],
+      "costume": "",
+      "keywords": [
+        "100个",
+        "10个"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 6
+    },
+    {
+      "speaker": "爸爸",
+      "narration": "10比100少哦。",
+      "emotion": "gentle",
+      "character": "爸爸",
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添",
+        "爸爸",
+        "妈妈"
+      ],
+      "costume": "",
+      "keywords": [
+        "少"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 7
+    },
+    {
+      "speaker": "旁白",
+      "narration": "牛牛脸红了，全家都笑了。可他还是不服气，喊着他要跳150个，添添说要跳200个。",
+      "emotion": "narrate",
+      "character": "全家",
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添",
+        "爸爸",
+        "妈妈"
+      ],
+      "costume": "",
+      "keywords": [
+        "150个",
+        "200个"
+      ],
+      "sfx": [
+        {
+          "name": "kid_laugh_soft",
+          "at": -0.1,
+          "vol": 0.45
+        }
+      ],
+      "title": false,
+      "id": 8
+    },
+    {
+      "speaker": "旁白",
+      "narration": "两个小人冲下楼去比赛。牛牛刚跳一下，跳绳就缠住了他的脚，他扑通摔倒在地。",
+      "emotion": "narrate",
+      "character": "牛牛",
+      "scene": "小区楼下空地",
+      "present": [
+        "牛牛",
+        "添添"
+      ],
+      "costume": "",
+      "keywords": [
+        "缠住了"
+      ],
+      "sfx": [
+        {
+          "name": "confused_hm",
+          "at": -0.3,
+          "vol": 0.45
+        }
+      ],
+      "title": false,
+      "id": 9
+    },
+    {
+      "speaker": "牛牛",
+      "narration": "我的脚怎么被绳子缠住了？肯定是跳绳颜色不对！",
+      "emotion": "question",
+      "character": "牛牛",
+      "scene": "小区楼下空地",
+      "present": [
+        "牛牛",
+        "添添"
+      ],
+      "costume": "",
+      "keywords": [
+        "颜色"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 10
+    },
+    {
+      "speaker": "旁白",
+      "narration": "添添把红跳绳换给牛牛。牛牛跳了一个，又绊倒了，可他马上爬起来，得意地说：",
+      "emotion": "narrate",
+      "character": "牛牛",
+      "scene": "小区楼下空地",
+      "present": [
+        "牛牛",
+        "添添"
+      ],
+      "costume": "",
+      "keywords": [
+        "红绳"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 11
+    },
+    {
+      "speaker": "牛牛",
+      "narration": "你看！红色的跳绳比较听话，蓝色不听话！",
+      "emotion": "triumph",
+      "character": "牛牛",
+      "scene": "小区楼下空地",
+      "present": [
+        "牛牛",
+        "添添"
+      ],
+      "costume": "",
+      "keywords": [
+        "听话"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 12
+    },
+    {
+      "speaker": "旁白",
+      "narration": "牛牛一直练到天黑才回家。第二天早上，他躺在床上，腿疼得动不了，哭着说：",
+      "emotion": "narrate",
+      "character": "牛牛",
+      "scene": "牛牛卧室",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "costume": "",
+      "keywords": [
+        "腿疼"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 13
+    },
+    {
+      "speaker": "牛牛",
+      "narration": "呜……梦里的妖怪咬到我的腿了，现在好疼，都不能走路了！",
+      "emotion": "cry",
+      "character": "牛牛",
+      "scene": "牛牛卧室",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "costume": "",
+      "keywords": [
+        "妖怪"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 14
+    },
+    {
+      "speaker": "旁白",
+      "narration": "爸爸听了，哈哈大笑，说：",
+      "emotion": "narrate",
+      "character": "爸爸",
+      "scene": "牛牛卧室",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "costume": "",
+      "keywords": [
+        "哈哈"
+      ],
+      "sfx": [],
+      "title": false,
+      "id": 15
+    },
+    {
+      "speaker": "爸爸",
+      "narration": "不是妖怪，是肌肉在悄悄长力气呢！过两天就好啦。",
+      "emotion": "gentle",
+      "character": "爸爸",
+      "scene": "牛牛卧室",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "costume": "",
+      "keywords": [
+        "长力气"
+      ],
+      "sfx": [
+        {
+          "name": "end_desc4",
+          "at": 9000.5,
+          "vol": 0.5
+        }
+      ],
+      "title": false,
+      "id": 16
+    }
+  ]
+}

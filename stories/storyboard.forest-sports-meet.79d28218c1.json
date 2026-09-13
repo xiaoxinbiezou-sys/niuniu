@@ -1,0 +1,245 @@
+{
+  "title": "森林运动会",
+  "style": "watercolor",
+  "story_id": "forest-sports-meet",
+  "bgm": {
+    "mood": "warm",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "旁白",
+      "narration": "森林开运动会啦，小动物们兴奋报名。小蜗牛也想去，可他爬得慢，能参加啥呢？",
+      "image_prompt": "水彩画风格，森林运动会的报名处热闹非凡，小动物们围在桌前，背着闪亮小壳的小蜗牛在角落充满期待地望着，彩旗飘动，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "森林运动会",
+        "报名"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 2,
+      "speaker": "小蜗牛",
+      "narration": "我要参加跑步比赛！",
+      "image_prompt": "水彩画风格，背着闪亮小壳的小蜗牛在报名处前举起小拳头，大声宣布要参加跑步比赛，周围小动物们惊讶地看着，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "跑步比赛",
+        "我要参加"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 3,
+      "speaker": "兔子",
+      "narration": "你连我眨眼的功夫都追不上，还是回家睡大觉吧！",
+      "image_prompt": "水彩画风格，一只兔子捂着肚子哈哈大笑，背着闪亮小壳的小蜗牛不理会它，慢慢往起点爬去，草地阳光明亮，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "追不上",
+        "睡大觉"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0,
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "speaker": "旁白",
+      "narration": "砰！发令枪响了，兔子、小松鼠、小刺猬一溜烟冲出去，小蜗牛一步一步稳稳往前爬。",
+      "image_prompt": "水彩画风格，森林赛道起点，发令枪冒出彩色烟雾，兔子、小松鼠、小刺猬飞快冲出去，背着闪亮小壳的小蜗牛在赛道上稳稳爬行，太阳晒得壳儿微微发烫，竖构图",
+      "camera": {
+        "move": "pan_right",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "发令枪",
+        "稳稳往前爬"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0,
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "speaker": "旁白",
+      "narration": "兔子跑一半回头，哈哈，小蜗牛没影了！他打个大哈欠，躺在树下睡着了。",
+      "image_prompt": "水彩画风格，大树下，兔子躺在草地上呼呼大睡，远处一个小小的背着闪亮小壳的小蜗牛仍在慢慢爬，阳光透过树叶洒下光斑，竖构图",
+      "camera": {
+        "move": "pan_left",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "没影了",
+        "睡着了"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 6,
+      "speaker": "旁白",
+      "narration": "小松鼠追蝴蝶跑远，小刺猬被野果引进草丛。小蜗牛还在慢慢爬。",
+      "image_prompt": "水彩画风格，小松鼠追着蝴蝶跑向花丛，小刺猬闻着香甜野果钻进草丛，背着闪亮小壳的小蜗牛在赛道上不慌不忙地爬行，留下细细的银线，竖构图",
+      "camera": {
+        "move": "pan_right",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "追蝴蝶",
+        "野果"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 7,
+      "speaker": "小蚂蚁",
+      "narration": "加油，小蜗牛，你是最棒的！",
+      "image_prompt": "水彩画风格，路边小蚂蚁挥着触角给背着闪亮小壳的小蜗牛加油，小蜗牛扭着小身子爬行，一边爬一边微笑点头，身后留下蜿蜒的银色痕迹，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "加油",
+        "最棒的"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 8,
+      "speaker": "旁白",
+      "narration": "终于，小蜗牛爬过了终点线！虽然花了很久，但他是唯一坚持到底的小动物。",
+      "image_prompt": "水彩画风格，彩带飘扬的终点线前，背着闪亮小壳的小蜗牛第一个到达，身后留着长长的银色痕迹，阳光照亮他，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.15
+      },
+      "effects": [
+        "light_rays",
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "爬过了终点线",
+        "坚持到底"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 9,
+      "speaker": "旁白",
+      "narration": "大家醒来，跑到终点，羞愧地低下了头。",
+      "image_prompt": "水彩画风格，终点线旁，睡醒的小动物们围在一起低着头，背着闪亮小壳的小蜗牛站在终点线上，平静地看着大家，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "醒来",
+        "羞愧"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 10,
+      "speaker": "兔子",
+      "narration": "为什么你能赢？",
+      "image_prompt": "水彩画风格，兔子挠着头，满脸疑惑地看着背着闪亮小壳的小蜗牛，其他小动物也围过来，认真听着，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "为什么",
+        "赢"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 11,
+      "speaker": "小蜗牛",
+      "narration": "因为我一直在走，没有停呀。",
+      "image_prompt": "水彩画风格，背着闪亮小壳的小蜗牛抬起头，慢吞吞却温柔地回答，小动物们认真听着，阳光柔和，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "一直在走",
+        "没有停"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 12,
+      "speaker": "旁白",
+      "narration": "森林里响起热烈的掌声，小蜗牛笑了，壳儿里装满了勇气，亮晶晶地像一颗小星星。",
+      "image_prompt": "水彩画风格，所有小动物围住背着闪亮小壳的小蜗牛鼓掌欢呼，他的壳闪闪发光，像藏着一颗小星星，天空温暖明亮，竖构图",
+      "camera": {
+        "move": "pan_up",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "twinkle_stars",
+        "light_rays"
+      ],
+      "keywords": [
+        "掌声",
+        "勇气"
+      ],
+      "sfx": [
+        {
+          "name": "applause",
+          "at": 0,
+          "vol": 0.5
+        }
+      ]
+    }
+  ]
+}

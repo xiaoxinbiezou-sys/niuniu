@@ -1,0 +1,48 @@
+{
+  "templates": [
+    {
+      "id": "classic",
+      "name": "经典绘本",
+      "desc": "顶部徽章 + 居中大标题 + 底部副标题",
+      "fields": ["badge", "title", "subtitle"],
+      "defaults": {
+        "badge": "儿童睡前故事",
+        "title": "",
+        "subtitle": "童话故事 · 温暖陪伴"
+      }
+    },
+    {
+      "id": "storybook",
+      "name": "童话边框",
+      "desc": "白色描边画框 + 画框内大标题，绘本翻页感",
+      "fields": ["badge", "title", "subtitle"],
+      "defaults": {
+        "badge": "睡前童话",
+        "title": "",
+        "subtitle": "温暖每一夜"
+      }
+    },
+    {
+      "id": "cartoon",
+      "name": "卡通横幅",
+      "desc": "左上角彩色横幅徽章 + 下部大标题，明快卡通",
+      "fields": ["badge", "title", "tagline"],
+      "defaults": {
+        "badge": "快乐小剧场",
+        "title": "",
+        "tagline": "一起看故事啦"
+      }
+    },
+    {
+      "id": "minimal",
+      "name": "极简文艺",
+      "desc": "左上小徽章 + 中部大标题 + 细线点缀，简洁耐看",
+      "fields": ["badge", "title", "subtitle"],
+      "defaults": {
+        "badge": "童话集",
+        "title": "",
+        "subtitle": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------- 密钥与配置
+# config.yaml 和 studio/data/settings.json 里存着真实的 API Key
+# （DeepSeek / 豆包 / 硅基流动 / Kimi / Qwen / toapis），**绝不能提交**。
+# 首次使用请复制示例文件再填自己的密钥：
+#   config.example.yaml        → config.yaml
+#   studio/data/settings.example.json → studio/data/settings.json
+config.yaml
+studio/data/settings.json
+
+# ---------------------------------------------------------------- 运行产物
+# 成片、配图、音频、字幕、临时文件（体积大且可重新生成）
+output/
+# 工作室的用户数据：故事、脚本、分片、任务、批量记录
+studio/data/*
+# 保留示例文件（上面的规则会盖住它，这里再显式放开）
+!studio/data/settings.example.json
+
+# 母稿编译产物（母稿本身保留，编译出的脚本可重新生成）
+stories/studio/
+
+# ---------------------------------------------------------------- 环境与缓存
+# 项目自带的 Python 运行时（2GB）
+.python/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# 工具缓存（pnpm 的 .corepack、HuggingFace 的 .hf_cache 等，都是可再生的大目录）
+.corepack/
+.hf_cache/
+.npm_cache/
+.pip_cache/
+.pipcache/
+.tmp/
+
+# ---------------------------------------------------------------- 可选/外部组件
+# 这些不是当前出片流程的依赖，体积很大，需要时各自单独安装：
+#   models/GPT-SoVITS —— 可选的本地声音克隆推理服务（21GB），要在 config.yaml 里
+#                        配 tts.gptsovits.api_url 并自己启动 api_v2.py 才会用到
+#   mpp                —— 抖音发布平台（第三方项目），与出片流程无关
+models/
+mpp/
+
+# ---------------------------------------------------------------- 备份与杂项
+*.bak
+*.orig
+*.log
+output/tmp/
+archive/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

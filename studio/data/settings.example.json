@@ -1,0 +1,146 @@
+{
+  "llm": {
+    "providers": {
+      "deepseek": {
+        "api_key": "PUT-YOUR-KEY-HERE"
+      },
+      "qwen": {
+        "api_key": "PUT-YOUR-KEY-HERE"
+      },
+      "doubao": {
+        "api_key": ""
+      },
+      "glm": {
+        "api_key": ""
+      },
+      "kimi": {
+        "api_key": "PUT-YOUR-KEY-HERE"
+      }
+    },
+    "story_model": "kimi",
+    "script_model": "qwen",
+    "family_story_model": "kimi",
+    "imagination_story_model": "kimi",
+    "fantasy_story_model": ""
+  },
+  "voice": {
+    "providers": {
+      "qwen": {
+        "api_key": "PUT-YOUR-KEY-HERE"
+      },
+      "doubao": {
+        "appid": "",
+        "access_token": ""
+      }
+    },
+    "roles": {
+      "旁白": {
+        "engine": "edge",
+        "edge_voice": "zh-CN-XiaoxiaoNeural"
+      },
+      "妈妈": {
+        "engine": "qwen",
+        "voice": "Elias"
+      },
+      "添添": {
+        "engine": "qwen",
+        "voice": "Stella"
+      },
+      "牛牛": {
+        "engine": "qwen",
+        "voice": "Mochi"
+      },
+      "爸爸": {
+        "engine": "edge",
+        "edge_voice": "zh-CN-YunjianNeural"
+      }
+    },
+    "active_preset": "preset2",
+    "presets": {
+      "preset1": {
+        "name": "备用方案 · Edge + 千问",
+        "roles": {
+          "旁白": {
+            "engine": "edge",
+            "edge_voice": "zh-CN-XiaoxiaoNeural"
+          },
+          "爸爸": {
+            "engine": "edge",
+            "edge_voice": "zh-CN-YunjianNeural"
+          },
+          "牛牛": {
+            "engine": "qwen",
+            "voice": "Mochi"
+          },
+          "添添": {
+            "engine": "qwen",
+            "voice": "Stella"
+          },
+          "妈妈": {
+            "engine": "qwen",
+            "voice": "Elias"
+          }
+        }
+      },
+      "preset2": {
+        "name": "主方案 · 豆包语音 2.0 + 情绪",
+        "roles": {
+          "旁白": {
+            "engine": "doubao",
+            "voice_type": "zh_female_xiaoxue_uranus_bigtts",
+            "narrate_instruct": "你用讲故事的亲切口吻，语气自然流畅，声音温暖"
+          },
+          "爸爸": {
+            "engine": "doubao",
+            "voice_type": "zh_male_wennuanahu_uranus_bigtts"
+          },
+          "牛牛": {
+            "engine": "doubao",
+            "voice_type": "zh_male_lanyinmianbao_uranus_bigtts",
+            "cry_instruct": "你是一个正在大哭的小男孩，声音带着哭腔和抽泣，边哭边说话，非常委屈和伤心"
+          },
+          "添添": {
+            "engine": "doubao",
+            "voice_type": "ICL_uranus_zh_female_yuanqitianmei_tob"
+          },
+          "妈妈": {
+            "engine": "doubao",
+            "voice_type": "zh_female_wenroumama_uranus_bigtts"
+          }
+        }
+      }
+    }
+  },
+  "image": {
+    "provider": "doubao",
+    "providers": {
+      "siliconflow": {
+        "api_key": "PUT-YOUR-KEY-HERE",
+        "model": "Kwai-Kolors/Kolors"
+      },
+      "doubao": {
+        "api_key": "PUT-YOUR-KEY-HERE",
+        "model": "doubao-seedream-4-0-250828",
+        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+        "size": "832x1216"
+      },
+      "toapis": {
+        "api_key": "PUT-YOUR-KEY-HERE",
+        "model": "gpt-image-2",
+        "base_url": "https://toapis.com/v1",
+        "size": "9:16"
+      }
+    },
+    "cast": {
+      "牛牛": "黑发圆脸的5岁中国小男孩，穿黄色T恤和蓝色背带裤，比姐姐矮一个头"
+    },
+    "refs": {
+      "旁白": "全家福.png",
+      "牛牛": "牛牛.png",
+      "牛牛_战甲": "牛牛_战甲.png",
+      "添添": "添添_高清.png",
+      "爸爸": "爸爸_高清.png",
+      "妈妈": "妈妈_高清.png"
+    }
+  }
+}

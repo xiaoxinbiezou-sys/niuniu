@@ -1,0 +1,232 @@
+{
+  "title": "红色的跳绳",
+  "style": "watercolor",
+  "story_id": "red_skipping_rope",
+  "bgm": {
+    "mood": "warm",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "添添",
+      "narration": "妈妈！我在学校跳绳比赛，跳了一百个！",
+      "image_prompt": "水彩画风格，扎马尾辫的添添背着书包举着奖状跑进家门，穿蓝色T恤的牛牛趴在地上搭积木，妈妈站在门口，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "奖状",
+        "一百个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 2,
+      "speaker": "牛牛",
+      "narration": "我能跳十五个！",
+      "image_prompt": "水彩画风格，穿蓝色T恤的牛牛从积木堆里站起来，不服气地叉腰，扎马尾辫的添添举着奖状站在对面，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "不服气",
+        "十五个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 3,
+      "speaker": "添添",
+      "narration": "十五个比我少呀。",
+      "image_prompt": "水彩画风格，扎马尾辫的添添歪着头笑，穿蓝色T恤的牛牛愣住，爸爸妈妈在旁边微笑，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "比我少"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 4,
+      "speaker": "牛牛",
+      "narration": "那我能跳一百五十个！",
+      "image_prompt": "水彩画风格，穿蓝色T恤的牛牛瞪大眼睛伸出一根手指抢着说，扎马尾辫的添添惊讶地看着他，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "一百五十个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 5,
+      "speaker": "添添",
+      "narration": "那我能跳二百个！",
+      "image_prompt": "水彩画风格，扎马尾辫的添添双手叉腰抬着下巴，穿蓝色T恤的牛牛涨红了脸，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "二百个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 6,
+      "speaker": "牛牛",
+      "narration": "那我能跳三百个！",
+      "image_prompt": "水彩画风格，穿蓝色T恤的牛牛涨红脸蹦起来大喊，扎马尾辫的添添捂嘴笑，妈妈站在旁边，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "三百个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 7,
+      "speaker": "妈妈",
+      "narration": "好了好了，你们俩去楼下比一比吧。",
+      "image_prompt": "水彩画风格，妈妈弯下腰笑着摆手，扎马尾辫的添添和穿蓝色T恤的牛牛抱着跳绳往外跑，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "楼下比一比"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 8,
+      "speaker": "旁白",
+      "narration": "到了楼下，添添拿起红色跳绳，呼呼呼跳得飞快，马尾辫一甩一甩的。",
+      "image_prompt": "水彩画风格，扎马尾辫的添添在小区空地上甩动红色跳绳跳得飞快，穿蓝色T恤的牛牛拿着蓝色跳绳在一旁看，竖构图",
+      "camera": {
+        "move": "pan_right",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "falling_leaves"
+      ],
+      "keywords": [
+        "红色跳绳",
+        "飞快"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 9,
+      "speaker": "旁白",
+      "narration": "牛牛拿起蓝色跳绳使劲一蹦——啪！绳子缠住了脚，摔了个屁股蹲。",
+      "image_prompt": "水彩画风格，穿蓝色T恤的牛牛被蓝色跳绳缠住脚，一屁股坐在地上，扎马尾辫的添添停下跳绳回头看，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "缠住脚",
+        "屁股蹲"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0.8,
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "speaker": "牛牛",
+      "narration": "肯定是你这跳绳的问题！颜色不对！我要换红色的！",
+      "image_prompt": "水彩画风格，穿蓝色T恤的牛牛坐在地上嘟着嘴指着蓝色跳绳，扎马尾辫的添添把红色跳绳递给他，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "颜色不对",
+        "换红色"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 11,
+      "speaker": "牛牛",
+      "narration": "这绳子认生！它只跟姐姐好！",
+      "image_prompt": "水彩画风格，穿蓝色T恤的牛牛换上红色跳绳后又被绳子缠住，气鼓鼓地把绳子扔到地上，扎马尾辫的添添在旁边笑弯了腰，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "绳子认生",
+        "只跟姐姐好"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0.6,
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "speaker": "牛牛",
+      "narration": "哇！我跳了一个！姐姐，我比你多一个！因为你还不会在地上打滚！",
+      "image_prompt": "水彩画风格，扎马尾辫的添添蹲下来给穿蓝色T恤的牛牛示范跳绳动作，牛牛跳过红色跳绳后高兴地躺在地上打滚，爸爸妈妈在旁边拍手大笑，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "跳过去了",
+        "打滚"
+      ],
+      "sfx": [
+        {
+          "name": "applause",
+          "at": 0.5,
+          "vol": 0.4
+        }
+      ]
+    }
+  ]
+}

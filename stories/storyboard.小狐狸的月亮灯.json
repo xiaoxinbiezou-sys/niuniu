@@ -1,0 +1,101 @@
+{
+  "title": "小狐狸的月亮灯",
+  "style": "watercolor",
+  "story_id": "fox_moon_lamp",
+  "story_file": "stories/小狐狸的月亮灯.md",
+  "target_seconds": 55,
+  "bgm": { "mood": "warm", "volume": 0.45 },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "旁白",
+      "narration": "从前，有一只小狐狸，它最爱在夜里看月亮。",
+      "image_prompt": "水彩画风格，橙色小狐狸坐在山坡上仰望夜空，圆月，星星，柔和渐变的蓝紫色天空，温馨童话感，竖构图",
+      "camera": { "move": "zoom_in", "start_scale": 1.0, "end_scale": 1.12 },
+      "effects": ["twinkle_stars"],
+      "keywords": ["小狐狸"]
+    },
+    {
+      "id": 2,
+      "speaker": "旁白",
+      "narration": "月亮圆圆亮亮，像一盏挂在天空的灯。",
+      "image_prompt": "水彩画风格，夜空中的大圆月亮，洒下柔和银光，云朵轻飘，星星点点，蓝紫色渐变天空，竖构图",
+      "camera": { "move": "pan_up", "start_scale": 1.08, "end_scale": 1.08 },
+      "effects": ["light_rays", "clouds_drift"],
+      "keywords": ["月亮"]
+    },
+    {
+      "id": 3,
+      "speaker": "旁白",
+      "narration": "小狐狸想：要是能把月亮灯带回家就好了。",
+      "image_prompt": "水彩画风格，小狐狸托着下巴仰望月亮，眼神向往，月光洒在山坡上，萤火虫点缀，竖构图",
+      "camera": { "move": "zoom_in", "start_scale": 1.0, "end_scale": 1.1 },
+      "effects": ["twinkle_stars"],
+      "keywords": ["月亮灯"]
+    },
+    {
+      "id": 4,
+      "speaker": "旁白",
+      "narration": "它跑到山顶，踮起脚尖，想要够到月亮。",
+      "image_prompt": "水彩画风格，小狐狸站在山顶踮起脚尖伸手够月亮，山峦起伏，风把围巾吹起，竖构图",
+      "camera": { "move": "pan_up", "start_scale": 1.05, "end_scale": 1.05 },
+      "effects": ["clouds_drift"],
+      "keywords": ["山顶"]
+    },
+    {
+      "id": 5,
+      "speaker": "旁白",
+      "narration": "可是月亮太高了，小狐狸怎么也够不着，它难过得低下了头。",
+      "image_prompt": "水彩画风格，小狐狸低头坐在山顶，耳朵耷拉，月光暗淡，一片落叶飘过，氛围安静忧伤，竖构图",
+      "camera": { "move": "zoom_out", "start_scale": 1.12, "end_scale": 1.0 },
+      "effects": ["falling_leaves"],
+      "keywords": ["够不着"]
+    },
+    {
+      "id": 6,
+      "speaker": "旁白",
+      "narration": "这时，一群萤火虫飞来了，围着小狐狸转圈圈。",
+      "image_prompt": "水彩画风格，一群萤火虫发光围绕小狐狸飞舞，像一闪一闪的小星星，夜色温柔，竖构图",
+      "camera": { "move": "pan_left", "start_scale": 1.08, "end_scale": 1.08 },
+      "effects": ["fireflies"],
+      "keywords": ["萤火虫"]
+    },
+    {
+      "id": 7,
+      "speaker": "萤火虫",
+      "narration": "别难过，我们帮你照亮回家的路。",
+      "image_prompt": "水彩画风格，萤火虫排成一条发光的蜿蜒小路，小狐狸走在路上回头微笑，林间夜色，竖构图",
+      "camera": { "move": "pan_right", "start_scale": 1.06, "end_scale": 1.06 },
+      "effects": ["fireflies", "twinkle_stars"],
+      "keywords": ["照亮回家的路"]
+    },
+    {
+      "id": 8,
+      "speaker": "旁白",
+      "narration": "小狐狸回到家，发现窗台上放着妈妈做的月亮灯。",
+      "image_prompt": "水彩画风格，温馨的小木屋窗台上放着一盏发光的月亮灯，小狐狸推门探头，暖黄色灯光，竖构图",
+      "camera": { "move": "zoom_in", "start_scale": 1.0, "end_scale": 1.12 },
+      "effects": ["twinkle_stars"],
+      "keywords": ["月亮灯"]
+    },
+    {
+      "id": 9,
+      "speaker": "妈妈",
+      "narration": "宝贝，快来看，月亮灯做好了，又圆又亮。",
+      "image_prompt": "水彩画风格，小狐狸和妈妈依偎在窗前看月亮灯，屋内暖光，窗外星空，温馨，竖构图",
+      "camera": { "move": "zoom_in", "start_scale": 1.0, "end_scale": 1.08 },
+      "effects": ["twinkle_stars"],
+      "keywords": ["月亮灯"],
+      "sfx": [ { "name": "magic", "at": 2.2, "vol": 0.12 } ]
+    },
+    {
+      "id": 10,
+      "speaker": "旁白",
+      "narration": "原来，最亮的灯，是家里那盏温暖的灯。",
+      "image_prompt": "水彩画风格，小狐狸和妈妈依偎在窗前看月亮灯，屋内暖光，窗外星空，温馨收尾，竖构图",
+      "camera": { "move": "zoom_out", "start_scale": 1.1, "end_scale": 1.0 },
+      "effects": ["twinkle_stars", "fireflies"],
+      "keywords": ["家"]
+    }
+  ]
+}

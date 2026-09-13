@@ -1,0 +1,588 @@
+{
+  "schema_version": 1,
+  "kind": "visual_plan",
+  "title": "好运蛋壳",
+  "story_id": "好运蛋壳",
+  "audio_script_digest": "4dc947a255fdf7f32e4d8bb8023fca4a301d68858b78a09804b31be6599c35a0",
+  "audio_file": "D:\\new project\\output\\audio_story\\story_80774c3ef2.mp3",
+  "image_count": 6,
+  "max_images": 6,
+  "audio_segments": [
+    {
+      "scene_id": 1,
+      "segment_id": "title",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "好运蛋壳",
+      "dialogue": "",
+      "start": 0.0,
+      "duration": 2.112,
+      "visual_duration": 2.912,
+      "title": true
+    },
+    {
+      "scene_id": 2,
+      "segment_id": "seg_00000_0298e521",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛要干一件大事。他要偷偷给妈妈煎一个鸡蛋。早上妈妈咳嗽了两声。牛牛想，吃了煎蛋，咳嗽就会好。",
+      "dialogue": "",
+      "start": 2.912,
+      "duration": 12.3765,
+      "visual_duration": 12.6765,
+      "title": false
+    },
+    {
+      "scene_id": 3,
+      "segment_id": "seg_00049_85992d4b",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "谁说的？没人说，是牛牛自己想的。妈妈去阳台晾衣服了。牛牛想，就是现在！他搬来小板凳，站上去，打开冰箱。",
+      "dialogue": "",
+      "start": 15.5885,
+      "duration": 13.5771,
+      "visual_duration": 13.8771,
+      "title": false
+    },
+    {
+      "scene_id": 4,
+      "segment_id": "seg_00104_66b43b48",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "鸡蛋住在高高的格子里。他踮起脚够了一个，想了想，又够了一个。万一第一个失败呢？他把鸡蛋往桌角一磕。",
+      "dialogue": "",
+      "start": 29.4657,
+      "duration": 13.728,
+      "visual_duration": 14.028,
+      "title": false
+    },
+    {
+      "scene_id": 5,
+      "segment_id": "seg_00155_73e458b4",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "没破。再磕，还没破。牛牛急了，使劲一磕，啪！鸡蛋碎在他的手里，蛋清从手指缝里流下来，滴滴答答。",
+      "dialogue": "",
+      "start": 43.4937,
+      "duration": 14.1102,
+      "visual_duration": 14.4102,
+      "title": false
+    },
+    {
+      "scene_id": 6,
+      "segment_id": "seg_00202_9dc15795",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛看着自己的手，小声说：",
+      "dialogue": "",
+      "start": 57.9039,
+      "duration": 3.5045,
+      "visual_duration": 3.8045,
+      "title": false
+    },
+    {
+      "scene_id": 7,
+      "segment_id": "seg_00218_36f31caa",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "哎呀。",
+      "dialogue": "哎呀。",
+      "start": 61.7083,
+      "duration": 0.6838,
+      "visual_duration": 0.9838,
+      "title": false
+    },
+    {
+      "scene_id": 8,
+      "segment_id": "seg_00222_58b99aa3",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "他舔了一下，凉的，不好吃。第二个鸡蛋，他轻轻的。磕一下，掰开，咚！鸡蛋掉进碗里，还带进去三块小蛋壳。",
+      "dialogue": "",
+      "start": 62.6922,
+      "duration": 13.5228,
+      "visual_duration": 13.8228,
+      "title": false
+    },
+    {
+      "scene_id": 9,
+      "segment_id": "seg_00274_e907b5da",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "他用筷子捞，捞上来两块，最后一块特别滑，怎么也抓不住。",
+      "dialogue": "",
+      "start": 76.5149,
+      "duration": 7.0798,
+      "visual_duration": 7.3798,
+      "title": false
+    },
+    {
+      "scene_id": 10,
+      "segment_id": "seg_00303_b083d5f6",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛觉得最后一块蛋壳太滑，怎么也抓不住，便小声说就算了，就当是秘密",
+      "dialogue": "",
+      "start": 83.8948,
+      "duration": 9.2629,
+      "visual_duration": 9.5629,
+      "title": false
+    },
+    {
+      "scene_id": 11,
+      "segment_id": "seg_00320_0d92c381",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "他把鸡蛋倒进锅里。黄色的蛋黄躺在锅底，像一个小太阳。牛牛盯着看了一分钟，又看了一分钟，小太阳一动不动。",
+      "dialogue": "",
+      "start": 93.4577,
+      "duration": 12.5818,
+      "visual_duration": 12.8818,
+      "title": false
+    },
+    {
+      "scene_id": 12,
+      "segment_id": "seg_00373_d58498d9",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛着急地问：",
+      "dialogue": "",
+      "start": 106.3395,
+      "duration": 1.8195,
+      "visual_duration": 2.1195,
+      "title": false
+    },
+    {
+      "scene_id": 13,
+      "segment_id": "seg_00383_4fc4ea28",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "你怎么还不熟呀？",
+      "dialogue": "你怎么还不熟呀？",
+      "start": 108.4591,
+      "duration": 1.5876,
+      "visual_duration": 1.8876,
+      "title": false
+    },
+    {
+      "scene_id": 14,
+      "segment_id": "seg_00392_6162a348",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "问完他才想起来，要开火！他踮起脚去够开关，拧了一下，咔咔咔，没着。再拧，还是没着。这时候，妈妈站在厨房门口问：",
+      "dialogue": "",
+      "start": 110.3466,
+      "duration": 15.072,
+      "visual_duration": 15.372,
+      "title": false
+    },
+    {
+      "scene_id": 15,
+      "segment_id": "seg_00452_04bdb81d",
+      "speaker": "妈妈",
+      "type": "dialogue",
+      "text": "牛牛，你在干什么？",
+      "dialogue": "牛牛，你在干什么？",
+      "start": 125.7187,
+      "duration": 1.7656,
+      "visual_duration": 2.0656,
+      "title": false
+    },
+    {
+      "scene_id": 16,
+      "segment_id": "seg_00462_3f329172",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛吓得差点从小板凳上掉下来。他把两只手藏到背后，可是手上全是蛋清，藏了也白藏。牛牛大声说：",
+      "dialogue": "",
+      "start": 127.7843,
+      "duration": 11.736,
+      "visual_duration": 12.036,
+      "title": false
+    },
+    {
+      "scene_id": 17,
+      "segment_id": "seg_00513_5a1ccace",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "我什么都没干！",
+      "dialogue": "我什么都没干！",
+      "start": 139.8203,
+      "duration": 1.364,
+      "visual_duration": 1.664,
+      "title": false
+    },
+    {
+      "scene_id": 18,
+      "segment_id": "seg_00521_b22565f9",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "妈妈看看锅，看看碗，看看地上的蛋壳，再看看牛牛。她没说话，走过来，握住了开关。",
+      "dialogue": "",
+      "start": 141.4843,
+      "duration": 10.7925,
+      "visual_duration": 11.0925,
+      "title": false
+    },
+    {
+      "scene_id": 19,
+      "segment_id": "seg_00564_7816dba1",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "妈妈告诉牛牛这个开关要先往下按再拧，小孩子不能自己操作",
+      "dialogue": "",
+      "start": 152.5768,
+      "duration": 8.4,
+      "visual_duration": 8.7,
+      "title": false
+    },
+    {
+      "scene_id": 20,
+      "segment_id": "seg_00588_6b8ca1c5",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "火着了。蓝色的火苗舔着锅底，小太阳开始冒泡泡，边边变白了，翘起来了。牛牛喊：",
+      "dialogue": "",
+      "start": 161.2768,
+      "duration": 10.5308,
+      "visual_duration": 10.8308,
+      "title": false
+    },
+    {
+      "scene_id": 21,
+      "segment_id": "seg_00631_063227c3",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "帮我翻面！",
+      "dialogue": "帮我翻面！",
+      "start": 172.1077,
+      "duration": 1.02,
+      "visual_duration": 1.32,
+      "title": false
+    },
+    {
+      "scene_id": 22,
+      "segment_id": "seg_00637_6bba80fc",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "妈妈拿铲子一翻，鸡蛋翻了个身，只破了一点点。盛到盘子里，妈妈咬了一口，慢慢嚼，嚼了好久。牛牛仰着头问：",
+      "dialogue": "",
+      "start": 173.4277,
+      "duration": 13.6897,
+      "visual_duration": 13.9897,
+      "title": false
+    },
+    {
+      "scene_id": 23,
+      "segment_id": "seg_00695_bffab037",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "怎么样？",
+      "dialogue": "怎么样？",
+      "start": 187.4174,
+      "duration": 0.7726,
+      "visual_duration": 1.0726,
+      "title": false
+    },
+    {
+      "scene_id": 24,
+      "segment_id": "seg_00702_377d5366",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "妈妈从嘴里拿出那块小蛋壳，说她吃到一个秘密",
+      "dialogue": "",
+      "start": 188.49,
+      "duration": 5.9135,
+      "visual_duration": 6.2135,
+      "title": false
+    },
+    {
+      "scene_id": 25,
+      "segment_id": "seg_00727_d51b20de",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛大声说：",
+      "dialogue": "",
+      "start": 194.7035,
+      "duration": 1.7196,
+      "visual_duration": 2.0196,
+      "title": false
+    },
+    {
+      "scene_id": 26,
+      "segment_id": "seg_00736_164da5c7",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "那是好运蛋壳！吃到的人，咳嗽马上就好！",
+      "dialogue": "那是好运蛋壳！吃到的人，咳嗽马上就好！",
+      "start": 196.7231,
+      "duration": 3.8,
+      "visual_duration": 4.1,
+      "title": false
+    },
+    {
+      "scene_id": 27,
+      "segment_id": "seg_00758_8c2cb3e5",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "妈妈慢慢嚼完后说真的好了",
+      "dialogue": "",
+      "start": 200.8231,
+      "duration": 5.1671,
+      "visual_duration": 5.4671,
+      "title": false
+    },
+    {
+      "scene_id": 28,
+      "segment_id": "seg_00787_542b4848",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛得意极了，背着手走出厨房，像一个大厨师。走到门口，他回头喊：",
+      "dialogue": "",
+      "start": 206.2902,
+      "duration": 9.0848,
+      "visual_duration": 9.3848,
+      "title": false
+    },
+    {
+      "scene_id": 29,
+      "segment_id": "seg_00822_9e946893",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "明天我给你煎十个！",
+      "dialogue": "明天我给你煎十个！",
+      "start": 215.6751,
+      "duration": 1.6931,
+      "visual_duration": 1.9931,
+      "title": false
+    },
+    {
+      "scene_id": 30,
+      "segment_id": "seg_00832_27c6e472",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "妈妈手里的盘子差点掉下来。",
+      "dialogue": "",
+      "start": 217.6682,
+      "duration": 2.9661,
+      "visual_duration": 5.9761,
+      "title": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 2.912,
+      "duration": 2.912,
+      "segment_ids": [
+        "title"
+      ],
+      "speaker": "牛牛",
+      "narration": "好运蛋壳",
+      "keywords": [],
+      "title": true,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添",
+        "爸爸",
+        "妈妈"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）、1 个爸爸、1 个妈妈；牛牛蹲在茶几前，双手捧着一个银色金属小茶叶罐，只有小男孩手掌那么大，侧面光滑没有商标，罐盖打开，里面露出几枚椭圆形浅褐色土鸡蛋，大小只有小男孩握拳时拇指和食指围成的圈那么大，表面有细微颗粒感；添添跪坐在地毯上歪头看罐子，爸爸坐在沙发左侧翻杂志，妈妈站在茶几旁低头微笑；所有人物均穿着系列固定服装画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩、1个爸爸、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅灰色布艺沙发靠墙摆放，左侧是原木色矮茶几（台面高度到牛牛腰部），右侧立着一盏米白布艺落地灯；地板为浅橡木色人字拼木地板；窗外可见半截绿植盆栽和模糊的楼宇轮廓；电视柜上放着一个银色金属小茶叶罐，只有小男孩手掌那么大，侧面光滑没有商标"
+    },
+    {
+      "id": 2,
+      "start": 2.912,
+      "end": 15.5885,
+      "duration": 12.6765,
+      "segment_ids": [
+        "seg_00000_0298e521"
+      ],
+      "speaker": "牛牛",
+      "narration": "牛牛要干一件大事。他要偷偷给妈妈煎一个鸡蛋。早上妈妈咳嗽了两声。牛牛想，吃了煎蛋，咳嗽就会好。",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "妈妈"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个妈妈；牛牛站在浅灰色布艺沙发和矮茶几之间，仰头看着妈妈，双手背在身后，脸上神情郑重；妈妈穿粉色上衣和米色围裙，一手轻按胸口微微咳嗽，另一手扶着茶几边缘；电视柜上放着一个银色金属小茶叶罐，只有小男孩手掌那么大，侧面光滑没有商标；所有人物均穿着系列固定服装【道具尺寸，必须与其它画面完全一致】鸡蛋：椭圆形浅褐色土鸡蛋，大小只有小男孩握拳时拇指和食指围成的圈那么大，表面有细微颗粒感画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅灰色布艺沙发靠墙摆放，左侧是原木色矮茶几（台面高度到牛牛腰部），右侧立着一盏米白布艺落地灯；地板为浅橡木色人字拼木地板；窗外可见半截绿植盆栽和模糊的楼宇轮廓；电视柜上放着一个银色金属小茶叶罐，只有小男孩手掌那么大，侧面光滑没有商标"
+    },
+    {
+      "id": 3,
+      "start": 15.5885,
+      "end": 61.7084,
+      "duration": 46.1199,
+      "segment_ids": [
+        "seg_00049_85992d4b",
+        "seg_00104_66b43b48",
+        "seg_00155_73e458b4",
+        "seg_00202_9dc15795"
+      ],
+      "speaker": "牛牛",
+      "narration": "谁说的？没人说，是牛牛自己想的。妈妈去阳台晾衣服了。牛牛想，就是现在！他搬来小板凳，站上去，打开冰箱。鸡蛋住在高高的格子里。他踮起脚够了一个，想了想，又够了一个。万一第一个失败呢？他把鸡蛋往桌角一磕。没破。再磕，还没破。牛牛急了，使劲一磕，啪！鸡蛋碎在他的手里，蛋清从手指缝里流下来，滴滴答答。牛牛看着自己的手，小声说：",
+      "keywords": [],
+      "title": false,
+      "scene": "家里厨房",
+      "present": [
+        "牛牛",
+        "妈妈"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个妈妈；牛牛站在浅木色圆形矮凳，只有小男孩小腿那么高，凳面直径约等于他张开手掌的宽度，上踮起脚尖，右手正用力磕一枚椭圆形浅褐色土鸡蛋，大小只有小男孩握拳时拇指和食指围成的圈那么大，表面有细微颗粒感，蛋壳已裂开，蛋清正从他五指缝间滴滴答答流下；他左手扶着白色双门家用电冰箱，高度到妈妈肩膀，牛牛站在小板凳上时，眼睛刚够到冷藏室最下层格子的底边；妈妈背对镜头站在水槽边晾一件小衣服，未回头；所有人物均穿着系列固定服装画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "L形浅灰橱柜配白色石英石台面，水槽在短边角落，灶台在长边一侧，上方有银色抽油烟机；地面为哑光灰白六角瓷砖；窗台摆着两盆薄荷，叶片油亮；左侧墙面挂有磁吸式刀架，右侧墙面贴着一个圆形红色开关面板（面板中心离地约1.2米，即到妈妈胸口、牛牛踮脚伸手可触）"
+    },
+    {
+      "id": 4,
+      "start": 61.7083,
+      "end": 108.459,
+      "duration": 46.7507,
+      "segment_ids": [
+        "seg_00218_36f31caa",
+        "seg_00222_58b99aa3",
+        "seg_00274_e907b5da",
+        "seg_00303_b083d5f6",
+        "seg_00320_0d92c381",
+        "seg_00373_d58498d9"
+      ],
+      "speaker": "牛牛",
+      "narration": "哎呀。他舔了一下，凉的，不好吃。第二个鸡蛋，他轻轻的。磕一下，掰开，咚！鸡蛋掉进碗里，还带进去三块小蛋壳。他用筷子捞，捞上来两块，最后一块特别滑，怎么也抓不住。牛牛觉得最后一块蛋壳太滑，怎么也抓不住，便小声说就算了，就当是秘密他把鸡蛋倒进锅里。黄色的蛋黄躺在锅底，像一个小太阳。牛牛盯着看了一分钟，又看了一分钟，小太阳一动不动。牛牛着急地问：",
+      "keywords": [],
+      "title": false,
+      "scene": "家里厨房",
+      "present": [
+        "牛牛"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）；牛牛独自站在浅木色圆形矮凳，只有小男孩小腿那么高，凳面直径约等于他张开手掌的宽度，上，面前是白色陶瓷小碗，敞口，直径约等于小男孩手掌张开时从拇指尖到小指尖的宽度，深度约到他食指第一指节，碗中盛着一枚椭圆形浅褐色土鸡蛋，大小只有小男孩握拳时拇指和食指围成的圈那么大，表面有细微颗粒感，蛋黄完整，但漂浮着三块细小蛋壳碎片；他正用筷子尖小心拨弄其中一块；灶台上放着黑色不粘平底煎锅，锅身直径约到小男孩膝盖，锅柄为红色塑料包裹，长度伸出锅沿约一臂长（即到他指尖），锅内空着；所有人物均穿着系列固定服装画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "L形浅灰橱柜配白色石英石台面，水槽在短边角落，灶台在长边一侧，上方有银色抽油烟机；地面为哑光灰白六角瓷砖；窗台摆着两盆薄荷，叶片油亮；左侧墙面挂有磁吸式刀架，右侧墙面贴着一个圆形红色开关面板（面板中心离地约1.2米，即到妈妈胸口、牛牛踮脚伸手可触）"
+    },
+    {
+      "id": 5,
+      "start": 108.4591,
+      "end": 161.2768,
+      "duration": 52.8177,
+      "segment_ids": [
+        "seg_00383_4fc4ea28",
+        "seg_00392_6162a348",
+        "seg_00452_04bdb81d",
+        "seg_00462_3f329172",
+        "seg_00513_5a1ccace",
+        "seg_00521_b22565f9",
+        "seg_00564_7816dba1"
+      ],
+      "speaker": "牛牛",
+      "narration": "你怎么还不熟呀？问完他才想起来，要开火！他踮起脚去够开关，拧了一下，咔咔咔，没着。再拧，还是没着。这时候，妈妈站在厨房门口问：牛牛，你在干什么？牛牛吓得差点从小板凳上掉下来。他把两只手藏到背后，可是手上全是蛋清，藏了也白藏。牛牛大声说：我什么都没干！妈妈看看锅，看看碗，看看地上的蛋壳，再看看牛牛。她没说话，走过来，握住了开关。妈妈告诉牛牛这个开关要先往下按再拧，小孩子不能自己操作",
+      "keywords": [],
+      "title": false,
+      "scene": "家里厨房",
+      "present": [
+        "牛牛",
+        "妈妈"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个妈妈；牛牛仍站在浅木色圆形矮凳，只有小男孩小腿那么高，凳面直径约等于他张开手掌的宽度，上，踮脚伸右手去拧灶台上方圆形红色开关面板（面板中心离地约1.2米，即到妈妈胸口、牛牛踮脚伸手可触），手指刚碰到旋钮；他左手藏在背后，指缝间还沾着透明蛋清；妈妈站在厨房门口，一手端着刚收下的小衣服，一手扶门框，表情温和又略带惊讶；灶台上黑色不粘平底煎锅内已倒入少量油，一枚椭圆形浅褐色土鸡蛋，大小只有小男孩握拳时拇指和食指围成的圈那么大，表面有细微颗粒感，正静静躺在锅底；所有人物均穿着系列固定服装【道具尺寸，必须与其它画面完全一致】碗：白色陶瓷小碗，敞口，直径约等于小男孩手掌张开时从拇指尖到小指尖的宽度，深度约到他食指第一指节；锅：黑色不粘平底煎锅，锅身直径约到小男孩膝盖，锅柄为红色塑料包裹，长度伸出锅沿约一臂长（即到他指尖）画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "L形浅灰橱柜配白色石英石台面，水槽在短边角落，灶台在长边一侧，上方有银色抽油烟机；地面为哑光灰白六角瓷砖；窗台摆着两盆薄荷，叶片油亮；左侧墙面挂有磁吸式刀架，右侧墙面贴着一个圆形红色开关面板（面板中心离地约1.2米，即到妈妈胸口、牛牛踮脚伸手可触）"
+    },
+    {
+      "id": 6,
+      "start": 161.2768,
+      "end": 223.6443,
+      "duration": 62.3675,
+      "segment_ids": [
+        "seg_00588_6b8ca1c5",
+        "seg_00631_063227c3",
+        "seg_00637_6bba80fc",
+        "seg_00695_bffab037",
+        "seg_00702_377d5366",
+        "seg_00727_d51b20de",
+        "seg_00736_164da5c7",
+        "seg_00758_8c2cb3e5",
+        "seg_00787_542b4848",
+        "seg_00822_9e946893",
+        "seg_00832_27c6e472"
+      ],
+      "speaker": "牛牛",
+      "narration": "火着了。蓝色的火苗舔着锅底，小太阳开始冒泡泡，边边变白了，翘起来了。牛牛喊：帮我翻面！妈妈拿铲子一翻，鸡蛋翻了个身，只破了一点点。盛到盘子里，妈妈咬了一口，慢慢嚼，嚼了好久。牛牛仰着头问：怎么样？妈妈从嘴里拿出那块小蛋壳，说她吃到一个秘密牛牛大声说：那是好运蛋壳！吃到的人，咳嗽马上就好！妈妈慢慢嚼完后说真的好了牛牛得意极了，背着手走出厨房，像一个大厨师。走到门口，他回头喊：明天我给你煎十个！妈妈手里的盘子差点掉下来。",
+      "keywords": [],
+      "title": false,
+      "scene": "家里厨房",
+      "present": [
+        "牛牛",
+        "妈妈"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个妈妈；牛牛站在浅木色圆形矮凳，只有小男孩小腿那么高，凳面直径约等于他张开手掌的宽度，上，仰头喊话，右手向前伸出指向灶台；妈妈左手握着硅胶头小铲，铲头宽约小男孩拇指宽度，整体长度到他手腕，正将一枚煎至微焦、边缘翘起的椭圆形浅褐色土鸡蛋，大小只有小男孩握拳时拇指和食指围成的圈那么大，表面有细微颗粒感，翻面；锅中蓝色火苗正舔着黑色不粘平底煎锅锅底，锅身直径约到小男孩膝盖，锅柄为红色塑料包裹，长度伸出锅沿约一臂长（即到他指尖）；旁边米白色圆盘，直径约到小男孩手肘，边缘略带浅蓝釉线，已盛好半枚煎蛋；所有人物均穿着系列固定服装【道具尺寸，必须与其它画面完全一致】锅：黑色不粘平底煎锅，锅身直径约到小男孩膝盖，锅柄为红色塑料包裹，长度伸出锅沿约一臂长（即到他指尖）画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "L形浅灰橱柜配白色石英石台面，水槽在短边角落，灶台在长边一侧，上方有银色抽油烟机；地面为哑光灰白六角瓷砖；窗台摆着两盆薄荷，叶片油亮；左侧墙面挂有磁吸式刀架，右侧墙面贴着一个圆形红色开关面板（面板中心离地约1.2米，即到妈妈胸口、牛牛踮脚伸手可触）"
+    }
+  ],
+  "style": "cartoon",
+  "audio_manifest": "D:\\new project\\output\\audio_story\\story_80774c3ef2.manifest.json",
+  "bgm": {
+    "mood": "warm"
+  },
+  "image_files": [
+    "D:\\new project\\output\\covers\\story_80774c3ef2_4dc947a2.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_01.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_02.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_03.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_04.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_05.png"
+  ],
+  "image_urls": [
+    "/media/covers/story_80774c3ef2_4dc947a2.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_01.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_02.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_03.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_04.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_05.png"
+  ],
+  "scene_bases": {
+    "家里客厅": "浅灰色布艺沙发靠墙摆放，左侧是原木色矮茶几（台面高度到牛牛腰部），右侧立着一盏米白布艺落地灯；地板为浅橡木色人字拼木地板；窗外可见半截绿植盆栽和模糊的楼宇轮廓；电视柜上放着一个银色金属小茶叶罐，只有小男孩手掌那么大，侧面光滑没有商标",
+    "家里厨房": "L形浅灰橱柜配白色石英石台面，水槽在短边角落，灶台在长边一侧，上方有银色抽油烟机；地面为哑光灰白六角瓷砖；窗台摆着两盆薄荷，叶片油亮；左侧墙面挂有磁吸式刀架，右侧墙面贴着一个圆形红色开关面板（面板中心离地约1.2米，即到妈妈胸口、牛牛踮脚伸手可触）"
+  },
+  "props": {
+    "小板凳": "浅木色圆形矮凳，只有小男孩小腿那么高，凳面直径约等于他张开手掌的宽度",
+    "冰箱": "白色双门家用电冰箱，高度到妈妈肩膀，牛牛站在小板凳上时，眼睛刚够到冷藏室最下层格子的底边",
+    "鸡蛋": "椭圆形浅褐色土鸡蛋，大小只有小男孩握拳时拇指和食指围成的圈那么大，表面有细微颗粒感",
+    "碗": "白色陶瓷小碗，敞口，直径约等于小男孩手掌张开时从拇指尖到小指尖的宽度，深度约到他食指第一指节",
+    "锅": "黑色不粘平底煎锅，锅身直径约到小男孩膝盖，锅柄为红色塑料包裹，长度伸出锅沿约一臂长（即到他指尖）",
+    "铲子": "硅胶头小铲，铲头宽约小男孩拇指宽度，整体长度到他手腕",
+    "盘子": "米白色圆盘，直径约到小男孩手肘，边缘略带浅蓝釉线"
+  },
+  "image_directed": true,
+  "base_image_files": [
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_00.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_01.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_02.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_03.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_04.png",
+    "D:\\new project\\output\\images\\studio_80774c3ef2_4dc947a2\\group_05.png"
+  ],
+  "base_image_urls": [
+    "/media/images/studio_80774c3ef2_4dc947a2/group_00.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_01.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_02.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_03.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_04.png",
+    "/media/images/studio_80774c3ef2_4dc947a2/group_05.png"
+  ],
+  "cover_file": "D:\\new project\\output\\covers\\story_80774c3ef2_4dc947a2.png",
+  "cover_template": "cartoon",
+  "cover_texts": {
+    "badge": "牛牛一家",
+    "subtitle": "家庭小故事"
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "kind": "audio_story",
+  "status": "draft",
+  "title": "牛牛的巨人梦",
+  "story_path": "stories/drafts/牛牛的巨人梦_音频母稿生成版.md",
+  "story_digest": "9c763e18bf7015355201a24978e413f0ea7fa1b6b965f32b7321b900505cbb03",
+  "facts_path": "stories/牛牛的巨人梦.facts.json",
+  "facts_digest": "6f38b616efe8dedcb4f21cc9f0b5ca2de675be30871a1cf89c10ee8669194de7",
+  "policy": {
+    "narrator_min_ratio": 0.68,
+    "narrator_max_ratio": 0.86,
+    "max_consecutive_dialogue": 2,
+    "dialogue_max_chars": 55,
+    "narrator_segment_max_chars": 85
+  },
+  "segments": [
+    {
+      "segment_id": "seg_00000_f5843e31",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛坐在餐桌前，把脸埋进粥碗里，小声说：",
+      "emotion": "narrate",
+      "source": {
+        "start": 0,
+        "end": 20
+      }
+    },
+    {
+      "segment_id": "seg_00021_6fdcebba",
+      "type": "dialogue",
+      "speaker": "牛牛",
+      "text": "大人真好。不用早睡，也不用上幼儿园。",
+      "emotion": "neutral",
+      "source": {
+        "start": 21,
+        "end": 39
+      }
+    },
+    {
+      "segment_id": "seg_00040_91a932d4",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛的妈妈把面包推过来，笑着说：",
+      "emotion": "narrate",
+      "source": {
+        "start": 40,
+        "end": 56
+      }
+    },
+    {
+      "segment_id": "seg_00057_66caa696",
+      "type": "dialogue",
+      "speaker": "妈妈",
+      "text": "快吃快吃，等会儿要迟到了。",
+      "emotion": "neutral",
+      "source": {
+        "start": 57,
+        "end": 70
+      }
+    },
+    {
+      "segment_id": "seg_00071_1947610a",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛一边啃面包一边想：要是能一下子长得比楼房还高，那该多好啊。那天晚上，牛牛躺在床上翻了个身，迷迷糊糊地，眼前的墙壁忽然晃了一下，接着四周全变了样。",
+      "emotion": "narrate",
+      "source": {
+        "start": 71,
+        "end": 146
+      }
+    },
+    {
+      "segment_id": "seg_00146_cf1ca095",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛低头一看，哎呀，路边的房子又矮又小，屋顶刚够到他的膝盖。他正张着嘴巴东张西望，脚边传来一个细细的声音。",
+      "emotion": "narrate",
+      "source": {
+        "start": 146,
+        "end": 199
+      }
+    },
+    {
+      "segment_id": "seg_00199_1e885ded",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛赶紧蹲下来，看见一个小人站在他的脚趾头旁边——小人和他的脚趾头差不多高，穿着小背带裤，正仰着头看他呢。",
+      "emotion": "narrate",
+      "source": {
+        "start": 199,
+        "end": 252
+      }
+    },
+    {
+      "segment_id": "seg_00252_554cae81",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "那个小人挥着手喊：",
+      "emotion": "narrate",
+      "source": {
+        "start": 252,
+        "end": 261
+      }
+    },
+    {
+      "segment_id": "seg_00262_2d8346e5",
+      "type": "dialogue",
+      "speaker": "梦梦",
+      "text": "哇，你比我们家的楼房还高！",
+      "emotion": "neutral",
+      "source": {
+        "start": 262,
+        "end": 275
+      }
+    },
+    {
+      "segment_id": "seg_00276_1ce3b897",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛蹲着，好奇地问：",
+      "emotion": "narrate",
+      "source": {
+        "start": 276,
+        "end": 287
+      }
+    },
+    {
+      "segment_id": "seg_00288_a77a0f53",
+      "type": "dialogue",
+      "speaker": "牛牛",
+      "text": "你这么小，今年几岁了？",
+      "emotion": "neutral",
+      "source": {
+        "start": 288,
+        "end": 299
+      }
+    },
+    {
+      "segment_id": "seg_00300_7d78c68c",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "没等小人回答，牛牛就咧开嘴说：",
+      "emotion": "narrate",
+      "source": {
+        "start": 300,
+        "end": 315
+      }
+    },
+    {
+      "segment_id": "seg_00316_adc12278",
+      "type": "dialogue",
+      "speaker": "牛牛",
+      "text": "你一定是刚出生的小宝宝吧。",
+      "emotion": "neutral",
+      "source": {
+        "start": 316,
+        "end": 329
+      }
+    },
+    {
+      "segment_id": "seg_00330_cae9ceda",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "小人气得直跺脚，喊：",
+      "emotion": "narrate",
+      "source": {
+        "start": 330,
+        "end": 340
+      }
+    },
+    {
+      "segment_id": "seg_00341_7d14569c",
+      "type": "dialogue",
+      "speaker": "梦梦",
+      "text": "你才刚出生呢！我叫梦梦，我已经五岁了！",
+      "emotion": "neutral",
+      "source": {
+        "start": 341,
+        "end": 360
+      }
+    },
+    {
+      "segment_id": "seg_00361_b82b9745",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛轻轻把手掌伸出去，让梦梦站上来。牛牛说：",
+      "emotion": "narrate",
+      "source": {
+        "start": 361,
+        "end": 383
+      }
+    },
+    {
+      "segment_id": "seg_00384_618667a5",
+      "type": "dialogue",
+      "speaker": "牛牛",
+      "text": "我今年也五岁呀。",
+      "emotion": "neutral",
+      "source": {
+        "start": 384,
+        "end": 392
+      }
+    },
+    {
+      "segment_id": "seg_00393_ba8bcb4e",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "梦梦摇着头，怎么也不肯信，大声叫：",
+      "emotion": "narrate",
+      "source": {
+        "start": 393,
+        "end": 410
+      }
+    },
+    {
+      "segment_id": "seg_00411_a871910d",
+      "type": "dialogue",
+      "speaker": "梦梦",
+      "text": "你比我爸爸还高，一定已经一百岁了！",
+      "emotion": "neutral",
+      "source": {
+        "start": 411,
+        "end": 428
+      }
+    },
+    {
+      "segment_id": "seg_00429_beb0e31d",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛正要解释，肚子忽然轰隆隆地响了起来。那声音震得梦梦捂住耳朵，急急地喊：",
+      "emotion": "narrate",
+      "source": {
+        "start": 429,
+        "end": 467
+      }
+    },
+    {
+      "segment_id": "seg_00468_dea68092",
+      "type": "dialogue",
+      "speaker": "梦梦",
+      "text": "打雷了打雷了，快跑呀！",
+      "emotion": "neutral",
+      "source": {
+        "start": 468,
+        "end": 479
+      }
+    },
+    {
+      "segment_id": "seg_00480_7b5022e5",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛红着脸，小声说：",
+      "emotion": "narrate",
+      "source": {
+        "start": 480,
+        "end": 490
+      }
+    },
+    {
+      "segment_id": "seg_00491_a46927dd",
+      "type": "dialogue",
+      "speaker": "牛牛",
+      "text": "不是打雷。是我的肚子在叫，我饿了。",
+      "emotion": "neutral",
+      "source": {
+        "start": 491,
+        "end": 508
+      }
+    },
+    {
+      "segment_id": "seg_00509_99e9ff99",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "梦梦听了，笑得整个人坐在牛牛的手掌上，好半天才站起来。梦梦说：",
+      "emotion": "narrate",
+      "source": {
+        "start": 509,
+        "end": 540
+      }
+    },
+    {
+      "segment_id": "seg_00541_390ce781",
+      "type": "dialogue",
+      "speaker": "梦梦",
+      "text": "走，我带你回家找吃的！",
+      "emotion": "neutral",
+      "source": {
+        "start": 541,
+        "end": 552
+      }
+    },
+    {
+      "segment_id": "seg_00553_5aba9aa1",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "于是牛牛跟着梦梦往前走。梦梦的家小小的，只有牛牛的鞋盒那么大，门口停的小汽车像一辆玩具车。",
+      "emotion": "narrate",
+      "source": {
+        "start": 553,
+        "end": 599
+      }
+    },
+    {
+      "segment_id": "seg_00599_9c56441e",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛没办法进门，只好趴在窗口朝里看。梦梦打开冰箱，搬出一个苹果，那个苹果像一粒黑芝麻。",
+      "emotion": "narrate",
+      "source": {
+        "start": 599,
+        "end": 642
+      }
+    },
+    {
+      "segment_id": "seg_00642_92c698de",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛一连吃了十个苹果，肚子还是咕噜噜地叫。梦梦又搬来牛奶盒，每个牛奶盒只有牛牛的半个指甲盖大。",
+      "emotion": "narrate",
+      "source": {
+        "start": 642,
+        "end": 689
+      }
+    },
+    {
+      "segment_id": "seg_00689_0bab360a",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛把十盒牛奶全喝完了，感觉嘴唇才沾到一点水。不一会儿，梦梦家的冰箱就空了。牛牛摸着肚子问：",
+      "emotion": "narrate",
+      "source": {
+        "start": 689,
+        "end": 735
+      }
+    },
+    {
+      "segment_id": "seg_00736_e13821cf",
+      "type": "dialogue",
+      "speaker": "牛牛",
+      "text": "还有吃的吗？",
+      "emotion": "neutral",
+      "source": {
+        "start": 736,
+        "end": 742
+      }
+    },
+    {
+      "segment_id": "seg_00743_72380bc4",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "梦梦想了想，回答：",
+      "emotion": "narrate",
+      "source": {
+        "start": 743,
+        "end": 752
+      }
+    },
+    {
+      "segment_id": "seg_00753_fb209a1b",
+      "type": "dialogue",
+      "speaker": "梦梦",
+      "text": "幼儿园的厨房里还有！",
+      "emotion": "neutral",
+      "source": {
+        "start": 753,
+        "end": 763
+      }
+    },
+    {
+      "segment_id": "seg_00764_7c87f6c6",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "他们赶紧跑到梦梦的幼儿园。操场上的秋千绳细得像头发，教室里的每一把小椅子都只有牛牛的指甲盖大。",
+      "emotion": "narrate",
+      "source": {
+        "start": 764,
+        "end": 812
+      }
+    },
+    {
+      "segment_id": "seg_00812_11c0d3ab",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛趴在厨房窗边，把里面的米饭、鸡腿和面条一口一口全吃光了。老师走进空荡荡的厨房，奇怪地看着锅子说：",
+      "emotion": "narrate",
+      "source": {
+        "start": 812,
+        "end": 862
+      }
+    },
+    {
+      "segment_id": "seg_00863_f1b9305a",
+      "type": "dialogue",
+      "speaker": "老师",
+      "text": "咦，今天的午饭怎么全不见了？",
+      "emotion": "neutral",
+      "source": {
+        "start": 863,
+        "end": 877
+      }
+    },
+    {
+      "segment_id": "seg_00878_95db588f",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛和梦梦你看看我，我看看你，一起笑出了声。就在这时，远处传来妈妈的声音，妈妈喊：",
+      "emotion": "narrate",
+      "source": {
+        "start": 878,
+        "end": 920
+      }
+    },
+    {
+      "segment_id": "seg_00921_198f6faa",
+      "type": "dialogue",
+      "speaker": "妈妈",
+      "text": "牛牛，快起床，要上幼儿园了！",
+      "emotion": "neutral",
+      "source": {
+        "start": 921,
+        "end": 935
+      }
+    },
+    {
+      "segment_id": "seg_00936_fe7b374d",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛睁开眼睛，天花板好好的，床也好好的，梦梦和小房子和小幼儿园都不见了。他摸摸自己的肚子，又低头看看自己的手。",
+      "emotion": "narrate",
+      "source": {
+        "start": 936,
+        "end": 992
+      }
+    },
+    {
+      "segment_id": "seg_00992_b378984c",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "牛牛扑进妈妈怀里喊：",
+      "emotion": "narrate",
+      "source": {
+        "start": 992,
+        "end": 1002
+      }
+    },
+    {
+      "segment_id": "seg_01003_c7058b6e",
+      "type": "dialogue",
+      "speaker": "牛牛",
+      "text": "妈妈，长太大吃不饱！我不想长那么大了！",
+      "emotion": "neutral",
+      "source": {
+        "start": 1003,
+        "end": 1022
+      }
+    },
+    {
+      "segment_id": "seg_01023_0ab1f4b1",
+      "type": "narrator",
+      "speaker": "旁白",
+      "text": "妈妈听完，哈哈哈地笑了。",
+      "emotion": "narrate",
+      "source": {
+        "start": 1023,
+        "end": 1035
+      }
+    }
+  ],
+  "approval": null,
+  "qa": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "metrics": {
+      "segments": 41,
+      "narrator_segments": 25,
+      "dialogue_segments": 16,
+      "narrator_chars": 782,
+      "dialogue_chars": 214,
+      "narrator_ratio": 0.7851,
+      "max_consecutive_dialogue": 1
+    }
+  }
+}

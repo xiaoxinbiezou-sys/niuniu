@@ -1,0 +1,270 @@
+{
+  "title": "小蓝鱼带我去月球",
+  "style": "watercolor",
+  "story_id": "little-blue-fish-to-the-moon",
+  "bgm": {
+    "mood": "warm",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "旁白",
+      "narration": "牛牛在河边玩，看见小蓝鱼被水草缠住了，尾巴直扑腾。",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛蹲在河边，伸手轻轻解开缠住发着蓝色亮光的小蓝鱼的水草，河面闪着阳光，岸边青草，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "小蓝鱼",
+        "水草"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 2,
+      "speaker": "小蓝鱼",
+      "narration": "谢谢你！我带你飞吧！",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛被一串亮晶晶的泡泡托起来，飞离河面，发着蓝色亮光的小蓝鱼在旁边吐泡泡，天空白云朵朵，竖构图",
+      "camera": {
+        "move": "pan_up",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [
+        "bubbles",
+        "clouds_drift"
+      ],
+      "keywords": [
+        "泡泡",
+        "飞"
+      ],
+      "sfx": [
+        {
+          "name": "magic",
+          "at": 1,
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "speaker": "旁白",
+      "narration": "泡泡托着牛牛飞过高楼，飞过云朵，落在月球上。",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛乘着泡泡飞过城市高楼和云朵，发着蓝色亮光的小蓝鱼在前面带路，远处出现灰色月球，竖构图",
+      "camera": {
+        "move": "pan_right",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "clouds_drift"
+      ],
+      "keywords": [
+        "高楼",
+        "月球"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 4,
+      "speaker": "牛牛",
+      "narration": "咦，月球上没有空气，为什么天是黑的呀？",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛站在静悄悄的月球上，抬头望黑漆漆的天空，发着蓝色亮光的小蓝鱼飘在身边，背景是巨大的蓝色地球，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "黑天",
+        "空气"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 1,
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "speaker": "小蓝鱼",
+      "narration": "阳光照在空气上，天空才会变蓝；月球上没有空气，天当然就是黑的啦。",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛歪着头听讲，发着蓝色亮光的小蓝鱼用尾巴指着空荡荡的黑色天空，月球表面坑坑洼洼，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "阳光",
+        "空气"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 6,
+      "speaker": "旁白",
+      "narration": "牛牛仰头一看，星星一颗颗挂在天上，像亮晶晶的糖豆。",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛仰头看天上亮晶晶的星星，像一颗颗糖豆，发着蓝色亮光的小蓝鱼在旁边，背景是深邃的星空，竖构图",
+      "camera": {
+        "move": "pan_up",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "星星",
+        "糖豆"
+      ],
+      "sfx": [
+        {
+          "name": "twinkle",
+          "at": 2,
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "speaker": "牛牛",
+      "narration": "呜呜，我不喜欢月球！天一直黑，我是不是要一直睡觉不能玩了？",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛坐在月球上抹眼泪，发着蓝色亮光的小蓝鱼围着他，头顶黑黑的天空挂满星星，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.12
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "不喜欢",
+        "睡觉"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 8,
+      "speaker": "小蓝鱼",
+      "narration": "傻瓜，月球是黑的，可地球上还是白天呀！回去还能玩一下午呢！",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛低头望向远处蓝汪汪的地球，地球亮着温柔的光，发着蓝色亮光的小蓝鱼在旁边微笑，月球表面宁静，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "地球",
+        "白天"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 1,
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "speaker": "旁白",
+      "narration": "泡泡又托着牛牛飞回河边，太阳还挂在天上，牛牛高高兴兴去拼积木。",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛乘着泡泡从天空落回河边的小院，阳光明亮，发着蓝色亮光的小蓝鱼在河面上摆尾巴，一旁积木堆在桌上，竖构图",
+      "camera": {
+        "move": "pan_down",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "bubbles",
+        "light_rays"
+      ],
+      "keywords": [
+        "回到河边",
+        "拼积木"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 10,
+      "speaker": "妈妈",
+      "narration": "天黑了，要睡觉啦！",
+      "image_prompt": "水彩画风格，夜晚的儿童房，戴黄色遮阳帽的男孩牛牛躺在小床上，妈妈站在门口喊他睡觉，窗台上小瓶里的发着蓝色亮光的小蓝鱼发出微光，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "天黑了",
+        "睡觉"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 11,
+      "speaker": "牛牛",
+      "narration": "明天，我们再去月球看星星吧！",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛乖乖躺在被窝里，侧头望着窗台上的发着蓝色亮光的小蓝鱼，月光和星星透过窗户洒进来，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "明天",
+        "月球看星星"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 12,
+      "speaker": "旁白",
+      "narration": "小蓝鱼吐了个泡泡，泡泡里藏着一颗小星星。",
+      "image_prompt": "水彩画风格，戴黄色遮阳帽的男孩牛牛在窗边笑着看，发着蓝色亮光的小蓝鱼吐出一颗大泡泡，泡泡里藏着一颗小星星，夜色温柔，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.15
+      },
+      "effects": [
+        "bubbles",
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "小星星",
+        "泡泡"
+      ],
+      "sfx": [
+        {
+          "name": "magic",
+          "at": 1,
+          "vol": 0.4
+        }
+      ]
+    }
+  ]
+}

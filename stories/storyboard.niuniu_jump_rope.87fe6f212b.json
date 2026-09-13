@@ -1,0 +1,883 @@
+{
+  "title": "牛牛的跳绳不服气",
+  "style": "watercolor",
+  "story_id": "niuniu_jump_rope",
+  "bgm": {
+    "mood": "warm",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "旁白",
+      "character": "添添",
+      "costume": "",
+      "narration": "姐姐添添放学回家，手里举着一张奖状，蹦蹦跳跳地喊",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩一手高高举着一张奖状，另一只手还拎着小书包，正从门口跑进客厅",
+      "camera": {
+        "move": "pan_right",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "奖状"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 2,
+      "speaker": "添添",
+      "character": "添添",
+      "costume": "",
+      "narration": "妈妈快看！我跳绳得了第一名！",
+      "emotion": "excited",
+      "image_prompt": "图中的这个小女孩踮着脚尖、仰着小脸，把奖状朝向沙发方向",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "第一名"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0.3,
+          "vol": 0.6
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "speaker": "旁白",
+      "character": "妈妈",
+      "costume": "",
+      "narration": "妈妈接过奖状，笑眯眯地。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个妈妈微微弯腰，伸手接过奖状，眼睛弯成月牙",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "笑眯眯"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 4,
+      "speaker": "妈妈",
+      "character": "妈妈",
+      "costume": "",
+      "narration": "添添真棒！",
+      "emotion": "happy",
+      "image_prompt": "图中的这个妈妈把奖状轻轻贴在胸口，对着添添竖起大拇指",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "真棒"
+      ],
+      "sfx": [
+        {
+          "name": "applause",
+          "at": 0.2,
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛在旁边一听，小嘴一撅",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩站在沙发边，双手叉腰，嘴巴向上噘得高高的",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "噘嘴"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 6,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "我更厉害！",
+      "emotion": "proud",
+      "image_prompt": "图中的这个小男孩挺起小胸脯，一只小手拍了拍自己的胸口",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "更厉害"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 7,
+      "speaker": "旁白",
+      "character": "添添",
+      "costume": "",
+      "narration": "添添。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩转过身，歪着头看着牛牛，一只手还捏着红色跳绳把手",
+      "camera": {
+        "move": "pan_left",
+        "start_scale": 1.0,
+        "end_scale": 1.03
+      },
+      "effects": [],
+      "keywords": [
+        "跳绳"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 8,
+      "speaker": "添添",
+      "character": "添添",
+      "costume": "",
+      "narration": "我能跳100个！",
+      "emotion": "proud",
+      "image_prompt": "图中的这个小女孩伸出两只手，十指张开，比出‘一百’的样子",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "100个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 9,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛挺起小胸脯",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩吸了一口气，肩膀往上耸，胸口往前顶",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "小胸脯"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 10,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "我能跳10个！",
+      "emotion": "proud",
+      "image_prompt": "图中的这个小男孩举起一只手，伸出食指和中指，比出‘10’的手势",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "10个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 11,
+      "speaker": "旁白",
+      "character": "全家",
+      "costume": "",
+      "narration": "大家都笑了",
+      "emotion": "narrate",
+      "image_prompt": "图中的这一家人围在客厅里，妈妈捂嘴笑，爸爸肩膀抖动，添添咯咯笑，牛牛一脸不服气",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "bubbles"
+      ],
+      "keywords": [
+        "笑"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0.1,
+          "vol": 0.7
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "speaker": "旁白",
+      "character": "爸爸",
+      "costume": "",
+      "narration": "爸爸。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个爸爸蹲下来，平视牛牛，一手搭在膝盖上",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "爸爸"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 13,
+      "speaker": "爸爸",
+      "character": "爸爸",
+      "costume": "",
+      "narration": "10比100少哦。",
+      "emotion": "gentle",
+      "image_prompt": "图中的这个爸爸伸出左手比出‘10’，右手摊开比出‘100’，动作慢而清楚",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "少哦"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 14,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛不服气，脸红红的",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩脸蛋鼓鼓的，眉毛皱着，小拳头攥紧",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "不服气"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 15,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "那我跳150个！",
+      "emotion": "brave",
+      "image_prompt": "图中的这个小男孩踮起脚尖，双臂张开像要起飞一样",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "150个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 16,
+      "speaker": "旁白",
+      "character": "添添",
+      "costume": "",
+      "narration": "添添也喊",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩双脚一跳，双手举高，眼睛亮晶晶的",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "也喊"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 17,
+      "speaker": "添添",
+      "character": "添添",
+      "costume": "",
+      "narration": "那我跳200个！",
+      "emotion": "excited",
+      "image_prompt": "图中的这个小女孩两手比出两个‘100’，手指张开又合拢",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "200个"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 18,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "两人咚咚咚跑下楼去比赛",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩和这个小女孩并排冲向楼梯口，小书包在背后一颠一颠",
+      "camera": {
+        "move": "pan_down",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [
+        "falling_leaves"
+      ],
+      "keywords": [
+        "咚咚咚"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0.2,
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛刚跳一下，跳绳就缠在脚上了",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩单脚站着，另一只脚被蓝色跳绳一圈圈绕住，身体晃来晃去",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "缠住了"
+      ],
+      "sfx": [
+        {
+          "name": "twinkle",
+          "at": 0.4,
+          "vol": 0.3
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "speaker": "旁白",
+      "character": "添添",
+      "costume": "",
+      "narration": "添添哈哈大笑",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩扶着膝盖弯下腰，笑得头发都甩起来了",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "哈哈"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0.1,
+          "vol": 0.8
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛气鼓鼓的",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩跺着脚，小脸涨得通红，一只手扯了扯蓝色跳绳",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "气鼓鼓"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 22,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "肯定是跳绳颜色不对！我的是蓝色，你的是红色！",
+      "emotion": "angry",
+      "image_prompt": "图中的这个小男孩把蓝色跳绳甩到地上，又指着添添手里的红色跳绳",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "颜色不对"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 23,
+      "speaker": "旁白",
+      "character": "添添",
+      "costume": "",
+      "narration": "添添把红色跳绳换给他",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩蹲下来，把红色跳绳塞进牛牛手里，自己捡起蓝色跳绳",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "换跳绳"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 24,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛跳了一个，第二个又绊倒了",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩刚跳起半尺高，红色跳绳又勾住脚踝，他一屁股坐在地上",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "绊倒了"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0.3,
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛却高兴地喊",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩坐在地上，但咧着嘴笑，两只小手举着红色跳绳",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "高兴"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 26,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "你看！红色的跳绳比较听话，蓝色不听话！",
+      "emotion": "triumph",
+      "image_prompt": "图中的这个小男孩把红色跳绳在手上绕一圈，又拍拍它，再指指地上的蓝色跳绳",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "听话"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 27,
+      "speaker": "旁白",
+      "character": "添添",
+      "costume": "",
+      "narration": "添添‘切’了一声",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩歪着嘴，小手一挥，做了个‘切’的手势",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "切"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 28,
+      "speaker": "添添",
+      "character": "添添",
+      "costume": "",
+      "narration": "现在还不太会，多练几次就会啦！",
+      "emotion": "gentle",
+      "image_prompt": "图中的这个小女孩蹲下来，轻轻拍拍牛牛的肩膀，眼睛弯弯的",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "多练"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 29,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛大声。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩从地上一骨碌爬起来，叉着腰仰起小脸",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "大声"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 30,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "我明天就超过你了！",
+      "emotion": "brave",
+      "image_prompt": "图中的这个小男孩举起右手，小拳头握得紧紧的，对着天空用力挥了一下",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "超过"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 31,
+      "speaker": "旁白",
+      "character": "妈妈",
+      "costume": "",
+      "narration": "妈妈听了，夸他",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个妈妈站在楼梯口，微笑着朝楼下招手",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "夸"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 32,
+      "speaker": "妈妈",
+      "character": "妈妈",
+      "costume": "",
+      "narration": "牛牛真棒！",
+      "emotion": "happy",
+      "image_prompt": "图中的这个妈妈竖起两个大拇指，朝着楼下大声喊",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "真棒"
+      ],
+      "sfx": [
+        {
+          "name": "applause",
+          "at": 0.2,
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛一直在楼下练跳绳，天黑了才回家",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩在小区空地上反复跳绳，夕阳把影子拉得长长的，他满头是汗",
+      "camera": {
+        "move": "pan_up",
+        "start_scale": 1.0,
+        "end_scale": 1.03
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "练跳绳"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 34,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "第二天早上，他刚下床就‘哎哟’一声，腿好疼，路都走不了啦！",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩光着脚站在床边，一只手扶着墙，另一只手揉着小腿，小嘴瘪着",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "哎哟"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0.2,
+          "vol": 0.6
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "有妖怪在梦里扯我的腿，疼死啦！",
+      "emotion": "scared",
+      "image_prompt": "图中的这个小男孩一屁股坐回床上，两只手死死抱住小腿，眼睛睁得圆圆的",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "妖怪"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 36,
+      "speaker": "旁白",
+      "character": "爸爸",
+      "costume": "",
+      "narration": "爸爸笑着抱起他",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个爸爸弯腰把牛牛轻轻抱起来，牛牛的小腿还悬在空中",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "抱起"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 37,
+      "speaker": "爸爸",
+      "character": "爸爸",
+      "costume": "",
+      "narration": "不是妖怪，这是跳太多啦，腿里的小力气用光了，肌肉就发酸发疼，别怕，休息两天就有力气啦！",
+      "emotion": "gentle",
+      "image_prompt": "图中的这个爸爸抱着牛牛坐在沙发上，一只手轻轻揉着他的小腿",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "小力气"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 38,
+      "speaker": "旁白",
+      "character": "妈妈",
+      "costume": "",
+      "narration": "妈妈问",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个妈妈端着一杯温水走近沙发，微微歪头看着牛牛",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.08
+      },
+      "effects": [],
+      "keywords": [
+        "问"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 39,
+      "speaker": "妈妈",
+      "character": "妈妈",
+      "costume": "",
+      "narration": "今天还要练吗？",
+      "emotion": "gentle",
+      "image_prompt": "图中的这个妈妈把水杯递给牛牛，眼睛温柔地看着他",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "还要练"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 40,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "牛牛赶紧摇头",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩飞快地左右摆头，小手还把水杯推远了一点",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "摇头"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 41,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "costume": "",
+      "narration": "我不跳绳了！跳绳腿会断好几天呢！",
+      "emotion": "scared",
+      "image_prompt": "图中的这个小男孩把水杯放在一边，两只手紧紧抱住自己的小腿，身子往爸爸怀里缩",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "不跳了"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 42,
+      "speaker": "旁白",
+      "character": "全家",
+      "costume": "",
+      "narration": "大家都笑了",
+      "emotion": "narrate",
+      "image_prompt": "图中的这一家人挤在沙发上，爸爸抱着牛牛，妈妈笑着摸他额头，添添趴在沙发背上咯咯笑",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "bubbles"
+      ],
+      "keywords": [
+        "笑"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0.1,
+          "vol": 0.8
+        }
+      ]
+    }
+  ]
+}

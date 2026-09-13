@@ -1,0 +1,609 @@
+{
+  "title": "横行小怪兽",
+  "style": "cartoon",
+  "story_id": "hengxing-xiao-guaishou",
+  "bgm": {
+    "mood": "happy",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "旁白",
+      "character": "爸爸",
+      "narration": "爸爸下班回来，带了两只大螃蟹。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个爸爸提着两只大螃蟹走进家门，客厅里暖暖的灯光照着。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "爸爸",
+        "螃蟹"
+      ],
+      "sfx": [],
+      "costume": ""
+    },
+    {
+      "id": 2,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "narration": "牛牛一看见那对大钳子，“嗷”地躲到添添身后。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩看到螃蟹的大钳子，吓得躲到图中的这个小女孩身后，两只手抓住她的衣角。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "大钳子",
+        "躲"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0.3,
+          "vol": 0.4
+        }
+      ],
+      "costume": ""
+    },
+    {
+      "id": 3,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "narration": "怪物！有长着大剪刀的怪物！",
+      "emotion": "scared",
+      "image_prompt": "图中的这个小男孩躲在图中的这个小女孩身后，探出半个脑袋，指着地上的螃蟹大喊。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.05,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "怪物",
+        "大剪刀"
+      ],
+      "sfx": [],
+      "costume": ""
+    },
+    {
+      "id": 4,
+      "speaker": "旁白",
+      "character": "添添",
+      "narration": "添添看着缩在身后的弟弟，伸手拍了拍他。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩站在图中的这个小男孩身前，回头看着他，伸手拍了拍他的肩膀。",
+      "camera": {
+        "move": "pan_left",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "拍拍",
+        "别怕"
+      ],
+      "sfx": [],
+      "costume": ""
+    },
+    {
+      "id": 5,
+      "speaker": "添添",
+      "character": "添添",
+      "narration": "别怕，穿上你的奥特曼战衣！",
+      "emotion": "brave",
+      "image_prompt": "图中的这个小女孩指着房间里，对身后的弟弟说话，像是在给他打气。",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "奥特曼",
+        "战衣"
+      ],
+      "sfx": [],
+      "costume": ""
+    },
+    {
+      "id": 6,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "narration": "牛牛立刻裹上战衣，举起宝剑冲了出来。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩裹上一件战衣，双手举着宝剑，从房间里冲到客厅，站到螃蟹面前。",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "战衣",
+        "宝剑"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 7,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "narration": "螃蟹怪兽，我是奥特曼！",
+      "emotion": "excited",
+      "image_prompt": "参考图中的这个小男孩穿上了一套银红色相间的英雄战衣，戴着头盔，手持一把宝剑，摆出神气的战斗姿势，指着地上的一只大螃蟹，螃蟹举起两只大钳子。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "奥特曼",
+        "怪兽"
+      ],
+      "sfx": [
+        {
+          "name": "magic",
+          "at": 0.5,
+          "vol": 0.4
+        }
+      ],
+      "costume": "armor"
+    },
+    {
+      "id": 8,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "narration": "他往螃蟹壳上一敲，“当当”两下，硬邦邦的。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩用宝剑敲了敲螃蟹壳，螃蟹一动不动，硬邦邦地立在那里。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.05,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "当当",
+        "硬邦邦"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0.5,
+          "vol": 0.5
+        }
+      ],
+      "costume": "armor"
+    },
+    {
+      "id": 9,
+      "speaker": "旁白",
+      "character": "爸爸",
+      "narration": "爸爸赶紧拦住他，摆摆手。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个爸爸伸出手拦住图中的这个小男孩，另一只手轻轻摆了摆。",
+      "camera": {
+        "move": "pan_left",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "拦住",
+        "别敲"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 10,
+      "speaker": "爸爸",
+      "character": "爸爸",
+      "narration": "别敲啦，螃蟹死了就有毒，不好吃啦。",
+      "emotion": "gentle",
+      "image_prompt": "图中的这个爸爸弯下腰，对着图中的这个小男孩说话，一只手按住了他的胳膊。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "有毒",
+        "不好吃"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 11,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "narration": "牛牛放下宝剑，歪头看着爸爸。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩把宝剑抱在怀里，歪着头望着图中的这个爸爸，露出不明白的表情。",
+      "camera": {
+        "move": "pan_right",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "歪头",
+        "为什么"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 12,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "narration": "那蒸熟了不也死了吗？",
+      "emotion": "question",
+      "image_prompt": "图中的这个小男孩歪着头，用宝剑指了指桌上捆着的螃蟹，看向爸爸。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "蒸熟",
+        "死"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 13,
+      "speaker": "旁白",
+      "character": "爸爸",
+      "narration": "爸爸蹲下来，指了指厨房里的蒸锅。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个爸爸蹲在图中这个小男孩身旁，伸手指向厨房里的蒸锅。",
+      "camera": {
+        "move": "pan_down",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "蒸锅",
+        "解释"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 14,
+      "speaker": "爸爸",
+      "character": "爸爸",
+      "narration": "蒸熟的螃蟹没有毒，可以放心吃！",
+      "emotion": "gentle",
+      "image_prompt": "图中的这个爸爸指着蒸锅，对图中的这个小男孩点了点头，竖起食指。",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [
+        "bubbles"
+      ],
+      "keywords": [
+        "热水",
+        "安全"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 15,
+      "speaker": "旁白",
+      "character": "爸爸",
+      "narration": "爸爸又竖起一根手指。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个爸爸蹲着，又竖起一根手指，表情认真地看着图中的这个小男孩。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "一根手指",
+        "听好"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 16,
+      "speaker": "爸爸",
+      "character": "爸爸",
+      "narration": "不过，自己死掉的螃蟹可不能吃哦。",
+      "emotion": "gentle",
+      "image_prompt": "图中的这个爸爸摇摇手指，对图中的这个小男孩摇摇头。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "死很久",
+        "变毒"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 17,
+      "speaker": "旁白",
+      "character": "妈妈",
+      "narration": "妈妈端出一盘红彤彤的大螃蟹。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个妈妈从厨房端出一盘红彤彤的大螃蟹，轻轻放在餐桌上。",
+      "camera": {
+        "move": "pan_right",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "红彤彤",
+        "大螃蟹"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 18,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "narration": "牛牛缩在椅子后，不敢看。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩缩在椅子后面，双手捂住眼睛，不敢看桌上的螃蟹。",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "缩起来",
+        "不敢看"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 19,
+      "speaker": "旁白",
+      "character": "添添",
+      "narration": "添添先咬了一口，眼睛一下子亮了。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩用筷子夹起一块蟹肉，放进嘴里嚼了嚼，眼睛亮晶晶的。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "先吃",
+        "亮了"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 20,
+      "speaker": "添添",
+      "character": "添添",
+      "narration": "哇，又鲜又甜！",
+      "emotion": "happy",
+      "image_prompt": "图中的这个小女孩举着筷子，开心地对桌上的螃蟹比了一个大拇指。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "又鲜又甜"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 21,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "narration": "牛牛咽咽口水，踮脚尝了一口，立刻笑出小梨涡。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩咽了咽口水，踮起脚，伸手拿了一小块蟹肉放进嘴里，嘴角弯弯地笑起来。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "咽口水",
+        "小梨涡"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 22,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "narration": "我还要！",
+      "emotion": "excited",
+      "image_prompt": "图中的这个小男孩鼓着腮帮子，开心地指着桌上的盘子喊。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "我还要"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 23,
+      "speaker": "旁白",
+      "character": "添添",
+      "narration": "添添凑过来，笑嘻嘻地看着牛牛。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小女孩凑近图中的这个小男孩，笑眯眯地看着他，像在逗他玩。",
+      "camera": {
+        "move": "pan_left",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "逗他",
+        "笑嘻嘻"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 24,
+      "speaker": "添添",
+      "character": "添添",
+      "narration": "明天还追螃蟹吗？",
+      "emotion": "laugh",
+      "image_prompt": "图中的这个小女孩歪着头，看着正在吃螃蟹的弟弟，表情带着一点捉弄。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "明天",
+        "追螃蟹"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 25,
+      "speaker": "旁白",
+      "character": "牛牛",
+      "narration": "牛牛嘴里塞满蟹肉，鼓着腮帮子喊。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这个小男孩嘴里塞着蟹肉，腮帮子鼓鼓的，举起手里的蟹壳，高声喊。",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "塞满蟹肉",
+        "鼓着腮帮子"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 26,
+      "speaker": "牛牛",
+      "character": "牛牛",
+      "narration": "不打了！我要当吃螃蟹的奥特曼！",
+      "emotion": "triumph",
+      "image_prompt": "图中的这个小男孩举着蟹腿，挺起胸膛，像个小奥特曼一样宣布。",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "不打了",
+        "吃螃蟹的奥特曼"
+      ],
+      "sfx": [],
+      "costume": "armor"
+    },
+    {
+      "id": 27,
+      "speaker": "旁白",
+      "character": "全家",
+      "narration": "全家都笑了。",
+      "emotion": "narrate",
+      "image_prompt": "图中的这一家人围在餐桌旁，爸爸妈妈和添添都看着牛牛，大家笑成一团。",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "全家笑"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0.5,
+          "vol": 0.6
+        }
+      ],
+      "costume": "armor"
+    }
+  ],
+  "scene_groups": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6,
+    7,
+    7,
+    7,
+    8,
+    8,
+    9,
+    9,
+    10,
+    10,
+    10,
+    11,
+    11,
+    11
+  ]
+}

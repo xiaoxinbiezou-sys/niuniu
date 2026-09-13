@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "kind": "visual_plan",
+  "title": "铁罐里的草莓种子",
+  "story_id": "铁罐里的草莓种子",
+  "audio_script_digest": "edf24a82001da8f3e2347bc524493c59421711468f8d1ec2d75e7a0d36f223ed",
+  "audio_file": "D:\\new project\\output\\audio_story\\story_134baff1e8_情绪版.mp3",
+  "image_count": 6,
+  "max_images": 6,
+  "audio_segments": [
+    {
+      "scene_id": 1,
+      "segment_id": "title",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "铁罐里的草莓种子",
+      "start": 0.0,
+      "duration": 2.9031,
+      "visual_duration": 3.7031,
+      "title": true
+    },
+    {
+      "scene_id": 2,
+      "segment_id": "seg_00000_e1373049",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛今年五岁。一天早上，爸爸送给他一个小铁罐，神秘地说：",
+      "start": 3.7031,
+      "duration": 7.4339,
+      "visual_duration": 7.7339,
+      "title": false
+    },
+    {
+      "scene_id": 3,
+      "segment_id": "seg_00029_73d6db9a",
+      "speaker": "爸爸",
+      "type": "dialogue",
+      "text": "这里面有草莓种子，你好好照顾它，就能长出红红的草莓！",
+      "start": 11.4369,
+      "duration": 5.0353,
+      "visual_duration": 5.3353,
+      "title": false
+    },
+    {
+      "scene_id": 4,
+      "segment_id": "seg_00056_1757e3f0",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛高兴极了。他把铁罐放在窗台上，每天早上一睁眼，第一件事就是给铁罐浇水。一天过去了，没有发芽。",
+      "start": 16.7722,
+      "duration": 12.9725,
+      "visual_duration": 13.2725,
+      "title": false
+    },
+    {
+      "scene_id": 5,
+      "segment_id": "seg_00106_f031a74b",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "三天过去了，还是没有发芽。到了第七天，牛牛急得围着铁罐转了八圈，嘴里念叨：",
+      "start": 30.0447,
+      "duration": 9.5975,
+      "visual_duration": 9.8975,
+      "title": false
+    },
+    {
+      "scene_id": 6,
+      "segment_id": "seg_00144_a4838fa8",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "小种子，小种子，你是不是睡过头啦？",
+      "start": 39.9422,
+      "duration": 3.6375,
+      "visual_duration": 3.9375,
+      "title": false
+    },
+    {
+      "scene_id": 7,
+      "segment_id": "seg_00162_40889aad",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "爸爸走过来，打开铁罐一看，愣住了——里面只有泥土，别的什么都没有！爸爸挠挠头，不好意思地笑了：",
+      "start": 43.8797,
+      "duration": 10.9368,
+      "visual_duration": 11.2368,
+      "title": false
+    },
+    {
+      "scene_id": 8,
+      "segment_id": "seg_00212_af7240e9",
+      "speaker": "爸爸",
+      "type": "dialogue",
+      "text": "哎呀，爸爸忘记把种子放进去啦！",
+      "start": 55.1166,
+      "duration": 2.5964,
+      "visual_duration": 2.8964,
+      "title": false
+    },
+    {
+      "scene_id": 9,
+      "segment_id": "seg_00228_fd89bac0",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛瞪大眼睛，然后咯咯咯地笑起来：",
+      "start": 58.013,
+      "duration": 4.416,
+      "visual_duration": 4.716,
+      "title": false
+    },
+    {
+      "scene_id": 10,
+      "segment_id": "seg_00248_957dfa6a",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "原来我这一个星期，一直在给泥土浇水呀！",
+      "start": 62.729,
+      "duration": 3.302,
+      "visual_duration": 3.602,
+      "title": false
+    },
+    {
+      "scene_id": 11,
+      "segment_id": "seg_00268_3ec3c528",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "父子俩笑成一团。第二天，爸爸真的买来了草莓种子。牛牛亲手把种子埋进土里，轻轻浇上水。这一次，他等呀等，过了几天，土里真的钻出了两瓣嫩嫩的小绿芽。",
+      "start": 66.331,
+      "duration": 18.9071,
+      "visual_duration": 19.2071,
+      "title": false
+    },
+    {
+      "scene_id": 12,
+      "segment_id": "seg_00342_12e0f1d2",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛拍着手喊：",
+      "start": 85.5382,
+      "duration": 1.9642,
+      "visual_duration": 2.2642,
+      "title": false
+    },
+    {
+      "scene_id": 13,
+      "segment_id": "seg_00352_7a220c62",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "发芽啦！发芽啦！这次的种子睡醒啦！",
+      "start": 87.8024,
+      "duration": 3.4104,
+      "visual_duration": 6.4204,
+      "title": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 3.7031,
+      "duration": 3.7031,
+      "segment_ids": [
+        "title"
+      ],
+      "speaker": "牛牛",
+      "narration": "铁罐里的草莓种子",
+      "keywords": [],
+      "title": true,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添",
+        "爸爸",
+        "妈妈"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "儿童家庭故事画面，场景是家里客厅。图中只出现牛牛、添添、爸爸、妈妈。表现这一连续动作阶段：铁罐里的草莓种子。人物、家具和日常物品保持现实且统一的尺寸关系。同一人物服装和同一道具外观与前后画面一致。9:16竖版，无字幕，无水印"
+    },
+    {
+      "id": 2,
+      "start": 3.7031,
+      "end": 30.0447,
+      "duration": 26.3416,
+      "segment_ids": [
+        "seg_00000_e1373049",
+        "seg_00029_73d6db9a",
+        "seg_00056_1757e3f0"
+      ],
+      "speaker": "爸爸",
+      "narration": "牛牛今年五岁。一天早上，爸爸送给他一个小铁罐，神秘地说：这里面有草莓种子，你好好照顾它，就能长出红红的草莓！牛牛高兴极了。他把铁罐放在窗台上，每天早上一睁眼，第一件事就是给铁罐浇水。一天过去了，没有发芽。",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "character": "爸爸",
+      "costume": "",
+      "image_prompt": "儿童家庭故事画面，场景是家里客厅。图中只出现牛牛、爸爸。表现这一连续动作阶段：牛牛今年五岁。一天早上，爸爸送给他一个小铁罐，神秘地说：这里面有草莓种子，你好好照顾它，就能长出红红的草莓！牛牛高兴极了。他把铁罐放在窗台上，每天早上一睁眼，第一件事就是给铁罐浇水。一天过去了，没有发芽。。人物、家具和日常物品保持现实且统一的尺寸关系。同一人物服装和同一道具外观与前后画面一致。9:16竖版，无字幕，无水印"
+    },
+    {
+      "id": 3,
+      "start": 30.0447,
+      "end": 43.8797,
+      "duration": 13.835,
+      "segment_ids": [
+        "seg_00106_f031a74b",
+        "seg_00144_a4838fa8"
+      ],
+      "speaker": "牛牛",
+      "narration": "三天过去了，还是没有发芽。到了第七天，牛牛急得围着铁罐转了八圈，嘴里念叨：小种子，小种子，你是不是睡过头啦？",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "儿童家庭故事画面，场景是家里客厅。图中只出现牛牛。表现这一连续动作阶段：三天过去了，还是没有发芽。到了第七天，牛牛急得围着铁罐转了八圈，嘴里念叨：小种子，小种子，你是不是睡过头啦？。人物、家具和日常物品保持现实且统一的尺寸关系。同一人物服装和同一道具外观与前后画面一致。9:16竖版，无字幕，无水印"
+    },
+    {
+      "id": 4,
+      "start": 43.8797,
+      "end": 62.729,
+      "duration": 18.8493,
+      "segment_ids": [
+        "seg_00162_40889aad",
+        "seg_00212_af7240e9",
+        "seg_00228_fd89bac0"
+      ],
+      "speaker": "爸爸",
+      "narration": "爸爸走过来，打开铁罐一看，愣住了——里面只有泥土，别的什么都没有！爸爸挠挠头，不好意思地笑了：哎呀，爸爸忘记把种子放进去啦！牛牛瞪大眼睛，然后咯咯咯地笑起来：",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "character": "爸爸",
+      "costume": "",
+      "image_prompt": "儿童家庭故事画面，场景是家里客厅。图中只出现牛牛、爸爸。表现这一连续动作阶段：爸爸走过来，打开铁罐一看，愣住了——里面只有泥土，别的什么都没有！爸爸挠挠头，不好意思地笑了：哎呀，爸爸忘记把种子放进去啦！牛牛瞪大眼睛，然后咯咯咯地笑起来：。人物、家具和日常物品保持现实且统一的尺寸关系。同一人物服装和同一道具外观与前后画面一致。9:16竖版，无字幕，无水印"
+    },
+    {
+      "id": 5,
+      "start": 62.729,
+      "end": 85.5381,
+      "duration": 22.8091,
+      "segment_ids": [
+        "seg_00248_957dfa6a",
+        "seg_00268_3ec3c528"
+      ],
+      "speaker": "牛牛",
+      "narration": "原来我这一个星期，一直在给泥土浇水呀！父子俩笑成一团。第二天，爸爸真的买来了草莓种子。牛牛亲手把种子埋进土里，轻轻浇上水。这一次，他等呀等，过了几天，土里真的钻出了两瓣嫩嫩的小绿芽。",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "儿童家庭故事画面，场景是家里客厅。图中只出现牛牛、爸爸。表现这一连续动作阶段：原来我这一个星期，一直在给泥土浇水呀！父子俩笑成一团。第二天，爸爸真的买来了草莓种子。牛牛亲手把种子埋进土里，轻轻浇上水。这一次，他等呀等，过了几天，土里真的钻出了两瓣嫩嫩的小绿芽。。人物、家具和日常物品保持现实且统一的尺寸关系。同一人物服装和同一道具外观与前后画面一致。9:16竖版，无字幕，无水印"
+    },
+    {
+      "id": 6,
+      "start": 85.5382,
+      "end": 94.2228,
+      "duration": 8.6846,
+      "segment_ids": [
+        "seg_00342_12e0f1d2",
+        "seg_00352_7a220c62"
+      ],
+      "speaker": "牛牛",
+      "narration": "牛牛拍着手喊：发芽啦！发芽啦！这次的种子睡醒啦！",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "儿童家庭故事画面，场景是家里客厅。图中只出现牛牛。表现这一连续动作阶段：牛牛拍着手喊：发芽啦！发芽啦！这次的种子睡醒啦！。人物、家具和日常物品保持现实且统一的尺寸关系。同一人物服装和同一道具外观与前后画面一致。9:16竖版，无字幕，无水印"
+    }
+  ],
+  "style": "cartoon",
+  "audio_manifest": "D:\\new project\\output\\audio_story\\story_134baff1e8.manifest.json",
+  "bgm": {
+    "mood": "warm"
+  },
+  "image_files": [],
+  "image_urls": []
+}

@@ -1,0 +1,578 @@
+{
+  "schema_version": 1,
+  "kind": "visual_plan",
+  "title": "嘴巴里不许盖房子",
+  "story_id": "嘴巴里不许盖房子",
+  "audio_script_digest": "38bc4aa61401aee1c4feb7ed83a9e4e2d9f499913ddf6066a665148957c37539",
+  "audio_file": "D:\\new project\\output\\audio_story\\story_822708bf72.mp3",
+  "image_count": 6,
+  "max_images": 6,
+  "audio_segments": [
+    {
+      "scene_id": 1,
+      "segment_id": "title",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "嘴巴里不许盖房子",
+      "dialogue": "",
+      "start": 0.0,
+      "duration": 2.4448,
+      "visual_duration": 3.2448,
+      "title": true
+    },
+    {
+      "scene_id": 2,
+      "segment_id": "seg_00000_c3a5b23a",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "晚上睡觉前，妈妈喊牛牛和姐姐添添去刷牙。添添七岁，比牛牛大两岁，早就挤好牙膏站在水池前了。",
+      "dialogue": "",
+      "start": 3.2448,
+      "duration": 11.352,
+      "visual_duration": 11.652,
+      "title": false
+    },
+    {
+      "scene_id": 3,
+      "segment_id": "seg_00045_03df0bbd",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛却把嘴巴闭得紧紧的，像一扇锁上的小门，怎么叫都不肯张开。妈妈走过来，蹲下身问：",
+      "dialogue": "",
+      "start": 14.8968,
+      "duration": 9.9399,
+      "visual_duration": 10.2399,
+      "title": false
+    },
+    {
+      "scene_id": 4,
+      "segment_id": "seg_00088_220ec320",
+      "speaker": "妈妈",
+      "type": "dialogue",
+      "text": "牛牛，怎么不刷呀？",
+      "dialogue": "牛牛，怎么不刷呀？",
+      "start": 25.1368,
+      "duration": 2.2291,
+      "visual_duration": 2.5291,
+      "title": false
+    },
+    {
+      "scene_id": 5,
+      "segment_id": "seg_00098_9c7d38c5",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛摇着头说：",
+      "dialogue": "",
+      "start": 27.6659,
+      "duration": 2.2127,
+      "visual_duration": 2.5127,
+      "title": false
+    },
+    {
+      "scene_id": 6,
+      "segment_id": "seg_00107_cc254a3c",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "我的牙齿今天很乖，没吃糖，不用刷！",
+      "dialogue": "我的牙齿今天很乖，没吃糖，不用刷！",
+      "start": 30.1786,
+      "duration": 3.3777,
+      "visual_duration": 3.6777,
+      "title": false
+    },
+    {
+      "scene_id": 7,
+      "segment_id": "seg_00125_d4556622",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "添添一听，晃着牙刷说：",
+      "dialogue": "",
+      "start": 33.8563,
+      "duration": 2.8715,
+      "visual_duration": 3.1715,
+      "title": false
+    },
+    {
+      "scene_id": 8,
+      "segment_id": "seg_00138_a600d8cf",
+      "speaker": "添添",
+      "type": "dialogue",
+      "text": "不刷牙，牙菌小怪兽就要在你牙齿上盖房子啦！",
+      "dialogue": "不刷牙，牙菌小怪兽就要在你牙齿上盖房子啦！",
+      "start": 37.0278,
+      "duration": 4.1146,
+      "visual_duration": 4.4146,
+      "title": false
+    },
+    {
+      "scene_id": 9,
+      "segment_id": "seg_00160_17c4fa9e",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛瞪大眼睛问：",
+      "dialogue": "",
+      "start": 41.4425,
+      "duration": 2.0614,
+      "visual_duration": 2.3614,
+      "title": false
+    },
+    {
+      "scene_id": 10,
+      "segment_id": "seg_00170_a7570060",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "盖房子？盖几层？",
+      "dialogue": "盖房子？盖几层？",
+      "start": 43.8039,
+      "duration": 1.991,
+      "visual_duration": 2.291,
+      "title": false
+    },
+    {
+      "scene_id": 11,
+      "segment_id": "seg_00179_10d391dc",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "添添故意压低声音说：",
+      "dialogue": "",
+      "start": 46.0949,
+      "duration": 2.9337,
+      "visual_duration": 3.2337,
+      "title": false
+    },
+    {
+      "scene_id": 12,
+      "segment_id": "seg_00191_2968e091",
+      "speaker": "添添",
+      "type": "dialogue",
+      "text": "盖三层，还带滑滑梯！",
+      "dialogue": "盖三层，还带滑滑梯！",
+      "start": 49.3285,
+      "duration": 2.1524,
+      "visual_duration": 2.4524,
+      "title": false
+    },
+    {
+      "scene_id": 13,
+      "segment_id": "seg_00202_c98f3370",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛吓了一跳，赶紧捂住嘴巴喊：",
+      "dialogue": "",
+      "start": 51.7809,
+      "duration": 3.5038,
+      "visual_duration": 3.8038,
+      "title": false
+    },
+    {
+      "scene_id": 14,
+      "segment_id": "seg_00219_84c8141f",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "不行！我的嘴巴不是工地！",
+      "dialogue": "不行！我的嘴巴不是工地！",
+      "start": 55.5847,
+      "duration": 2.4751,
+      "visual_duration": 2.7751,
+      "title": false
+    },
+    {
+      "scene_id": 15,
+      "segment_id": "seg_00232_cad8c174",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "妈妈笑着把牙刷递给他说：",
+      "dialogue": "",
+      "start": 58.3598,
+      "duration": 2.782,
+      "visual_duration": 3.082,
+      "title": false
+    },
+    {
+      "scene_id": 16,
+      "segment_id": "seg_00246_7a4484b8",
+      "speaker": "妈妈",
+      "type": "dialogue",
+      "text": "那你快把工地清干净吧。",
+      "dialogue": "那你快把工地清干净吧。",
+      "start": 61.4418,
+      "duration": 2.1689,
+      "visual_duration": 2.4689,
+      "title": false
+    },
+    {
+      "scene_id": 17,
+      "segment_id": "seg_00258_8a4d4574",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛想了想，只好接过牙刷，刷刷刷地刷起来。他左边刷十下，右边刷十下，上面下面全都刷到，刷得满嘴都是白泡泡。",
+      "dialogue": "",
+      "start": 63.9107,
+      "duration": 14.6058,
+      "visual_duration": 14.9058,
+      "title": false
+    },
+    {
+      "scene_id": 18,
+      "segment_id": "seg_00312_8002f309",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "泡泡越来越多，顺着他的嘴角直往下滴。牛牛凑到镜子前一看，忽然大喊：",
+      "dialogue": "",
+      "start": 78.8165,
+      "duration": 7.9852,
+      "visual_duration": 8.2852,
+      "title": false
+    },
+    {
+      "scene_id": 19,
+      "segment_id": "seg_00346_dc1ae276",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "妈妈快看！我长白胡子啦！",
+      "dialogue": "妈妈快看！我长白胡子啦！",
+      "start": 87.1017,
+      "duration": 2.4639,
+      "visual_duration": 2.7639,
+      "title": false
+    },
+    {
+      "scene_id": 20,
+      "segment_id": "seg_00359_a727e21f",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "添添凑过来一看，笑得直不起腰，问：",
+      "dialogue": "",
+      "start": 89.8656,
+      "duration": 3.936,
+      "visual_duration": 4.236,
+      "title": false
+    },
+    {
+      "scene_id": 21,
+      "segment_id": "seg_00378_7f55c1fe",
+      "speaker": "添添",
+      "type": "dialogue",
+      "text": "白胡子老爷爷，你的礼物呢？",
+      "dialogue": "白胡子老爷爷，你的礼物呢？",
+      "start": 94.1017,
+      "duration": 2.4954,
+      "visual_duration": 2.7954,
+      "title": false
+    },
+    {
+      "scene_id": 22,
+      "segment_id": "seg_00392_2237c3ff",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛一本正经地说：",
+      "dialogue": "",
+      "start": 96.897,
+      "duration": 2.856,
+      "visual_duration": 3.156,
+      "title": false
+    },
+    {
+      "scene_id": 23,
+      "segment_id": "seg_00403_64f74576",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "礼物就是一口干净的牙齿！",
+      "dialogue": "礼物就是一口干净的牙齿！",
+      "start": 100.053,
+      "duration": 2.2278,
+      "visual_duration": 2.5278,
+      "title": false
+    },
+    {
+      "scene_id": 24,
+      "segment_id": "seg_00416_8aeee368",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "妈妈笑着提醒他说：",
+      "dialogue": "",
+      "start": 102.5809,
+      "duration": 2.856,
+      "visual_duration": 3.156,
+      "title": false
+    },
+    {
+      "scene_id": 25,
+      "segment_id": "seg_00427_8e29e354",
+      "speaker": "妈妈",
+      "type": "dialogue",
+      "text": "那快漱漱口，别把白胡子掉进水槽里。",
+      "dialogue": "那快漱漱口，别把白胡子掉进水槽里。",
+      "start": 105.7369,
+      "duration": 3.2923,
+      "visual_duration": 3.5923,
+      "title": false
+    },
+    {
+      "scene_id": 26,
+      "segment_id": "seg_00445_2bb26d20",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛点点头，咕噜咕噜地漱口，像一条小鱼在吐泡泡。漱完口，他张大嘴巴让姐姐检查。添添装模作样地看了看，点点头说：",
+      "dialogue": "",
+      "start": 109.3292,
+      "duration": 14.0597,
+      "visual_duration": 14.3597,
+      "title": false
+    },
+    {
+      "scene_id": 27,
+      "segment_id": "seg_00502_ffc1bac5",
+      "speaker": "添添",
+      "type": "dialogue",
+      "text": "嗯，一只小怪兽都没有！",
+      "dialogue": "嗯，一只小怪兽都没有！",
+      "start": 123.6889,
+      "duration": 2.4915,
+      "visual_duration": 2.7915,
+      "title": false
+    },
+    {
+      "scene_id": 28,
+      "segment_id": "seg_00514_5b14ced5",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛得意地喊：",
+      "dialogue": "",
+      "start": 126.4804,
+      "duration": 1.896,
+      "visual_duration": 2.196,
+      "title": false
+    },
+    {
+      "scene_id": 29,
+      "segment_id": "seg_00523_bd8c13e5",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "那当然！我的嘴巴里，不许盖房子！",
+      "dialogue": "那当然！我的嘴巴里，不许盖房子！",
+      "start": 128.6764,
+      "duration": 3.2872,
+      "visual_duration": 6.2972,
+      "title": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 3.2448,
+      "duration": 3.2448,
+      "segment_ids": [
+        "title"
+      ],
+      "speaker": "牛牛",
+      "narration": "嘴巴里不许盖房子",
+      "keywords": [],
+      "title": true,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添",
+        "爸爸",
+        "妈妈"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）、1 个爸爸、1 个妈妈；牛牛站在沙发前踮脚捂嘴，添添叉腰仰头笑，爸爸正弯腰从茶几上拿遥控器，妈妈一手扶着沙发扶手、一手轻按自己嘴唇作惊讶状；四人服装严格符合系列固定角色：牛牛穿黄色T恤和蓝色背带裤，添添穿粉白色T恤和蓝色牛仔裙，爸爸穿蓝色Polo衫和卡其色长裤，妈妈穿粉色上衣和米色围裙画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩、1个爸爸、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅木色地板，米白色布艺沙发靠墙摆放，左侧有低矮电视柜和绿色盆栽，右侧落地窗配浅灰纱帘，窗台宽平、无杂物"
+    },
+    {
+      "id": 2,
+      "start": 3.2448,
+      "end": 27.6659,
+      "duration": 24.4211,
+      "segment_ids": [
+        "seg_00000_c3a5b23a",
+        "seg_00045_03df0bbd",
+        "seg_00088_220ec320"
+      ],
+      "speaker": "妈妈",
+      "narration": "晚上睡觉前，妈妈喊牛牛和姐姐添添去刷牙。添添七岁，比牛牛大两岁，早就挤好牙膏站在水池前了。牛牛却把嘴巴闭得紧紧的，像一扇锁上的小门，怎么叫都不肯张开。妈妈走过来，蹲下身问：牛牛，怎么不刷呀？",
+      "keywords": [],
+      "title": false,
+      "scene": "家里卧室",
+      "present": [
+        "牛牛",
+        "添添",
+        "妈妈"
+      ],
+      "character": "妈妈",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）、1 个妈妈；牛牛背对镜头坐在床沿，双手紧闭嘴巴，肩膀微缩；添添已站到洗手台前，左手握着蓝色儿童软毛牙刷，刷柄长度只有小男孩手掌那么长，刷头比他的拇指指甲盖略宽，右手正挤出一截白色条纹蓝管身儿童牙膏，管身粗细如铅笔，高度只有小男孩手掌那么高；妈妈单膝蹲在牛牛身侧，身体前倾，双手自然放在大腿上，表情温柔关切；三人服装严格符合系列固定角色画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "原木色双层儿童床（下铺为牛牛的蓝色小床，上铺为空置带围栏的白色小床），床边有粉色绒毛拖鞋一对，地面铺浅灰短绒地毯，墙面贴着星星夜光贴纸，门边立着白色矮衣帽架"
+    },
+    {
+      "id": 3,
+      "start": 27.6659,
+      "end": 49.3286,
+      "duration": 21.6627,
+      "segment_ids": [
+        "seg_00098_9c7d38c5",
+        "seg_00107_cc254a3c",
+        "seg_00125_d4556622",
+        "seg_00138_a600d8cf",
+        "seg_00160_17c4fa9e",
+        "seg_00170_a7570060",
+        "seg_00179_10d391dc"
+      ],
+      "speaker": "牛牛",
+      "narration": "牛牛摇着头说：我的牙齿今天很乖，没吃糖，不用刷！添添一听，晃着牙刷说：不刷牙，牙菌小怪兽就要在你牙齿上盖房子啦！牛牛瞪大眼睛问：盖房子？盖几层？添添故意压低声音说：",
+      "keywords": [],
+      "title": false,
+      "scene": "家里卧室",
+      "present": [
+        "牛牛",
+        "添添"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）；牛牛坐在床沿摇头，双手仍捂着嘴，眼睛睁圆；添添转身面向他，左手高举蓝色儿童软毛牙刷，刷柄长度只有小男孩手掌那么长，刷头比他的拇指指甲盖略宽，右手食指竖在唇边作‘嘘’状，马尾微微扬起；两人服装严格符合系列固定角色画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "原木色双层儿童床（下铺为牛牛的蓝色小床，上铺为空置带围栏的白色小床），床边有粉色绒毛拖鞋一对，地面铺浅灰短绒地毯，墙面贴着星星夜光贴纸，门边立着白色矮衣帽架"
+    },
+    {
+      "id": 4,
+      "start": 49.3285,
+      "end": 78.8165,
+      "duration": 29.488,
+      "segment_ids": [
+        "seg_00191_2968e091",
+        "seg_00202_c98f3370",
+        "seg_00219_84c8141f",
+        "seg_00232_cad8c174",
+        "seg_00246_7a4484b8",
+        "seg_00258_8a4d4574"
+      ],
+      "speaker": "添添",
+      "narration": "盖三层，还带滑滑梯！牛牛吓了一跳，赶紧捂住嘴巴喊：不行！我的嘴巴不是工地！妈妈笑着把牙刷递给他说：那你快把工地清干净吧。牛牛想了想，只好接过牙刷，刷刷刷地刷起来。他左边刷十下，右边刷十下，上面下面全都刷到，刷得满嘴都是白泡泡。",
+      "keywords": [],
+      "title": false,
+      "scene": "小区公园",
+      "present": [
+        "牛牛",
+        "添添",
+        "妈妈"
+      ],
+      "character": "添添",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）、1 个妈妈；牛牛站在洗手台前低头刷牙，嘴角泛起大量白色泡沫，左手握着蓝色儿童软毛牙刷，刷柄长度只有小男孩手掌那么长，刷头比他的拇指指甲盖略宽；添添站在他右侧，左手叉腰、右手晃着同款牙刷；妈妈站在牛牛左后方，右手递出一支新挤好牙膏的同款牙刷，左手轻扶洗手台边缘；三人服装严格符合系列固定角色画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅灰色防滑地砖铺就的小型社区活动区，中央有一面嵌入式不锈钢全身镜（镜面离地60cm，高约1.2m，宽约80cm），镜旁固定着银色水龙头和下方带排水槽的白色陶瓷洗手台，右侧三米处有彩色蘑菇造型滑梯和两棵修剪整齐的冬青树"
+    },
+    {
+      "id": 5,
+      "start": 78.8165,
+      "end": 105.7369,
+      "duration": 26.9204,
+      "segment_ids": [
+        "seg_00312_8002f309",
+        "seg_00346_dc1ae276",
+        "seg_00359_a727e21f",
+        "seg_00378_7f55c1fe",
+        "seg_00392_2237c3ff",
+        "seg_00403_64f74576",
+        "seg_00416_8aeee368"
+      ],
+      "speaker": "牛牛",
+      "narration": "泡泡越来越多，顺着他的嘴角直往下滴。牛牛凑到镜子前一看，忽然大喊：妈妈快看！我长白胡子啦！添添凑过来一看，笑得直不起腰，问：白胡子老爷爷，你的礼物呢？牛牛一本正经地说：礼物就是一口干净的牙齿！妈妈笑着提醒他说：",
+      "keywords": [],
+      "title": false,
+      "scene": "小区公园",
+      "present": [
+        "牛牛",
+        "添添",
+        "妈妈"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）、1 个妈妈；牛牛凑近嵌入式不锈钢全身镜（镜面离地60cm，高约1.2m，宽约80cm），双手捧脸，嘴边垂挂浓密白色泡沫，像一簇蓬松白胡子；添添踮脚扒着镜框边笑得前仰后合，手指镜中牛牛；妈妈站在稍远处含笑注视，手搭在洗手台边缘；三人服装严格符合系列固定角色【道具尺寸，必须与其它画面完全一致】镜子：圆形边框浴室镜，镜面直径约等于小男孩张开双臂一半宽，镜框为哑光白塑料，固定在洗手台上方墙面画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅灰色防滑地砖铺就的小型社区活动区，中央有一面嵌入式不锈钢全身镜（镜面离地60cm，高约1.2m，宽约80cm），镜旁固定着银色水龙头和下方带排水槽的白色陶瓷洗手台，右侧三米处有彩色蘑菇造型滑梯和两棵修剪整齐的冬青树"
+    },
+    {
+      "id": 6,
+      "start": 105.7369,
+      "end": 134.9736,
+      "duration": 29.2367,
+      "segment_ids": [
+        "seg_00427_8e29e354",
+        "seg_00445_2bb26d20",
+        "seg_00502_ffc1bac5",
+        "seg_00514_5b14ced5",
+        "seg_00523_bd8c13e5"
+      ],
+      "speaker": "妈妈",
+      "narration": "那快漱漱口，别把白胡子掉进水槽里。牛牛点点头，咕噜咕噜地漱口，像一条小鱼在吐泡泡。漱完口，他张大嘴巴让姐姐检查。添添装模作样地看了看，点点头说：嗯，一只小怪兽都没有！牛牛得意地喊：那当然！我的嘴巴里，不许盖房子！",
+      "keywords": [],
+      "title": false,
+      "scene": "小区公园",
+      "present": [
+        "牛牛",
+        "添添",
+        "妈妈"
+      ],
+      "character": "妈妈",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）、1 个妈妈；牛牛站在洗手台前仰头漱口，脸颊鼓起，嘴边吐出一串晶莹泡泡；左手拿着浅蓝色塑料小杯子，杯口直径约等于小男孩拳头大小，杯身高度到他手腕处；添添俯身凑近看他张开的嘴巴，右手食指指向他口腔方向；妈妈站在一旁微笑，左手轻托洗手台边缘；三人服装严格符合系列固定角色画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩、1个妈妈，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅灰色防滑地砖铺就的小型社区活动区，中央有一面嵌入式不锈钢全身镜（镜面离地60cm，高约1.2m，宽约80cm），镜旁固定着银色水龙头和下方带排水槽的白色陶瓷洗手台，右侧三米处有彩色蘑菇造型滑梯和两棵修剪整齐的冬青树"
+    }
+  ],
+  "style": "cartoon",
+  "audio_manifest": "D:\\new project\\output\\audio_story\\story_822708bf72.manifest.json",
+  "bgm": {
+    "mood": "warm"
+  },
+  "image_files": [
+    "D:\\new project\\output\\covers\\story_822708bf72_38bc4aa6.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_01.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_02.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_03.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_04.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_05.png"
+  ],
+  "image_urls": [
+    "/media/covers/story_822708bf72_38bc4aa6.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_01.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_02.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_03.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_04.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_05.png"
+  ],
+  "scene_bases": {
+    "家里客厅": "浅木色地板，米白色布艺沙发靠墙摆放，左侧有低矮电视柜和绿色盆栽，右侧落地窗配浅灰纱帘，窗台宽平、无杂物",
+    "家里卧室": "原木色双层儿童床（下铺为牛牛的蓝色小床，上铺为空置带围栏的白色小床），床边有粉色绒毛拖鞋一对，地面铺浅灰短绒地毯，墙面贴着星星夜光贴纸，门边立着白色矮衣帽架",
+    "小区公园": "浅灰色防滑地砖铺就的小型社区活动区，中央有一面嵌入式不锈钢全身镜（镜面离地60cm，高约1.2m，宽约80cm），镜旁固定着银色水龙头和下方带排水槽的白色陶瓷洗手台，右侧三米处有彩色蘑菇造型滑梯和两棵修剪整齐的冬青树"
+  },
+  "props": {
+    "牙刷": "蓝色儿童软毛牙刷，刷柄长度只有小男孩手掌那么长，刷头比他的拇指指甲盖略宽",
+    "牙膏": "白色条纹蓝管身儿童牙膏，管身粗细如铅笔，高度只有小男孩手掌那么高",
+    "漱口杯": "浅蓝色塑料小杯子，杯口直径约等于小男孩拳头大小，杯身高度到他手腕处",
+    "镜子": "圆形边框浴室镜，镜面直径约等于小男孩张开双臂一半宽，镜框为哑光白塑料，固定在洗手台上方墙面"
+  },
+  "image_directed": true,
+  "base_image_files": [
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_00.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_01.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_02.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_03.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_04.png",
+    "D:\\new project\\output\\images\\studio_822708bf72_38bc4aa6\\group_05.png"
+  ],
+  "base_image_urls": [
+    "/media/images/studio_822708bf72_38bc4aa6/group_00.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_01.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_02.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_03.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_04.png",
+    "/media/images/studio_822708bf72_38bc4aa6/group_05.png"
+  ],
+  "cover_file": "D:\\new project\\output\\covers\\story_822708bf72_38bc4aa6.png",
+  "cover_template": "cartoon",
+  "cover_texts": {
+    "badge": "牛牛一家",
+    "subtitle": "家庭小故事"
+  }
+}

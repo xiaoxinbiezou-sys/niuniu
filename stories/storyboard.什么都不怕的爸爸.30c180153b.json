@@ -1,0 +1,571 @@
+{
+  "schema_version": 1,
+  "kind": "visual_plan",
+  "title": "什么都不怕的爸爸",
+  "story_id": "什么都不怕的爸爸",
+  "audio_script_digest": "9601bad4cc72f813ea9259bb81b961d607354e8d559f49a6cd8d2c39fb6fc543",
+  "audio_file": "D:\\new project\\output\\audio_story\\story_70f54d2e1a.mp3",
+  "image_count": 6,
+  "max_images": 6,
+  "audio_segments": [
+    {
+      "scene_id": 1,
+      "segment_id": "title",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "什么都不怕的爸爸",
+      "dialogue": "",
+      "start": 0.0,
+      "duration": 2.468,
+      "visual_duration": 3.268,
+      "title": true
+    },
+    {
+      "scene_id": 2,
+      "segment_id": "seg_00000_e6382a17",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "星期天下午，牛牛和爸爸、姐姐添添在客厅搭积木。爸爸搭了一座好高好高的城堡，拍拍胸脯说：",
+      "dialogue": "",
+      "start": 3.268,
+      "duration": 11.0096,
+      "visual_duration": 11.3096,
+      "title": false
+    },
+    {
+      "scene_id": 3,
+      "segment_id": "seg_00044_f50f9bee",
+      "speaker": "爸爸",
+      "type": "dialogue",
+      "text": "爸爸什么都不怕！",
+      "dialogue": "爸爸什么都不怕！",
+      "start": 14.5776,
+      "duration": 1.1583,
+      "visual_duration": 1.4583,
+      "title": false
+    },
+    {
+      "scene_id": 4,
+      "segment_id": "seg_00053_2d97d933",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "忽然，添添指着地板喊：",
+      "dialogue": "",
+      "start": 16.0359,
+      "duration": 3.216,
+      "visual_duration": 3.516,
+      "title": false
+    },
+    {
+      "scene_id": 5,
+      "segment_id": "seg_00067_22c10919",
+      "speaker": "添添",
+      "type": "dialogue",
+      "text": "爸爸，有虫子！",
+      "dialogue": "爸爸，有虫子！",
+      "start": 19.5519,
+      "duration": 1.3721,
+      "visual_duration": 1.6721,
+      "title": false
+    },
+    {
+      "scene_id": 6,
+      "segment_id": "seg_00075_2528909c",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "一只黑黑的小甲虫，正慢悠悠地爬过来。",
+      "dialogue": "",
+      "start": 21.224,
+      "duration": 4.4115,
+      "visual_duration": 4.7115,
+      "title": false
+    },
+    {
+      "scene_id": 7,
+      "segment_id": "seg_00095_5c285d91",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "爸爸惊叫一声，跳上沙发",
+      "dialogue": "",
+      "start": 25.9355,
+      "duration": 2.9527,
+      "visual_duration": 3.2527,
+      "title": false
+    },
+    {
+      "scene_id": 8,
+      "segment_id": "seg_00100_9dda7f02",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "地跳上沙发，大叫：",
+      "dialogue": "",
+      "start": 29.1883,
+      "duration": 2.832,
+      "visual_duration": 3.132,
+      "title": false
+    },
+    {
+      "scene_id": 9,
+      "segment_id": "seg_00110_6cba8cb9",
+      "speaker": "爸爸",
+      "type": "dialogue",
+      "text": "快！快把它弄走！",
+      "dialogue": "快！快把它弄走！",
+      "start": 32.3203,
+      "duration": 1.664,
+      "visual_duration": 1.964,
+      "title": false
+    },
+    {
+      "scene_id": 10,
+      "segment_id": "seg_00119_078127af",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛瞪大眼睛，简直不敢相信。平时讲故事连大灰狼都不怕的爸爸，居然怕一只小虫子！牛牛鼓起勇气，抽出一张纸巾说：",
+      "dialogue": "",
+      "start": 34.2843,
+      "duration": 13.8708,
+      "visual_duration": 14.1708,
+      "title": false
+    },
+    {
+      "scene_id": 11,
+      "segment_id": "seg_00178_ba54c991",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "爸爸别怕，牛牛保护你！",
+      "dialogue": "爸爸别怕，牛牛保护你！",
+      "start": 48.4551,
+      "duration": 2.3766,
+      "visual_duration": 2.6766,
+      "title": false
+    },
+    {
+      "scene_id": 12,
+      "segment_id": "seg_00189_d450faef",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "小甲虫忽然张开翅膀，嗡地飞了起来",
+      "dialogue": "",
+      "start": 51.1317,
+      "duration": 4.7837,
+      "visual_duration": 5.0837,
+      "title": false
+    },
+    {
+      "scene_id": 13,
+      "segment_id": "seg_00216_b69ae1b8",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "地飞了起来。牛牛吓得一屁股坐到地上，喊：",
+      "dialogue": "",
+      "start": 56.2154,
+      "duration": 5.1696,
+      "visual_duration": 5.4696,
+      "title": false
+    },
+    {
+      "scene_id": 14,
+      "segment_id": "seg_00237_07bba7df",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "它还会飞！",
+      "dialogue": "它还会飞！",
+      "start": 61.685,
+      "duration": 1.1668,
+      "visual_duration": 1.4668,
+      "title": false
+    },
+    {
+      "scene_id": 15,
+      "segment_id": "seg_00243_ddd5db74",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "小甲虫绕着客厅飞了一圈，居然朝沙发飞去。爸爸抱着靠垫直往后缩，喊：",
+      "dialogue": "",
+      "start": 63.1518,
+      "duration": 9.2395,
+      "visual_duration": 9.5395,
+      "title": false
+    },
+    {
+      "scene_id": 16,
+      "segment_id": "seg_00279_c5bbf5a7",
+      "speaker": "爸爸",
+      "type": "dialogue",
+      "text": "别过来！别过来！",
+      "dialogue": "别过来！别过来！",
+      "start": 72.6913,
+      "duration": 1.3368,
+      "visual_duration": 1.6368,
+      "title": false
+    },
+    {
+      "scene_id": 17,
+      "segment_id": "seg_00290_90ebb772",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "添添看准机会，啪地扣住甲虫",
+      "dialogue": "",
+      "start": 74.3281,
+      "duration": 3.936,
+      "visual_duration": 4.236,
+      "title": false
+    },
+    {
+      "scene_id": 18,
+      "segment_id": "seg_00308_fa21126c",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "地扣住甲虫，得意地说：",
+      "dialogue": "",
+      "start": 78.5641,
+      "duration": 2.832,
+      "visual_duration": 3.132,
+      "title": false
+    },
+    {
+      "scene_id": 19,
+      "segment_id": "seg_00320_18a33921",
+      "speaker": "添添",
+      "type": "dialogue",
+      "text": "这有什么好怕的！",
+      "dialogue": "这有什么好怕的！",
+      "start": 81.6961,
+      "duration": 1.3631,
+      "visual_duration": 1.6631,
+      "title": false
+    },
+    {
+      "scene_id": 20,
+      "segment_id": "seg_00329_3aacd7ee",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "她把甲虫送到阳台外面，拍拍手说：",
+      "dialogue": "",
+      "start": 83.3593,
+      "duration": 4.3793,
+      "visual_duration": 4.6793,
+      "title": false
+    },
+    {
+      "scene_id": 21,
+      "segment_id": "seg_00346_af778075",
+      "speaker": "添添",
+      "type": "dialogue",
+      "text": "好啦，飞走喽！",
+      "dialogue": "好啦，飞走喽！",
+      "start": 88.0386,
+      "duration": 1.634,
+      "visual_duration": 1.934,
+      "title": false
+    },
+    {
+      "scene_id": 22,
+      "segment_id": "seg_00356_b3d8123b",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "爸爸解释说，他站得高是为了帮大家看清楚虫子往哪儿飞",
+      "dialogue": "",
+      "start": 89.9726,
+      "duration": 6.36,
+      "visual_duration": 6.66,
+      "title": false
+    },
+    {
+      "scene_id": 23,
+      "segment_id": "seg_00398_a0ce174f",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛和添添一起喊：",
+      "dialogue": "",
+      "start": 96.6326,
+      "duration": 2.3283,
+      "visual_duration": 2.6283,
+      "title": false
+    },
+    {
+      "scene_id": 24,
+      "segment_id": "seg_00410_0cab4312",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "爸爸就是害怕！",
+      "dialogue": "爸爸就是害怕！",
+      "start": 99.2609,
+      "duration": 1.498,
+      "visual_duration": 1.798,
+      "title": false
+    },
+    {
+      "scene_id": 25,
+      "segment_id": "seg_00418_351a4d34",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "爸爸挠挠头笑了，说：",
+      "dialogue": "",
+      "start": 101.0589,
+      "duration": 2.9482,
+      "visual_duration": 3.2482,
+      "title": false
+    },
+    {
+      "scene_id": 26,
+      "segment_id": "seg_00431_4c197023",
+      "speaker": "爸爸",
+      "type": "dialogue",
+      "text": "好吧，是有那么一点点怕。只有一点点哦！",
+      "dialogue": "好吧，是有那么一点点怕。只有一点点哦！",
+      "start": 104.3071,
+      "duration": 3.9277,
+      "visual_duration": 4.2277,
+      "title": false
+    },
+    {
+      "scene_id": 27,
+      "segment_id": "seg_00451_8c617911",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "牛牛学着爸爸的样子拍拍胸脯，说：",
+      "dialogue": "",
+      "start": 108.5349,
+      "duration": 4.6385,
+      "visual_duration": 4.9385,
+      "title": false
+    },
+    {
+      "scene_id": 28,
+      "segment_id": "seg_00470_2ab0ee38",
+      "speaker": "牛牛",
+      "type": "dialogue",
+      "text": "没关系，下次虫子再来，我和添添保护你！",
+      "dialogue": "没关系，下次虫子再来，我和添添保护你！",
+      "start": 113.4734,
+      "duration": 3.8341,
+      "visual_duration": 4.1341,
+      "title": false
+    },
+    {
+      "scene_id": 29,
+      "segment_id": "seg_00490_b8a65ddc",
+      "speaker": "旁白",
+      "type": "narrator",
+      "text": "爸爸一手搂住一个，三个人笑成一团。",
+      "dialogue": "",
+      "start": 117.6075,
+      "duration": 4.8044,
+      "visual_duration": 7.8144,
+      "title": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 3.268,
+      "duration": 3.268,
+      "segment_ids": [
+        "title"
+      ],
+      "speaker": "爸爸",
+      "narration": "什么都不怕的爸爸",
+      "keywords": [],
+      "title": true,
+      "scene": "家里客厅",
+      "present": [
+        "爸爸"
+      ],
+      "character": "爸爸",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个爸爸；爸爸站在客厅中央，双脚稳稳踩在浅灰几何纹地毯上，双手叉腰，挺直腰背，微微仰头，眼镜反着一点光，嘴角上扬，神气十足；他穿着蓝色Polo衫和卡其色长裤；背景中沙发、矮茶几、绿萝、百叶窗均按固定环境呈现画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个爸爸，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅橡木色地板，米白色布艺三人沙发靠墙摆放，左侧有一张原木色矮茶几（桌面离地约30厘米），右侧立着一盆绿萝（藤蔓垂至茶几面高度），窗外是明亮的午后阳光，百叶窗半开，地面干净无杂物；沙发前方铺着一块浅灰几何纹地毯（约两个小男孩并排躺下那么长）"
+    },
+    {
+      "id": 2,
+      "start": 3.268,
+      "end": 25.9355,
+      "duration": 22.6675,
+      "segment_ids": [
+        "seg_00000_e6382a17",
+        "seg_00044_f50f9bee",
+        "seg_00053_2d97d933",
+        "seg_00067_22c10919",
+        "seg_00075_2528909c"
+      ],
+      "speaker": "爸爸",
+      "narration": "星期天下午，牛牛和爸爸、姐姐添添在客厅搭积木。爸爸搭了一座好高好高的城堡，拍拍胸脯说：爸爸什么都不怕！忽然，添添指着地板喊：爸爸，有虫子！一只黑黑的小甲虫，正慢悠悠地爬过来。",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添",
+        "爸爸"
+      ],
+      "character": "爸爸",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）、1 个爸爸；牛牛蹲在地毯左侧，穿黄色T恤和蓝色背带裤，正伸手搭一块红色积木；添添跪坐在地毯右侧，穿粉白色T恤和蓝色牛仔裙，扎高马尾，双手托着下巴笑看前方；爸爸半蹲在地毯中央，穿蓝色Polo衫和卡其色长裤，正用双手稳稳扶住一座彩色塑料积木搭成的塔状城堡，最高处刚过爸爸膝盖，底座宽约两个小男孩并排站立的宽度，有尖顶和镂空窗户；一只黑亮硬壳的小小甲虫，只有小男孩手掌那么大，身体椭圆、六条细腿清晰可见，触角微微前伸，正从城堡底座旁的地毯上慢悠悠爬向添添脚边画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩、1个爸爸，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅橡木色地板，米白色布艺三人沙发靠墙摆放，左侧有一张原木色矮茶几（桌面离地约30厘米），右侧立着一盆绿萝（藤蔓垂至茶几面高度），窗外是明亮的午后阳光，百叶窗半开，地面干净无杂物；沙发前方铺着一块浅灰几何纹地毯（约两个小男孩并排躺下那么长）"
+    },
+    {
+      "id": 3,
+      "start": 25.9355,
+      "end": 48.4551,
+      "duration": 22.5196,
+      "segment_ids": [
+        "seg_00095_5c285d91",
+        "seg_00100_9dda7f02",
+        "seg_00110_6cba8cb9",
+        "seg_00119_078127af"
+      ],
+      "speaker": "爸爸",
+      "narration": "爸爸惊叫一声，跳上沙发地跳上沙发，大叫：快！快把它弄走！牛牛瞪大眼睛，简直不敢相信。平时讲故事连大灰狼都不怕的爸爸，居然怕一只小虫子！牛牛鼓起勇气，抽出一张纸巾说：",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "character": "爸爸",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个爸爸；爸爸双脚腾空跳起，左脚踩在沙发坐垫边缘、右脚悬空蹬直，身体后仰，双臂张开，眼镜略微滑落鼻尖，嘴巴大张惊叫；他穿着蓝色Polo衫和卡其色长裤；牛牛站在地毯上仰头瞪眼，穿黄色T恤和蓝色背带裤，右手已抽出一张白色方形纸巾，叠成手掌大小的一小团，柔软蓬松，边缘略毛边，只有小男孩手掌那么大，正朝甲虫方向微微伸出；那只黑亮硬壳的小小甲虫，只有小男孩手掌那么大，身体椭圆、六条细腿清晰可见，触角微微前伸，停在牛牛脚边地毯上画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个爸爸，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅橡木色地板，米白色布艺三人沙发靠墙摆放，左侧有一张原木色矮茶几（桌面离地约30厘米），右侧立着一盆绿萝（藤蔓垂至茶几面高度），窗外是明亮的午后阳光，百叶窗半开，地面干净无杂物；沙发前方铺着一块浅灰几何纹地毯（约两个小男孩并排躺下那么长）"
+    },
+    {
+      "id": 4,
+      "start": 48.4551,
+      "end": 72.6913,
+      "duration": 24.2362,
+      "segment_ids": [
+        "seg_00178_ba54c991",
+        "seg_00189_d450faef",
+        "seg_00216_b69ae1b8",
+        "seg_00237_07bba7df",
+        "seg_00243_ddd5db74"
+      ],
+      "speaker": "牛牛",
+      "narration": "爸爸别怕，牛牛保护你！小甲虫忽然张开翅膀，嗡地飞了起来地飞了起来。牛牛吓得一屁股坐到地上，喊：它还会飞！小甲虫绕着客厅飞了一圈，居然朝沙发飞去。爸爸抱着靠垫直往后缩，喊：",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "爸爸"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个爸爸；牛牛一屁股坐在地毯上，双腿分开，小嘴微张，眼睛圆睁，穿黄色T恤和蓝色背带裤；爸爸蜷坐在沙发坐垫上，怀里紧紧抱着一个米色布面方形靠垫，表面有浅灰色细格纹，尺寸刚好到小男孩的腰部高，靠在沙发扶手上，他身体后缩贴紧沙发背，戴眼镜的脸上满是紧张，嘴巴正张大喊叫；那只黑亮硬壳的小小甲虫，只有小男孩手掌那么大，身体椭圆、六条细腿清晰可见，触角微微前伸，正悬停在沙发扶手前方约一个牛牛拳头远的空中，翅膀微张泛光画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个爸爸，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅橡木色地板，米白色布艺三人沙发靠墙摆放，左侧有一张原木色矮茶几（桌面离地约30厘米），右侧立着一盆绿萝（藤蔓垂至茶几面高度），窗外是明亮的午后阳光，百叶窗半开，地面干净无杂物；沙发前方铺着一块浅灰几何纹地毯（约两个小男孩并排躺下那么长）"
+    },
+    {
+      "id": 5,
+      "start": 72.6913,
+      "end": 96.6326,
+      "duration": 23.9413,
+      "segment_ids": [
+        "seg_00279_c5bbf5a7",
+        "seg_00290_90ebb772",
+        "seg_00308_fa21126c",
+        "seg_00320_18a33921",
+        "seg_00329_3aacd7ee",
+        "seg_00346_af778075",
+        "seg_00356_b3d8123b"
+      ],
+      "speaker": "爸爸",
+      "narration": "别过来！别过来！添添看准机会，啪地扣住甲虫地扣住甲虫，得意地说：这有什么好怕的！她把甲虫送到阳台外面，拍拍手说：好啦，飞走喽！爸爸解释说，他站得高是为了帮大家看清楚虫子往哪儿飞",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "添添",
+        "爸爸"
+      ],
+      "character": "爸爸",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小女孩（添添）、1 个爸爸；添添站在客厅通往阳台的玻璃推拉门前，穿粉白色T恤和蓝色牛仔裙，扎高马尾，双手合拢呈杯状，掌心向上，正稳稳扣住一只黑亮硬壳的小小甲虫，只有小男孩手掌那么大，身体椭圆、六条细腿清晰可见，触角微微前伸；爸爸站在她斜后方半步远，穿蓝色Polo衫和卡其色长裤，一手扶门框，身体微微前倾，眼镜后眼神既惊讶又放松；玻璃门外可见一小段浅色瓷砖阳台和绿植盆栽边缘画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小女孩、1个爸爸，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅橡木色地板，米白色布艺三人沙发靠墙摆放，左侧有一张原木色矮茶几（桌面离地约30厘米），右侧立着一盆绿萝（藤蔓垂至茶几面高度），窗外是明亮的午后阳光，百叶窗半开，地面干净无杂物；沙发前方铺着一块浅灰几何纹地毯（约两个小男孩并排躺下那么长）"
+    },
+    {
+      "id": 6,
+      "start": 96.6326,
+      "end": 125.4219,
+      "duration": 28.7893,
+      "segment_ids": [
+        "seg_00398_a0ce174f",
+        "seg_00410_0cab4312",
+        "seg_00418_351a4d34",
+        "seg_00431_4c197023",
+        "seg_00451_8c617911",
+        "seg_00470_2ab0ee38",
+        "seg_00490_b8a65ddc"
+      ],
+      "speaker": "牛牛",
+      "narration": "牛牛和添添一起喊：爸爸就是害怕！爸爸挠挠头笑了，说：好吧，是有那么一点点怕。只有一点点哦！牛牛学着爸爸的样子拍拍胸脯，说：没关系，下次虫子再来，我和添添保护你！爸爸一手搂住一个，三个人笑成一团。",
+      "keywords": [],
+      "title": false,
+      "scene": "家里客厅",
+      "present": [
+        "牛牛",
+        "添添",
+        "爸爸"
+      ],
+      "character": "牛牛",
+      "costume": "",
+      "image_prompt": "画面里共有且仅有 1 个小男孩（牛牛）、1 个小女孩（添添）、1 个爸爸；牛牛和添添并排站在地毯中央，都仰头笑着，牛牛穿黄色T恤和蓝色背带裤，左手叉腰、右手拍自己胸口；添添穿粉白色T恤和蓝色牛仔裙，扎高马尾，双手叉腰，微微踮脚；爸爸蹲在他们中间，穿蓝色Polo衫和卡其色长裤，一手搂住牛牛肩膀、一手搂住添添后背，低头挠头笑，眼镜弯成月牙形；三人脚边地毯上散落几块彩色积木画面里不要出现任何文字。【人物数量不许变】画面里只能有：1个小男孩、1个小女孩、1个爸爸，一个都不能多画。9:16竖版，无字幕，无水印，不要拼图，不要分镜格",
+      "scene_fixed": "浅橡木色地板，米白色布艺三人沙发靠墙摆放，左侧有一张原木色矮茶几（桌面离地约30厘米），右侧立着一盆绿萝（藤蔓垂至茶几面高度），窗外是明亮的午后阳光，百叶窗半开，地面干净无杂物；沙发前方铺着一块浅灰几何纹地毯（约两个小男孩并排躺下那么长）"
+    }
+  ],
+  "style": "cartoon",
+  "audio_manifest": "D:\\new project\\output\\audio_story\\story_70f54d2e1a.manifest.json",
+  "bgm": {
+    "mood": "warm"
+  },
+  "image_files": [
+    "D:\\new project\\output\\covers\\story_70f54d2e1a_9601bad4.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_01.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_02.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_03.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_04.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_05.png"
+  ],
+  "image_urls": [
+    "/media/covers/story_70f54d2e1a_9601bad4.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_01.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_02.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_03.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_04.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_05.png"
+  ],
+  "scene_bases": {
+    "家里客厅": "浅橡木色地板，米白色布艺三人沙发靠墙摆放，左侧有一张原木色矮茶几（桌面离地约30厘米），右侧立着一盆绿萝（藤蔓垂至茶几面高度），窗外是明亮的午后阳光，百叶窗半开，地面干净无杂物；沙发前方铺着一块浅灰几何纹地毯（约两个小男孩并排躺下那么长）"
+  },
+  "props": {
+    "小甲虫": "黑亮硬壳的小小甲虫，只有小男孩手掌那么大，身体椭圆、六条细腿清晰可见，触角微微前伸",
+    "纸巾": "白色方形纸巾，叠成手掌大小的一小团，柔软蓬松，边缘略毛边，只有小男孩手掌那么大",
+    "靠垫": "米色布面方形靠垫，表面有浅灰色细格纹，尺寸刚好到小男孩的腰部高，靠在沙发扶手上",
+    "积木城堡": "彩色塑料积木搭成的塔状城堡，最高处刚过爸爸膝盖，底座宽约两个小男孩并排站立的宽度，有尖顶和镂空窗户"
+  },
+  "image_directed": true,
+  "base_image_files": [
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_00.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_01.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_02.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_03.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_04.png",
+    "D:\\new project\\output\\images\\studio_70f54d2e1a_9601bad4\\group_05.png"
+  ],
+  "base_image_urls": [
+    "/media/images/studio_70f54d2e1a_9601bad4/group_00.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_01.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_02.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_03.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_04.png",
+    "/media/images/studio_70f54d2e1a_9601bad4/group_05.png"
+  ],
+  "cover_file": "D:\\new project\\output\\covers\\story_70f54d2e1a_9601bad4.png",
+  "cover_template": "cartoon",
+  "cover_texts": {
+    "badge": "牛牛一家",
+    "subtitle": "家庭小故事"
+  }
+}

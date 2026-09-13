@@ -1,0 +1,273 @@
+{
+  "title": "小蓝鱼带我去月球",
+  "style": "watercolor",
+  "story_id": "little-blue-fish-to-the-moon",
+  "bgm": {
+    "mood": "warm",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "旁白",
+      "narration": "牛牛在河边玩，忽然看见一条小蓝鱼被水草缠住了，尾巴直扑腾。",
+      "image_prompt": "水彩画风格，穿蓝色背带裤的小男孩牛牛在河边玩，看见一条发着淡蓝色光的小蓝鱼被水草缠住，尾巴直扑腾，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "小蓝鱼",
+        "水草"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 2,
+      "speaker": "旁白",
+      "narration": "牛牛赶紧伸手，轻轻解开缠住的水草。",
+      "image_prompt": "水彩画风格，穿蓝色背带裤的小男孩牛牛蹲在河边，轻轻解开缠住小蓝鱼的绿色水草，发着淡蓝色光的小蓝鱼在水中挣扎，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [],
+      "keywords": [
+        "解开",
+        "水草"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 3,
+      "speaker": "旁白",
+      "narration": "小蓝鱼“嗖”地游出来，吐了一串亮晶晶的泡泡。",
+      "image_prompt": "水彩画风格，穿蓝色背带裤的小男孩牛牛惊喜地看着，发着淡蓝色光的小蓝鱼嗖地游出，吐出一串亮晶晶的泡泡，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.05,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "bubbles"
+      ],
+      "keywords": [
+        "嗖",
+        "泡泡"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 4,
+      "speaker": "小蓝鱼",
+      "narration": "谢谢你！我带你飞吧！",
+      "image_prompt": "水彩画风格，发着淡蓝色光的小蓝鱼从水面探出头，吐着泡泡，对穿蓝色背带裤的小男孩牛牛说话，牛牛睁大眼睛，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "bubbles"
+      ],
+      "keywords": [
+        "谢谢你",
+        "带你飞"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 5,
+      "speaker": "旁白",
+      "narration": "泡泡托着牛牛，呼呼呼，飞过高楼，飞过云朵，落在月球上。",
+      "image_prompt": "水彩画风格，穿蓝色背带裤的小男孩牛牛坐在透明泡泡里飞上天空，泡泡闪闪发亮，飞过高楼和云朵，前方是灰白色的月球，竖构图",
+      "camera": {
+        "move": "pan_up",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "clouds_drift",
+        "bubbles"
+      ],
+      "keywords": [
+        "飞",
+        "月球"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 6,
+      "speaker": "牛牛",
+      "narration": "月球上没有空气，为什么天就是黑的呀？",
+      "image_prompt": "水彩画风格，穿蓝色背带裤的小男孩牛牛站在静悄悄的月球表面，仰头望着漆黑的天空，身旁是发着淡蓝色光的小蓝鱼，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "空气",
+        "天为什么黑"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 7,
+      "speaker": "小蓝鱼",
+      "narration": "阳光照在空气上，天空才会变成蓝色。月球上没有空气，阳光没东西可照，天当然就是黑的啦。你看——",
+      "image_prompt": "水彩画风格，发着淡蓝色光的小蓝鱼在月球表面指着天空，对穿蓝色背带裤的小男孩牛牛解释，牛牛仰头望去，黑色天幕上一颗颗星星闪烁，像亮晶晶的糖豆，竖构图",
+      "camera": {
+        "move": "pan_up",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "空气",
+        "蓝色"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 8,
+      "speaker": "牛牛",
+      "narration": "呜呜，我不喜欢月球！妈妈说天黑了就要睡觉，这里的天一直是黑的，那我是不是要一直睡觉、一直不能玩了？",
+      "image_prompt": "水彩画风格，穿蓝色背带裤的小男孩牛牛坐在月球表面抹眼泪，发着淡蓝色光的小蓝鱼关切地浮在旁边，身后是漆黑天空和闪闪星星，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "不喜欢",
+        "睡觉"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 9,
+      "speaker": "小蓝鱼",
+      "narration": "傻瓜，月球上是黑的，可地球上还是白天呀！你看——",
+      "image_prompt": "水彩画风格，发着淡蓝色光的小蓝鱼在月球上伸手指向远处，穿蓝色背带裤的小男孩牛牛顺着看去，远处地球蓝汪汪地亮着光，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "白天",
+        "地球"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 10,
+      "speaker": "小蓝鱼",
+      "narration": "你现在回去，还能玩一下午呢！",
+      "image_prompt": "水彩画风格，发着淡蓝色光的小蓝鱼对穿蓝色背带裤的小男孩牛牛微笑着说话，牛牛惊喜地睁大眼睛，远处地球明亮，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "回去",
+        "玩"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 11,
+      "speaker": "旁白",
+      "narration": "泡泡又托着牛牛飞回河边，太阳还挂在天上，牛牛高高兴兴地去拼积木了。",
+      "image_prompt": "水彩画风格，穿蓝色背带裤的小男孩牛牛坐在透明泡泡里降落在河边草地，太阳挂在天上，他高高兴兴地跑向彩色积木，竖构图",
+      "camera": {
+        "move": "pan_down",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "飞回",
+        "积木"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 12,
+      "speaker": "妈妈",
+      "narration": "天黑了，要睡觉啦！",
+      "image_prompt": "水彩画风格，夜晚房间，穿蓝色背带裤的小男孩牛牛躺在床上，妈妈站在房门口说话，窗台上放着发着淡蓝色光的小蓝鱼，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.0,
+        "end_scale": 1.05
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "天黑了",
+        "睡觉"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 13,
+      "speaker": "牛牛",
+      "narration": "明天，我们再去月球看星星吧！",
+      "image_prompt": "水彩画风格，夜晚，穿蓝色背带裤的小男孩牛牛躺在床上，侧头对着窗台上发着淡蓝色光的小蓝鱼说话，神情期待，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "明天",
+        "月球"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 14,
+      "speaker": "旁白",
+      "narration": "小蓝鱼吐了个泡泡，泡泡里藏着一颗小星星。",
+      "image_prompt": "水彩画风格，夜色窗台上，发着淡蓝色光的小蓝鱼从鱼缸里吐出一个透明泡泡，泡泡里藏着一颗亮晶晶的小星星，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.15
+      },
+      "effects": [
+        "twinkle_stars",
+        "bubbles"
+      ],
+      "keywords": [
+        "泡泡",
+        "星星"
+      ],
+      "sfx": []
+    }
+  ]
+}

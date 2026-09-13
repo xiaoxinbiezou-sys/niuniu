@@ -1,0 +1,128 @@
+# ============================================================
+# 儿童故事短视频项目 — 全局配置
+# 修改后重新运行 make_video 即可生效
+# ============================================================
+
+project:
+  width: 1080            # 输出宽（9:16 竖屏）
+  height: 1920           # 输出高
+  fps: 30
+  style: watercolor      # watercolor 水彩 | cartoon 卡通
+
+# ---- M0/M1 大模型（写故事/分镜，可花费）----
+llm:
+  provider: kimi         # deepseek | qwen(阿里百炼) | doubao(火山方舟) | glm(智谱) | kimi(Moonshot) | minimax | ollama
+  base_url: https://api.moonshot.cn/v1
+  api_key: "PUT-YOUR-KIMI-KEY-HERE"
+  model: kimi-k3
+  temperature: 0.9
+
+# ---- M2 配音 ----
+tts:
+  # 默认音色（旁白）引擎：qwen（阿里千问/CosyVoice）
+  engine: qwen
+  speed: 1.0
+  text_split_method: cut0   # 整句合成（短句更完整；长句可改 cut5）
+  pause_between_scenes: 0.6
+  # 火山引擎（豆包）语音合成 —— 填入你的凭证
+  doubao:
+    # 新版控制台 API Key（推荐，走 V3 unidirectional，支持语音指令/情感）
+    # 注意：字段名用 x_api_key，避免与 qwen 段的 api_key 在扁平化时互相覆盖
+    x_api_key: "PUT-YOUR-DOUBAO-KEY-HERE"
+    resource_id: seed-tts-2.0   # seed-tts-2.0 豆包语音2.0 | volc.service_type.10029 大模型1.0
+    appid: ""
+    access_token: ""
+    cluster: volcano_tts
+  # 阿里百炼（千问 Qwen3-TTS）—— 填入你的 DashScope API Key
+  qwen:
+    api_key: "PUT-YOUR-DASHSCOPE-KEY-HERE"
+    model: qwen3-tts-flash   # flash 音色区分好；instruct-flash 的 instructions 会把音色拉平，不用
+  # GPT-SoVITS 克隆音色（备用）
+  api_url: http://127.0.0.1:9880
+  ref_audio: assets/voice_sample/ref_new_a.wav
+  ref_text: 一共有十二只小猪，那么多白白胖胖的小猪，我情不自禁地喜欢上了它们。
+  edge_voice: zh-CN-XiaoyiNeural
+
+# 多角色音色注册表（分镜表 speaker 字段 → 音色）
+# 未列出的角色默认用 tts 段配置；每个角色可加 engine/voice/voice_type 等
+voices:
+  旁白:
+    engine: qwen
+    voice: longxiaochun        # 龙小淳 女声·温柔
+  妈妈:
+    engine: qwen
+    voice: longyuan            # 龙媛 女声·温暖
+  爸爸:
+    engine: doubao
+    voice_type: BV701_streaming  # 擎苍 男声
+  牛牛:
+    engine: doubao
+    voice_type: zh_male_lanyinmianbao_uranus_bigtts  # 懒音绵宝 男童（豆包语音2.0，支持语音指令哭腔）
+    cry_instruct: 你是一个正在大哭的小男孩，声音带着哭腔和抽泣，边哭边说话，非常委屈和伤心
+  添添:
+    engine: doubao
+    voice_type: BV064_streaming  # 小萝莉 女童
+
+# ---- M3 文生图 ----
+image:
+  # backend 可选：
+  #   placeholder —— 本地程序化占位画面（零依赖）
+  #   api         —— 云图片 API（推荐：硅基流动 SiliconFlow，注册送免费额度）
+  #   local       —— 本地 SDXL/FLUX（需 NVIDIA GPU，预留）
+  backend: api            # placeholder | api | local
+  cache_dir: output/images
+  seed: 20260214
+  api:
+    base_url: https://api.siliconflow.cn/v1
+    api_key: "PUT-YOUR-SILICONFLOW-KEY-HERE"  # 硅基流动 key
+    model: Kwai-Kolors/Kolors  # 免费账号可用；备选: black-forest-labs/FLUX.1-schnell（需开通）
+    size: "832x1216"       # 竖构图（FLUX 支持；不支持时可改 768x1024）
+
+# ---- M4 动画 ----
+animation:
+  motion: none           # on=镜头推拉/平移, none=图片完全静止（默认静止，避免画面一直在动）
+  clips_dir: output/clips
+  # 可用微动效：twinkle_stars / fireflies / clouds_drift / light_rays / falling_leaves / rain / snow / bubbles
+  default_effects: []
+
+# ---- M5 字幕 ----
+subtitle:
+  font: C:\Windows\Fonts\msyhbd.ttc   # 微软雅黑粗体（Windows 自带）
+  font_name: Microsoft YaHei
+  font_size_ratio: 0.045               # 字号 = 画面高度 * 比例
+  margin_bottom: 260                   # 距底部像素
+  primary_color: "&H00FFFFFF"          # 主色 白
+  outline_color: "&H00000000"          # 描边 黑
+  highlight_color: "&H0000F6FF"        # 关键词高亮 暖黄
+
+# ---- M8 封面 ----
+cover:
+  badge: "儿童睡前故事"
+  subtitle: "童话故事 · 温暖陪伴"
+  title_font: "C:/Windows/Fonts/msyhbd.ttc"
+  badge_font: "C:/Windows/Fonts/msyhbd.ttc"
+  wrap_chars: 5            # 标题每行最多字数
+
+# ---- 音频故事（先成音频，再配图）----
+audio_story:
+  segment_pause: 0.3
+  title_pause: 0.8
+  tail_silence: 0.25       # 最后一句与结束和弦之间的停顿
+  ending_sound: end_desc4  # 固定节目结束和弦（assets/sfx/<name>.mp3）
+  ending_sound_volume: 0.45
+  bgm_enabled: true
+  bgm_mood: warm           # Studio 会用系列 bgm_mood 覆盖
+  bgm_volume: 0.18
+  bgm_fade_out: 1.2
+
+# ---- M6 合成 ----
+compose:
+  output_dir: output
+  title_seconds: 3.0          # 视频开头标题卡停留秒数（大标题首帧）
+  bgm: ""                              # 可选：assets/bgm/xxx.mp3，留空则无背景音乐
+  bgm_volume: 0.18
+  # 人声 EQ：提升清亮(3~5kHz)与饱满(150~250Hz)，留空则跳过
+  voice_eq: "equalizer=f=3500:t=q:w=1.5:g=3,equalizer=f=200:t=q:w=1:g=2"
+  max_sfx_volume: 0.6      # 音效音量全局上限（清晰可闻但克制，避免刺耳）
+  bitrate: 8M
+  audio_bitrate: 192k

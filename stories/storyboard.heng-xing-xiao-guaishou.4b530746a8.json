@@ -1,0 +1,297 @@
+{
+  "title": "横行小怪兽",
+  "style": "cartoon",
+  "story_id": "heng-xing-xiao-guaishou",
+  "bgm": {
+    "mood": "warm",
+    "volume": 0.45
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "speaker": "旁白",
+      "narration": "爸爸下班带回两只大螃蟹。",
+      "image_prompt": "卡通风格，戴眼镜的30多岁中国男人爸爸，穿白色衬衫和深色长裤，右手提着两只大螃蟹，脸上带着笑容，走进温馨的家里，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "bubbles"
+      ],
+      "keywords": [
+        "爸爸",
+        "大螃蟹"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 2,
+      "speaker": "旁白",
+      "narration": "牛牛一看那对大钳子，“嗷”地躲到添添身后。",
+      "image_prompt": "卡通风格，黑发圆脸的6岁中国小男孩牛牛，穿红色T恤和蓝色短裤，看见螃蟹后吓得“嗷”地躲到黑发扎马尾的8岁中国小女孩添添（穿黄色连衣裙）身后，眼睛瞪圆，表情害怕，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "害怕",
+        "大钳子"
+      ],
+      "sfx": [
+        {
+          "name": "surprise",
+          "at": 0.2,
+          "vol": 0.5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "speaker": "牛牛",
+      "narration": "牛牛说：“怪物！有长着大剪刀的怪物！”",
+      "image_prompt": "卡通风格，黑发圆脸的6岁中国小男孩牛牛，穿红色T恤和蓝色短裤，躲在添添身后，一手揪着添添的黄色连衣裙，另一只手指着地上的大螃蟹，表情惊恐，张大嘴巴喊叫，黑发扎马尾的8岁中国小女孩添添站在前面，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "怪物"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 4,
+      "speaker": "添添",
+      "narration": "添添说：“别怕，穿上你的奥特曼战衣！”",
+      "image_prompt": "卡通风格，黑发扎马尾的8岁中国小女孩添添，穿黄色连衣裙，轻轻拍着黑发圆脸的6岁中国小男孩牛牛（穿红色T恤和蓝色短裤），温和地笑着，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "奥特曼战衣"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 5,
+      "speaker": "牛牛",
+      "narration": "牛牛说：“螃蟹怪兽，我是奥特曼！”",
+      "image_prompt": "卡通风格，黑发圆脸的6岁中国小男孩牛牛，穿红色T恤和蓝色短裤，裹着奥特曼战衣，举着玩具宝剑，从沙发后冲出来，对着螃蟹大喊，表情勇敢，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [
+        "twinkle_stars"
+      ],
+      "keywords": [
+        "我是奥特曼"
+      ],
+      "sfx": [
+        {
+          "name": "magic",
+          "at": 0.3,
+          "vol": 0.4
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "speaker": "旁白",
+      "narration": "他往螃蟹壳上一敲，“当当”两下，硬邦邦的。",
+      "image_prompt": "卡通风格，黑发圆脸的6岁中国小男孩牛牛，穿红色T恤和蓝色短裤，手里拿着宝剑敲在螃蟹壳上，螃蟹壳硬邦邦的，冒出“当当”的碰撞效果，表情好奇，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "当当",
+        "硬邦邦"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 7,
+      "speaker": "爸爸",
+      "narration": "爸爸说：“别敲啦，螃蟹死了就有毒，不好吃啦。”",
+      "image_prompt": "卡通风格，戴眼镜的30多岁中国男人爸爸，穿白色衬衫和深色长裤，伸手拦住黑发圆脸的6岁中国小男孩牛牛（穿红色T恤和蓝色短裤），爸爸表情认真，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "别敲了",
+        "有毒"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 8,
+      "speaker": "牛牛",
+      "narration": "牛牛问：“那蒸熟了不也死了吗？”",
+      "image_prompt": "卡通风格，黑发圆脸的6岁中国小男孩牛牛，穿红色T恤和蓝色短裤，歪着头，一脸疑惑地看着戴眼镜的30多岁中国男人爸爸（穿白色衬衫和深色长裤），竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "蒸熟了"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 9,
+      "speaker": "爸爸",
+      "narration": "爸爸说：“活螃蟹下锅，高温一下子把细菌杀光，又香又安全；死很久的才会变毒。”",
+      "image_prompt": "卡通风格，戴眼镜的30多岁中国男人爸爸，穿白色衬衫和深色长裤，蹲下来认真地看着黑发圆脸的6岁中国小男孩牛牛（穿红色T恤和蓝色短裤），耐心讲解，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "活螃蟹",
+        "细菌"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 10,
+      "speaker": "旁白",
+      "narration": "妈妈端出一盘红彤彤的大螃蟹。",
+      "image_prompt": "卡通风格，扎头发、穿绿色围裙的温柔中国女人妈妈，微笑着端出一盘红彤彤的大螃蟹，螃蟹冒着热气，放在餐桌上，客厅温馨，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [
+        "light_rays"
+      ],
+      "keywords": [
+        "红彤彤",
+        "大螃蟹"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 11,
+      "speaker": "旁白",
+      "narration": "牛牛缩在椅子后不敢看。",
+      "image_prompt": "卡通风格，黑发圆脸的6岁中国小男孩牛牛，穿红色T恤和蓝色短裤，缩在餐椅后面，只露出半个脑袋，偷偷地看着桌上红彤彤的大螃蟹，表情又好奇又害怕，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "不敢看"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 12,
+      "speaker": "添添",
+      "narration": "添添说：“哇，又鲜又甜！”",
+      "image_prompt": "卡通风格，黑发扎马尾的8岁中国小女孩添添，穿黄色连衣裙，坐在餐桌前，咬了一口螃蟹肉，眼睛发亮，表情满足，桌上摆着红彤彤的大螃蟹，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "又鲜又甜"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 13,
+      "speaker": "牛牛",
+      "narration": "牛牛说：“我还要！”",
+      "image_prompt": "卡通风格，黑发圆脸的6岁中国小男孩牛牛，穿红色T恤和蓝色短裤，咽咽口水，踮着脚，伸手拿螃蟹肉尝了一口，立刻笑出小梨涡，眼睛弯弯的，开心地喊，竖构图",
+      "camera": {
+        "move": "zoom_in",
+        "start_scale": 1.0,
+        "end_scale": 1.1
+      },
+      "effects": [],
+      "keywords": [
+        "我还要"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 14,
+      "speaker": "添添",
+      "narration": "添添说：“明天还追螃蟹吗？”",
+      "image_prompt": "卡通风格，黑发扎马尾的8岁中国小女孩添添，穿黄色连衣裙，笑嘻嘻地看着黑发圆脸的6岁中国小男孩牛牛（穿红色T恤和蓝色短裤），牛牛嘴里塞着蟹肉，表情有点不好意思，竖构图",
+      "camera": {
+        "move": "none",
+        "start_scale": 1.0,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "明天还追吗"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 15,
+      "speaker": "牛牛",
+      "narration": "牛牛喊：“不打了！我要当吃螃蟹的奥特曼！”",
+      "image_prompt": "卡通风格，黑发圆脸的6岁中国小男孩牛牛，穿红色T恤和蓝色短裤，嘴里塞满蟹肉，双手举着螃蟹腿，高兴地大喊，眼睛发亮，旁边黑发扎马尾的8岁中国小女孩添添（穿黄色连衣裙）笑看着他，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "吃螃蟹的奥特曼"
+      ],
+      "sfx": []
+    },
+    {
+      "id": 16,
+      "speaker": "旁白",
+      "narration": "全家都笑了。",
+      "image_prompt": "卡通风格，一家人围坐在餐桌旁，戴眼镜的30多岁中国男人爸爸（穿白色衬衫和深色长裤），扎头发、穿绿色围裙的温柔中国女人妈妈，黑发圆脸的6岁中国小男孩牛牛（穿红色T恤和蓝色短裤），黑发扎马尾的8岁中国小女孩添添（穿黄色连衣裙），都在开心地大笑，餐桌上有红彤彤的大螃蟹，竖构图",
+      "camera": {
+        "move": "zoom_out",
+        "start_scale": 1.1,
+        "end_scale": 1.0
+      },
+      "effects": [],
+      "keywords": [
+        "全家笑"
+      ],
+      "sfx": [
+        {
+          "name": "laugh",
+          "at": 0.2,
+          "vol": 0.5
+        }
+      ]
+    }
+  ]
+}
