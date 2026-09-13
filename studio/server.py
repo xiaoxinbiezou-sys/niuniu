@@ -654,7 +654,15 @@ def api_story_get(sid: str):
     s = store.get_story(sid)
     if not s:
         raise HTTPException(404, "故事不存在")
-    return _ensure_story_type_fields(s)
+    s = _ensure_story_type_fields(s)
+    # 故事库要显示"系列"和"输入类型"，这两个字段只在列表接口里补过，
+    # 单条接口也得补，否则展开全文时系列会显示成空。
+    s.setdefault("input_type", "auto")
+    s.setdefault("material_type",
+                 story_gen.detect_material_type(s.get("idea") or s.get("text", "")))
+    series_map = {x["id"]: x["name"] for x in store.list_series()}
+    s["series_name"] = series_map.get(s.get("series_id"), "")
+    return s
 
 
 def _remove_file(path: str | Path) -> None:

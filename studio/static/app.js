@@ -115,6 +115,7 @@ function storyActions(st) {
     wrap.appendChild(b);
     return b;
   };
+  mk("📖 看全文", (ev) => toggleStoryText(st, ev.target));
   if (st.status !== "confirmed") {
     mk("✏️ 编辑", () => promptEdit(st));
     mk("AI 重写", () => aiAction(st, "rewrite"));
@@ -129,6 +130,49 @@ function storyActions(st) {
   }
   mk("🗑 删除", () => deleteStory(st));
   return wrap;
+}
+
+/* 在故事库里直接读全文：按需拉取，展开后不再重复请求 */
+async function toggleStoryText(st, btn) {
+  const card = btn.closest(".card");
+  const existing = card.querySelector(".story-full");
+  if (existing) {
+    existing.remove();
+    btn.textContent = "📖 看全文";
+    return;
+  }
+  btn.disabled = true;
+  btn.textContent = "读取中…";
+  try {
+    const full = await api(`/api/stories/${st.id}`);
+    const text = (full.text || "").trim();
+    const box = el("div", "story-full");
+    const stat = el("div", "story-stat",
+      `正文 ${text.replace(/\s/g, "").length} 字 · 点子：${full.idea || "（无）"}`);
+    box.appendChild(stat);
+    const body = el("div", "story-text");
+    // 空行分段，段落之间留出呼吸感，方便手机上看
+    text.split(/\n+/).forEach((p) => {
+      if (p.trim()) body.appendChild(el("p", "", p.trim()));
+    });
+    box.appendChild(body);
+    const foot = el("div", "hint");
+    const facts = full.story_facts || {};
+    const cast = (facts.characters || []).map((x) => (typeof x === "string" ? x : x.name)).filter(Boolean);
+    foot.textContent = [
+      `系列：${full.series_name || "未分类"}`,
+      `类型：${MATERIAL_LABELS[full.material_type] || full.material_type || "-"}`,
+      cast.length ? `人物：${cast.join("、")}` : "",
+      full.created ? `创建：${full.created}` : "",
+    ].filter(Boolean).join(" · ");
+    box.appendChild(foot);
+    card.appendChild(box);
+    btn.textContent = "📖 收起";
+  } catch (e) {
+    toast("读取故事失败：" + e.message);
+    btn.textContent = "📖 看全文";
+  }
+  btn.disabled = false;
 }
 
 async function deleteStory(st) {
@@ -368,12 +412,21 @@ async function refreshProductionUI() {
   }
   const playerWrap = $("#crt-audio-player-wrap");
   playerWrap.hidden = !crtStory.audio_url;
+  const player = $("#crt-audio-player");
   if (crtStory.audio_url) {
-    const player = $("#crt-audio-player");
     if (player.getAttribute("src") !== crtStory.audio_url) player.src = crtStory.audio_url;
+  } else if (player.getAttribute("src")) {
+    // 播放器是共用的一个 <audio> 节点。切到"还没合成音频"的故事时，如果只把整条
+    // 播放器藏起来而不清 src，上一个故事的 MP3 仍然挂在这个元素上，切回来就会
+    // 听到别人的音频（实测：麻雀宝宝的故事播出了草莓故事的声音）。
+    player.pause();
+    player.removeAttribute("src");
+    player.load();
+  }
+  if (crtStory.audio_url) {
     const confirm = $("#crt-audio-confirm");
     confirm.hidden = state === "ready";
-    confirm.disabled = state === "rendered";
+    confirm.disabled = state !== "rendered";
   }
   if (["planned", "ready"].includes(crtStory.image_status)) {
     try {

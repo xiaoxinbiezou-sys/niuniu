@@ -63,17 +63,28 @@ class PlanTests(unittest.TestCase):
         payload = self._payload([
             {"index": 0, "type": "narrator"},
             {"index": 1, "type": "narrator"},
-            {"index": 2, "type": "dialogue", "speaker": "爸爸"},
+            {"index": 2, "type": "dialogue", "speaker": "爸爸", "emotion": "brave"},
             {"index": 3, "type": "narrator"},
-            {"index": 4, "type": "dialogue", "speaker": "爸爸"},
+            {"index": 4, "type": "dialogue", "speaker": "爸爸", "emotion": "scared"},
             {"index": 5, "type": "narrator"},
         ])
         with patch("pipeline.audio_annotator.chat_text", return_value=payload):
             plan, error = audio_annotator.plan_script({}, ["a", "b", "c", "d", "e", "f"],
                                                       ["爸爸"])
         self.assertEqual(error, "")
-        self.assertEqual(plan[2], {"type": "dialogue", "speaker": "爸爸"})
+        self.assertEqual(plan[2], {"type": "dialogue", "speaker": "爸爸",
+                                   "emotion": "brave"})
         self.assertEqual(plan[0], {"type": "narrator"})
+
+    def test_unsupported_emotion_is_dropped_not_passed_to_tts(self):
+        """模型自己造的情绪不能透传给配音引擎，否则那句话会退化成平淡朗读。"""
+        payload = self._payload([
+            {"index": 0, "type": "dialogue", "speaker": "爸爸", "emotion": "暴跳如雷"},
+        ])
+        with patch("pipeline.audio_annotator.chat_text", return_value=payload):
+            plan, _ = audio_annotator.plan_script({}, ["a"], ["爸爸"])
+        self.assertEqual(plan[0], {"type": "dialogue", "speaker": "爸爸"})
+        self.assertNotIn("emotion", plan[0])
 
     def test_speaker_outside_the_cast_is_ignored_not_trusted(self):
         payload = self._payload([{"index": 0, "type": "dialogue", "speaker": "隔壁老王"}])
@@ -106,7 +117,8 @@ class AssembleTests(unittest.TestCase):
     def test_consecutive_narration_blocks_merge_into_one_segment(self):
         script = _compile({})
         self.assertEqual(len(script["segments"]), 1)
-        self.assertEqual(script["segments"][0]["text"], BODY)
+        # 引号只用于标记台词，不参与朗读，所以旁白段里不留引号
+        self.assertEqual(script["segments"][0]["text"], A._strip_quotes(BODY))
 
     def test_dialogue_block_drops_its_quotes_and_keeps_the_speaker(self):
         blocks = _blocks()
@@ -117,16 +129,42 @@ class AssembleTests(unittest.TestCase):
         self.assertEqual(dialogue[0]["text"], "我什么都不怕！")
         self.assertEqual(dialogue[0]["speaker"], "爸爸")
 
-    def test_source_ranges_are_strictly_increasing(self):
+    def test_emotion_from_the_plan_reaches_the_segment(self):
+        """台词情绪由改编层（AI）给出——它读得到全文上下文。
+
+        这条是防回归的：曾经装配时给情绪推断函数传了空上下文，
+        53 句台词全部变成 neutral，配音听起来毫无起伏。
+        """
+        blocks = _blocks()
+        index = next(i for i, b in enumerate(blocks) if b[2] == "“我什么都不怕！”")
+        script = _compile({index: {"type": "dialogue", "speaker": "爸爸",
+                                   "emotion": "brave"}})
+        dialogue = [s for s in script["segments"] if s["type"] == "dialogue"]
+        self.assertEqual(dialogue[0]["emotion"], "brave")
+
+    def test_emotion_falls_back_to_context_when_the_plan_omits_it(self):
+        """改编层没给情绪时，退回到"用前后旁白推断"，而不是一律 neutral。"""
+        body = "牛牛吓得差点从板凳上掉下来。牛牛喊：“它还会飞！”"
+        blocks = A.split_sentences(body)
+        index = next(i for i, b in enumerate(blocks) if b[2].startswith("“"))
+        script = _compile({index: {"type": "dialogue", "speaker": "牛牛"}}, body)
+        dialogue = [s for s in script["segments"] if s["type"] == "dialogue"]
+        self.assertNotEqual(dialogue[0]["emotion"], "neutral",
+                            "有'吓得'这种上下文时不该判成平淡")
+
+    def test_source_ranges_never_overlap(self):
+        """相邻段落首尾相接是正常的（起点=上一段终点），但不许重叠。"""
         blocks = _blocks()
         decisions = {i: {"type": "dialogue", "speaker": "爸爸"}
                      for i, b in enumerate(blocks) if b[2].startswith("“")}
         script = _compile(decisions)
-        prev = -1
+        prev_end = 0
         for seg in script["segments"]:
-            self.assertGreater(seg["source"]["start"], prev)
-            self.assertLess(seg["source"]["start"], seg["source"]["end"])
-            prev = seg["source"]["end"]
+            start = seg["source"]["start"]
+            end = seg["source"]["end"]
+            self.assertGreaterEqual(start, prev_end, f"区间重叠：{seg['text'][:16]!r}")
+            self.assertLess(start, end, "区间为空")
+            prev_end = end
 
     def test_assembled_script_covers_the_story_and_passes_validation(self):
         blocks = _blocks()

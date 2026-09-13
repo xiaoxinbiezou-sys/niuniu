@@ -587,6 +587,27 @@ def _strip_quotes(text: str) -> str:
     return re.sub(rf"[{re.escape(QUOTE_CHARS)}]", "", text or "")
 
 
+def _monotonic(segments: list[dict], body: str) -> list[dict]:
+    """把段落整理成"来源区间严格递增、无空段"。
+
+    合并语气词时会把相邻几段并成一段，合并后的区间可能与前一段重叠；
+    校验器是按 source 区间去母稿取原文来核对的，所以这里必须收干净：
+    区间被夹逼后按新区间重算文本，空段直接丢弃。
+    """
+    out: list[dict] = []
+    cursor = 0
+    for seg in sorted(segments, key=lambda s: int(s["source"]["start"])):
+        start = max(int(seg["source"]["start"]), cursor)
+        end = int(seg["source"]["end"])
+        if end <= start:
+            continue
+        seg["source"] = {"start": start, "end": end}
+        seg["text"] = _strip_quotes(body[start:end])
+        out.append(seg)
+        cursor = end
+    return out
+
+
 def split_sentences(body: str) -> list[tuple[int, int, str]]:
     """把母稿切成**小块**，返回 [(起, 止, 原文)]，供改编层引用编号。
 
@@ -718,7 +739,7 @@ def _absorb_sandwiched_interjections(segments: list[dict], body: str) -> None:
                 continue
             start = int(prev["source"]["start"])
             end = int(nxt["source"]["end"])
-            segments[i - 1: i + 2] = [{
+            merged = [{
                 "segment_id": _segment_id("narrator", start, end, _digest(body)),
                 "type": "narrator",
                 "speaker": "旁白",
@@ -726,6 +747,9 @@ def _absorb_sandwiched_interjections(segments: list[dict], body: str) -> None:
                 "emotion": "narrate",
                 "source": {"start": start, "end": end},
             }]
+            # 合并会把前后段的来源区间吞进来，可能和前一段重叠；
+            # 重排一次，保证区间严格递增（校验按区间取原文核对）。
+            segments[i - 1: i + 2] = _monotonic(segments[:i - 1] + merged + segments[i + 2:], body)
             merged = True
             break
 
@@ -751,30 +775,44 @@ def _compile_from_segments(title: str, body: str, facts: dict, story_path: str,
             return
         start = blocks[pending[0]][0]
         end = blocks[pending[-1]][1]
-        _append_segment(segments, "narrator", "旁白", body[start:end],
+        _append_segment(segments, "narrator", "旁白", _strip_quotes(body[start:end]),
                         start, end, source_digest)
         pending.clear()
+
+    def emotion_for(decision: dict, index: int) -> str:
+        """台词情绪：优先用改编层给的情绪，没有才退回按引导语关键词推断。
+
+        改编层（AI）正在读整篇，上下文比关键词全得多；关键词推断只是兜底，
+        而且它依赖"前置引导语"里的神态词，标注模式下经常一个都拿不到。
+        """
+        chosen = str(decision.get("emotion") or "").strip().lower()
+        if chosen and chosen != DEFAULT_DIALOGUE_EMOTION:
+            return chosen
+        # 兜底：用前后旁白块拼出上下文再推断
+        context = ""
+        for j in range(max(0, index - 2), index):
+            if decisions.get(j, {}).get("type") != "dialogue":
+                context += blocks[j][2]
+        for j in range(index + 1, min(len(blocks), index + 3)):
+            if decisions.get(j, {}).get("type") != "dialogue":
+                context += blocks[j][2]
+        return guess_dialogue_emotion(context, blocks[index][2])
 
     for i, (start, end, _text) in enumerate(blocks):
         decision = decisions.get(i) or {"type": "narrator"}
         if decision.get("type") == "dialogue":
             flush_narration()
-            inner_start, inner_end = start, end
-            while inner_start < inner_end and body[inner_start] in QUOTE_CHARS:
-                inner_start += 1
-            while inner_end > inner_start and body[inner_end - 1] in QUOTE_CHARS:
-                inner_end -= 1
-            if inner_end <= inner_start:
-                pending.append(i)
-                continue
+            # 引号只用于标记台词，不参与朗读，所以两类段落都要去掉引号。
+            # 区间保留**完整块区间**：早期版本把区间也往内缩一格去躲引号，
+            # 结果文本里剩一个孤零零的闭引号，配音会把它念出来。
             _append_segment(segments, "dialogue", decision.get("speaker", ""),
-                            body[inner_start:inner_end], inner_start, inner_end,
-                            source_digest,
-                            emotion=guess_dialogue_emotion("", body[inner_start:inner_end]))
+                            _strip_quotes(body[start:end]), start, end,
+                            source_digest, emotion=emotion_for(decision, i))
         else:
             pending.append(i)
     flush_narration()
     _absorb_sandwiched_interjections(segments, body)
+    segments[:] = _monotonic(segments, body)
 
     policy = audio_policy(str(facts.get("story_type") or "family"))
     script = {
@@ -1061,11 +1099,13 @@ def validate_audio_script(script: dict, story_body: str | None = None,
     if ratio > max_ratio:
         warnings.append(f"旁白占比偏高：{ratio:.1%}，建议不超过 {max_ratio:.0%}")
     max_allowed_streak = int(expected_policy["max_consecutive_dialogue"])
-    if max_streak > max_allowed_streak + 1:
-        errors.append(f"连续人物台词过多：{max_streak} 段，最多允许 {max_allowed_streak + 1} 段")
-    elif max_streak > max_allowed_streak:
+    if max_streak > max_allowed_streak:
+        # 连续台词只是听感问题（对话密集的桥段本来就该你一句我一句），
+        # 说话人由改编层确定、正文由程序保证，这里没有"配错音"的风险，
+        # 所以降为提示，不再拦截流程。
         warnings.append(
-            f"有 {max_streak} 段台词连着出现，听感上略拥挤（建议不超过 {max_allowed_streak} 段）"
+            f"有 {max_streak} 段台词连着出现（建议不超过 {max_allowed_streak} 段），"
+            f"听感上略拥挤"
         )
 
     full_text = "".join(reconstructed)

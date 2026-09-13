@@ -175,6 +175,13 @@ select { width: auto; }
 .series-card { display: flex; justify-content: space-between; align-items: center; }
 .story-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
 .empty { color: var(--muted); text-align: center; padding: 30px; }
+/* 故事库的"看全文"面板 */
+.story-full { margin-top: 12px; padding: 14px 16px; background: #fbfcfd; border: 1px solid var(--line); border-radius: 10px; }
+.story-stat { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+.story-text { font-size: 15px; line-height: 1.9; max-height: 520px; overflow-y: auto; }
+.story-text p { margin: 0 0 12px; }
+.story-text p:last-child { margin-bottom: 0; }
+.story-full .hint { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line); }
 .batch-card { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-top: 14px; background: #fff; }
 .batch-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
 .batch-head .btn { margin-left: auto; }
